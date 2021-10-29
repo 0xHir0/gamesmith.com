@@ -1,0 +1,108 @@
+/*
+* ProfileCompleteness styles
+*/
+
+.carouselWrapper {
+  max-width: 100%;
+  width: 350px;
+  margin: auto;
+  min-height: 240px;
+  box-sizing: unset;
+}
+.center {
+  text-align: center;
+  color: white;
+}
+
+.progressBarWrapper {
+  margin: auto;
+}
+.progressBar {
+  background: #333;
+  border-radius: 13px;
+  height: 18px;
+  width: 300px;
+  padding: 3px;
+  margin: auto;
+ margin-top: 10px;
+}
+.progressBarInner {
+  content: '';
+  display: block;
+  background: #f8e81c;
+
+  height: 100%;
+  border-radius: 4px;
+}
+
+.subCarousel {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+.chevronleft {
+  display: inline-block;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  width: 10px; height: 10px;
+  transform: rotate(-225deg);
+}
+
+.chevronright {
+  display: inline-block;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+  width: 10px; height: 10px;
+  transform: rotate(-45deg);
+  right: 0px;
+}
+.chevronleft,
+.chevronright {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 40%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+.chevronleft {
+  left: -25px;
+}
+.chevronright {
+  right: -25px;
+}
+.carouselButton {
+  background-color: #4c4c4c !important;
+  line-height: 24px !important;
+  padding: 0.7rem 0.8rem;
+  border-radius: 5px;
+  font-size: 14px !important;
+  text-align: center;
+  text-transform: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: normal;
+  z-index: 99999;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  position: relative;
+  a {
+    color: #e8e8e8;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .chevronleft,
+  .chevronright {
+    top: 50%;
+  }
+  .carouselButton { 
+    margin-bottom: 10px;
+    a {
+       font-size: 12px;
+    }
+  }
+}

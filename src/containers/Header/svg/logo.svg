@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-page" transform="translate(-50.000000, -31.000000)" fill="#F8E81C">
+            <g id="Header">
+                <path d="M90,51 C90,49.0006557 89.7029508,47.0714754 89.1567213,45.2498361 L79.6311475,45.2498361 L71.5832787,53.2977049 L81.0144262,53.2977049 C79.9537705,58.4088525 75.4255738,62.2501639 70,62.2501639 C63.7868852,62.2501639 58.7501639,57.2131148 58.7501639,51 C58.7501639,44.7868852 63.7868852,39.7498361 70,39.7498361 C74.1003279,39.7498361 77.6868852,41.9442623 79.6527869,45.2216393 L85.9452459,38.9298361 C82.2931148,34.1131148 76.5104918,31 70,31 C58.9544262,31 50,39.9544262 50,51 C50,62.0455738 58.9544262,71 70,71 C81.0455738,71 90,62.0455738 90,51" id="logo" transform="translate(70.000000, 51.000000) rotate(1.000000) translate(-70.000000, -51.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

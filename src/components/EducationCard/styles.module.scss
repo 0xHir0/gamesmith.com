@@ -1,0 +1,390 @@
+/*
+ * Game Details card styles
+ */
+
+$fuschia: #ff0081;
+$button-bg: $fuschia;
+$button-text-color: #fff;
+$baby-blue: #f8faff;
+
+.root {
+  position: relative;
+  margin-top: 1.5rem !important;
+  a {
+    height: 100%;
+    display: block;
+  }
+  .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .buttonerEdit {
+    min-width: 3rem;
+    border: none;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .buttonerEdit:hover {
+    border: none;
+    box-shadow: none;
+    color: white;
+  }
+  .buttoner {
+    min-width: 4rem;
+    border: none;
+    padding: 0;
+    font-size: 0.8rem;
+  }
+  .buttoner:hover {
+    border: none;
+    box-shadow: none;
+    color: white;
+  }
+  .moreInfoBtn {
+    position: absolute !important;
+    top: 80% !important;
+  }
+  .gameCard {
+    color: white;
+  }
+  .underNda {
+    font-size: 1rem;
+  }
+
+  .verifyButtonVerification {
+    display: inline;
+    float: left;
+    margin-top: 6px !important;
+    span {
+      text-transform: uppercase;
+      font-weight: 500;
+      margin-right: 5px !important;
+      display: inline;
+      float: left;
+    }
+  }
+  .verifyButton {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 5px !important;
+  }
+  .pullRight {
+    /*position: absolute;*/
+    /*right: 0px;*/
+    /*top: 19px !important;*/
+    position: absolute;
+    right: 18px;
+    top: 105px !important;
+  }
+  .verifyIconSize {
+    font-size: large !important;
+    float: left;
+  }
+  .verifyBorder {
+    padding: 4px !important;
+    border-radius: 5px !important;
+    border: 1px solid black;
+    font-size: 9px !important;
+  }
+  .verifyCheck {
+    color: #e8d603;
+    margin: 0 !important;
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .disputedColor {
+    color: #e26e09 !important;
+  }
+  .location {
+    color: lightgrey;
+  }
+}
+.extra {
+  position: relative !important;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .extra {
+    position: relative !important;
+  }
+}
+.anchor {
+  color: #ffffff;
+  float: left;
+}
+
+.root,
+.content,
+.overlay {
+  border-radius: 1rem;
+}
+
+.root,
+.content {
+  width: 100%;
+  min-height: 20rem;
+}
+
+.content {
+  position: relative;
+  background-color: #323232;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  & > *:not(.overlay) {
+    z-index: 10;
+  }
+  h1 {
+    margin: 0;
+    font-weight: 400;
+  }
+  i {
+    color: #1c1c1c;
+    margin-right: 0.5rem;
+  }
+  p {
+    margin: 0.75rem 0 0;
+    color: #c3c3c3;
+    font-size: 1.25rem;
+    &:nth-of-type(2) {
+      color: #ffffff;
+      margin-top: 2rem;
+    }
+  }
+}
+
+.button {
+  border: none;
+}
+
+.platforms {
+  margin-top: 0.5rem;
+}
+.platform {
+  height: 20px;
+  width: auto;
+  margin: 3px;
+}
+.extra {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: #323232;
+  opacity: 0.65;
+}
+.badge {
+  padding: 5px !important;
+  border-radius: 5% !important;
+  color: black !important;
+  background-color: #e8d603 !important;
+  margin-left: 5px !important;
+}
+.verifyBlack {
+  color: black !important;
+  margin: 0px !important;
+}
+.title {
+  display: -webkit-inline-box !important;
+}
+.iconSize {
+  font-size: smaller !important;
+}
+.disputed {
+  background-color: black !important;
+  padding: 3px !important;
+}
+.marginLeft {
+  margin-left: 5px !important;
+}
+.verifyColor {
+  color: #c3c3c3;
+  padding-top: 6px !important;
+}
+.iconPadding {
+  padding-left: 2px !important;
+}
+.disputeFontSize {
+  /*font-size: xx-large !important;*/
+  z-index: 99999;
+}
+@media (min-width: 768px) {
+  .root {
+    margin-bottom: 0.5rem;
+  }
+  .root,
+  .overlay,
+  .content {
+    border-radius: 0;
+  }
+  .root,
+  .content {
+    min-height: 8rem;
+  }
+  .content {
+    flex: 1;
+    p:nth-of-type(1) {
+      margin: 0;
+    }
+    p:nth-of-type(2),
+    p:nth-of-type(3) {
+      display: none;
+    }
+    p:nth-of-type(1),
+    h1 {
+      font-size: 1.25rem;
+    }
+    p {
+      margin: 0.65rem 0 0;
+    }
+  }
+  .root button,
+  .overlay {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .root {
+    &:hover,
+    &:focus {
+      button {
+        width: 2.8rem;
+        background: #ffdd00;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+      }
+    }
+    button {
+      display: block;
+      width: 2.5rem;
+      z-index: 20;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      background: #f8e81c;
+      transition: all 0.25s ease-out;
+      i {
+        color: #191919;
+        margin: 0;
+      }
+    }
+    & > a {
+      display: flex;
+      pointer: none;
+      /*padding-right: 2.5rem;*/
+    }
+  }
+  .content {
+    background-color: #101010;
+  }
+  .content,
+  .extra {
+    display: inline-flex;
+    padding: 1rem 1.5rem 1rem 2rem;
+    text-align: left;
+    align-items: flex-start;
+  }
+  .extra {
+    z-index: 10;
+    flex-basis: 12rem;
+    max-width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    background: #323232;
+    p {
+      font-size: 1.25rem;
+      margin: 0;
+      &:nth-of-type(3) {
+        font-size: 1rem;
+        /* margin-top: 0.65rem; */
+        margin-top: 0rem;
+      }
+      i {
+        font-size: 0.9rem;
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 870px) {
+  .root {
+    margin-bottom: 5px !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .extra {
+    p {
+      font-size: 16px !important;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .extra {
+    flex-basis: 12rem;
+  }
+  .content {
+    padding: 1rem 1.5rem 1rem 2.5rem;
+  }
+}
+
+@media (min-width: 360) {
+  .extra {
+    flex-basis: 14rem;
+    padding-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .verifyIconSize {
+    float: none !important;
+  }
+}
+
+/*
+ * Animate verify button -- bubbly-button
+ */
+
+.verifyButtonNew {
+  display: inline-block;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  text-transform: uppercase;
+  padding: 0.1rem 0.3rem;
+  font-size: 12px;
+  margin-top: 1rem;
+  font-weight: 500;
+  min-width: 5rem;
+  height: 1.63rem;
+  margin-right: 1rem;
+
+  img {
+    width: 14%;
+    height: auto;
+    margin-right: 1px;
+    float: right;
+  }
+
+  div {
+    margin-top: 1px;
+  }
+}

@@ -1,0 +1,31 @@
+/*
+ * Checkbox styles
+ */
+
+.root {
+  position: relative;
+  padding: 1rem 0;
+  font-size: 1rem;
+  letter-spacing: 0;
+  display: block;
+  margin: 0 0 1rem;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: none;
+  input {
+    margin: 0 1rem 0 0;
+    display: inline-block;
+    width: 12.73px;
+  }
+}
+
+.error {
+  color: red;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  display: block;
+}

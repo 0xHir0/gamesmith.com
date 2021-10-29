@@ -1,0 +1,64 @@
+
+.root1 {
+  margin: 0 2rem;
+  .flexList {
+    align-items: center;
+    .avatar {
+    }
+    .nameAndRole {
+      padding: 1rem 0;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      .name {
+        font-size: 1rem;
+        margin: 0;
+        color: white;
+      }
+      .role {
+        margin: 0;
+        font-size: 0.8rem;
+      }
+    }
+    .verifyButton {
+      background-color: #f6dc34;
+      text-transform: none;
+      padding: 0.6rem 0.4rem !important;
+      font-size: 0.7rem !important;
+      min-width: 5rem;
+      max-width: 5rem;
+      border: 2px;
+      img {
+        width: 0.8rem;
+        float: left;
+        margin: auto;
+      }
+    }
+    .requestButton {
+      text-transform: none;
+      padding: 0.6rem 0.4rem !important;
+      font-size: 0.7rem !important;
+      min-width: 5rem;
+      max-width: 5rem;
+      border: 2px;
+      img {
+        width: 0.8rem;
+        float: left;
+        margin: auto;
+      }
+    }
+    .requestSentButton {
+      padding: 0.6rem 0.1rem !important;
+      font-size: 0.6rem !important;
+      min-width: 5rem;
+      max-width: 5rem;
+      background-color: transparent;
+      border: 1px solid whitesmoke;
+      color: whitesmoke;
+      cursor: auto;
+    }
+    .hr {
+      margin: 0 3rem;
+    }
+  }
+}

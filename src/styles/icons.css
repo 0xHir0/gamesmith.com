@@ -1,0 +1,144 @@
+/*
+ * Icon font
+ */
+
+:global {
+  [class^='icon-'],
+  [class*=' icon-'] {
+    font-family: 'gamesmith' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .icon-search::before {
+    content: '\e036';
+  }
+  .icon-circle-check::before {
+    content: '\e90d';
+  }
+  .icon-star::before {
+    content:'\e9d9';
+  }
+  .icon-controller::before {
+    content: '\e909';
+  }
+  .icon-briefcase::before {
+    content: '\e901';
+  }
+  .icon-pin::before {
+    content: '\e908';
+  }
+  .icon-down::before {
+    content: '\e900';
+  }
+  .icon-forward::before {
+    content: '\e902';
+  }
+  .icon-no::before {
+    content: '\e903';
+  }
+  .icon-playstation::before {
+    content: '\e904';
+  }
+  .icon-wii::before {
+    content: '\e905';
+  }
+  .icon-xbox::before {
+    content: '\e906';
+  }
+  .icon-yes::before {
+    content: '\e907';
+  }
+  .icon-ar::before {
+    content: '\e90a';
+  }
+  .icon-ds::before {
+    content: '\e90b';
+  }
+  .icon-vr::before {
+    content: '\e90c';
+  }
+  .icon-mail::before {
+    content: '\e002';
+  }
+  .icon-cog::before {
+    content: '\e023';
+  }
+  .icon-location::before {
+    content: '\e070';
+  }
+  .icon-arrow-left::before {
+    content: '\e094';
+  }
+  .icon-arrow-right::before {
+    content: '\e095';
+  }
+  .icon-check::before {
+    content: '\e116';
+  }
+  .icon-cross::before {
+    content: '\e117';
+  }
+  .icon-layout::before {
+    content: '\e004';
+  }
+  .icon-bell::before {
+    content: '\e006';
+  }
+  .icon-location-2::before {
+    content: '\e071';
+  }
+  .icon-head::before {
+    content: '\e074';
+  }
+  .icon-box::before {
+    content: '\e079';
+  }
+  .icon-power::before {
+    content: '\e086';
+  }
+  .icon-steam::before {
+    content: '\eaad';
+  }
+  .icon-apple::before {
+    content: '\eabe';
+  }
+  .icon-android::before {
+    content: '\eac0';
+  }
+  .icon-web::before {
+    content: '\e9c9';
+  }
+  .icon-windows::before {
+    content: '\eac2';
+  }
+  .icon-switch {
+    background-image: url('../data/icons/switch.png');
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+  .icon-switchNew {
+    background-image: url('../data/icons/switchNew.png');
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+  .icon-mobile {
+    background-image: url('../data/icons/phoneNew.svg');
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+  .icon-handheld {
+    background-image: url('../data/icons/gameboyNewIcon.svg');
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,18 @@
+.root {
+  text-align: left;
+}
+
+.error {
+  font-size: 0.85rem;
+  color: red;
+  bottom: -0.25rem;
+}
+
+:global {
+  .mce-btn {
+    background-color: #262626 !important;
+  }
+  .mce-flow-layout {
+    background-color: #262626 !important;
+  }
+}

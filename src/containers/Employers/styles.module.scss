@@ -1,0 +1,1184 @@
+/*
+ * Employers styles
+ */
+/*
+ * New Employers page styles
+ */
+
+.root {
+  padding-top: 5rem;
+  text-align: center;
+}
+.wrapper {
+  /*border: 2px solid red;*/
+  width: 100%;
+  height: auto;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.salesEmail {
+  text-align: left;
+  margin-left: 134px;
+}
+.topTextContainer {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  /*border: 1px solid white;*/
+}
+.topText {
+  h1 {
+    color: #e8d800;
+  }
+  .subtitle {
+    font-weight: 500;
+  }
+  .lastSubtitle {
+    color: #787878;
+    margin-bottom: 2rem !important;
+  }
+}
+.sectionOne {
+  width: 100%;
+  height: 62rem;
+  position: relative;
+  /*border: 1px solid yellow;*/
+  padding-top: 2rem;
+  background-image: url("./img/studiopage.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sectionOneheading {
+  margin-top: 5%;
+}
+.sectionOneListContainer {
+  width: 100%;
+  height: auto;
+  padding: 2rem;
+  /*border: 1px solid green;*/
+  margin-top: 6rem;
+}
+.listItems {
+  text-align: left;
+}
+.studioPagecontainer {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid white;*/
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+}
+
+.studioBrand {
+  width: 14rem;
+  /*border: 1px solid orange;*/
+  height: auto;
+}
+.handMatchBrand {
+  width: 14rem;
+  /*border: 1px solid orange;*/
+  height: auto;
+}
+.studioDescription {
+  height: auto;
+  width: 100%;
+  border: 1px solid red;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  p {
+    color: white;
+  }
+}
+.studioServices {
+  height: auto;
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.service {
+  width: 98%;
+  height: auto;
+  display: inline-block;
+  /*border: 1px solid red;*/
+  margin: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+.serviceItem {
+  color: yellow;
+}
+.bottomMostText {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  padding-left: 3rem;
+  /*border: 1px solid red;*/
+  text-align: center;
+}
+.studioPageHeading {
+  color: yellow;
+  display: inline-block;
+  h3 {
+    color: yellow;
+  }
+}
+.studioPageLogo {
+  display: inline-block;
+  /*border: 1px solid red;*/
+  float: left;
+}
+.studioLogo {
+  width: 16% !important;
+  display: inline-block !important;
+  float: left !important;
+  margin-right: 1rem !important;
+}
+
+.sectionTwo {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid yellow;*/
+  padding-top: 2rem;
+  background-image: url("./img/tools.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.toolsPagecontainer {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid white;*/
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+}
+.toolsDescription {
+  height: auto;
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  p {
+    color: white;
+  }
+}
+.talentTools {
+  /*width: 30rem;*/
+  height: auto;
+  /*margin: 1rem;*/
+  /*border: 1px solid red;*/
+  float: right;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 3rem;
+  padding-top: 1rem;
+}
+.tools {
+  height: auto;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 0rem;
+  /*border: 1px solid white;*/
+  text-align: left;
+  h5 {
+    color: yellow;
+    margin-bottom: 0px !important;
+  }
+  p {
+    color: white !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+  }
+}
+.sectionThreeContainer {
+  width: 100%;
+  height: 60rem;
+  /*border: 1px  solid white;*/
+  position: relative;
+}
+.sectionThree {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+}
+.handMatchingContainer {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid yellow;*/
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+
+  background-image: url("./img/matching.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.handMatchDescription {
+  height: auto;
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin-top: 1rem;
+  text-align: left;
+  p {
+    color: white;
+  }
+}
+.hmsubtitle {
+  color: yellow;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+.handpickMainText {
+  width: 100%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: auto;
+  /*border: 1px solid red;*/
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.matchingTitle {
+  text-align: center;
+  color: yellow;
+  padding: 1rem;
+}
+.serviceContainter {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+  margin: 1rem;
+  padding: 2rem;
+}
+.feedbackbottom {
+  height: auto;
+  width: 100%;
+  /*border: 1px solid red;*/
+}
+.serviceType {
+  text-align: left;
+  color: white;
+  h4 {
+    margin-bottom: 0rem;
+    color: yellow !important;
+    font-weight: 500;
+  }
+  p {
+    color: white;
+    font-weight: 500;
+  }
+}
+.addStudioButton {
+  font-size: 0.7rem;
+  padding: 0.5rem 2rem;
+  margin-left: 1rem;
+  background-color: #e8d603 !important;
+  letter-spacing: 0.05rem;
+  font-weight: 400 !important;
+
+  div {
+    padding-top: 0.1rem;
+  }
+}
+.sectionThreeBottomMostText {
+  width: 100%;
+  height: auto;
+  text-align: left;
+  color: yellow;
+  font-weight: 500;
+  margin-top: 3rem;
+  max-width: 38rem;
+}
+.sectionFour {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+}
+.sec4Header {
+  max-width: 40rem;
+  margin-left: 1rem;
+  margin-top: 11rem;
+  h2 {
+    color: yellow;
+    font-weight: 500;
+    text-align: left;
+    font-size: 2rem;
+  }
+}
+.reviewContainer {
+  width: 100%;
+  height: auto;
+  /*text-align: center;*/
+}
+.clientReview1 {
+  height: 15rem;
+  text-align: left;
+  max-width: 42rem;
+  /*border: 1 px solid;*/
+  /*border: 1px solid;*/
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  font-size: 1rem;
+  margin-right: auto;
+  /* padding: 1rem; */
+  font-weight: 500;
+  background-image: url("./img/quote2.png");
+  repeat: no-repeat center center fixed;
+  background-size: cover;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 3rem;
+}
+
+.clientReview2 {
+  height: 15rem;
+  text-align: left;
+  max-width: 42rem;
+  /*border: 1 px solid;*/
+  /*border: 1px solid;*/
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  margin-left: auto;
+  font-size: 1rem;
+  margin-right: auto;
+  /* padding: 1rem; */
+  font-weight: 500;
+  background-image: url("./img/quote1.png");
+  repeat: no-repeat center center fixed;
+  background-size: cover;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 3rem;
+}
+.sections5 {
+  width: 100%;
+  height: 57rem;
+  position: relative;
+  /*border: 1px solid red;*/
+}
+.transparentPricingContainer {
+  width: 100%;
+  height: 58rem;
+  /*border: 1px solid yellow;*/
+  padding-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+  background-image: url("./img/pricing.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pricingSection {
+  height: auto;
+  width: 100%;
+  /*border: 1px solid red;*/
+  margin: 0 auto;
+}
+.studioPagePriceContainer {
+  height: 20rem;
+  height: 23rem;
+  max-width: 20rem;
+  /*border: 1px solid yellow;*/
+  margin: 1rem;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.talentToolsPriceContainer {
+  height: 20rem;
+  height: 23rem;
+  max-width: 20rem;
+  /*border: 1px solid yellow;*/
+  margin: 1rem;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.studioPagePriceContainer {
+  ul {
+    list-style: none;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 2rem;
+    /* font-weight: 500; */
+    font-size: 1.2rem;
+  }
+  ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: yellow; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+}
+.studioPriceList {
+  text-align: left;
+  margin-left: 3rem;
+  margin-right: 1rem;
+}
+
+.talentToolsPriceContainer {
+  ul {
+    list-style: none;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 2rem;
+    /* font-weight: 500; */
+    font-size: 1.2rem;
+  }
+  ul li::before {
+    content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: yellow; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+}
+.talentToolsPrice {
+  margin-top: 5rem;
+  font-weight: 800;
+  color: yellow;
+  font-size: 1.3rem;
+}
+.letsGetYouSetUp {
+  margin-top: 2rem;
+}
+.feedbackSection {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+  padding: 1rem;
+}
+.feedbackBottom {
+  width: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+}
+.text1 {
+  width: 100%;
+  height: 4rem;
+  /*border: 1px solid;*/
+  display: inline-block;
+}
+.text2 {
+  width: 100%;
+  height: 4rem;
+  /*border: 1px solid;*/
+  display: inline-block;
+  text-align: left;
+}
+.quote {
+  position: absolute;
+  left: 24%;
+}
+.studioPriceIcon {
+  max-width: 15%;
+  margin-top: -24px;
+}
+.mcree {
+  left: -8%;
+  top: -4%;
+  height: 528px;
+  width: auto;
+  position: absolute;
+}
+.tracer {
+  /*height: 339px;*/
+  height: auto;
+  width: auto;
+  position: absolute;
+  left: 4%;
+}
+.wrekkingball {
+  height: auto;
+  width: 38%;
+  position: absolute;
+  left: 54%;
+  top: 88%;
+  bottom: 3%;
+}
+.dva {
+  height: auto;
+  width: 40%;
+  position: absolute;
+  top: 49%;
+  left: 33%;
+}
+
+@media (width: 1024px) {
+  .sectionThreeContainer {
+    height: 68rem;
+  }
+  .sectionOne {
+    height: 72rem;
+  }
+  .mcree {
+    left: -12%;
+    top: -3%;
+    height: auto;
+    width: 42%;
+    position: absolute;
+  }
+  .wrekkingball {
+    height: auto;
+    width: 55%;
+    position: absolute;
+    left: 48%;
+    top: 87%;
+  }
+  .dva {
+    height: auto;
+    width: 61%;
+    position: absolute;
+    left: 23%;
+    top: 60%;
+  }
+  .transparentPricingContainer {
+    height: 59rem;
+  }
+  .talentToolsPrice {
+    margin-top: 3.5rem;
+  }
+  .transparentPricingBottomHeader {
+    margin-bottom: 1rem;
+  }
+  .studioPagePriceContainer {
+    ul {
+      margin-bottom: 1rem;
+    }
+  }
+  .quote {
+    left: 15%;
+  }
+  .matchingTitle {
+    font-weight: 500;
+  }
+  .salesEmail {
+    text-align: left;
+    margin-left: 50px;
+  }
+  .howItWorks {
+    margin-left: 11rem;
+  }
+}
+@media (width: 768px) {
+  .sectionThreeContainer {
+    height: 76rem;
+  }
+  .sectionOne {
+    /*height: 86rem;*/
+    height: 78rem;
+  }
+  .mcree {
+    left: -14%;
+    top: 0%;
+    height: auto;
+    width: 48%;
+    position: absolute;
+  }
+  .wrekkingball {
+    height: auto;
+    width: 60%;
+    position: absolute;
+    left: 35%;
+    top: 90%;
+  }
+  .dva {
+    height: auto;
+    width: 61%;
+    position: absolute;
+    left: 23%;
+    top: 60%;
+  }
+  .transparentPricingContainer {
+    height: 59rem;
+  }
+  .talentToolsPrice {
+    margin-top: 6.5rem;
+  }
+  .transparentPricingBottomHeader {
+    margin-bottom: 1rem;
+  }
+  .studioPagePriceContainer {
+    height: 27rem;
+    ul {
+      margin-bottom: 1rem;
+    }
+  }
+  .talentToolsPriceContainer {
+    height: 27rem;
+  }
+  .quote {
+    left: 14%;
+  }
+  .matchingTitle {
+    font-weight: 500;
+    padding: 0rem;
+  }
+  .salesEmail {
+    text-align: left;
+    margin-left: 11px;
+  }
+  .howItWorks {
+    margin-left: 11rem;
+  }
+  .clientReview1 {
+    padding-top: 2rem;
+  }
+}
+@media (min-width: 412px) and (max-width: 414px) {
+  .wrekkingball {
+    top: 548% !important;
+  }
+  .mcree {
+    left: -11%;
+    top: 47%;
+    height: 442px !important;
+    width: 49% !important;
+    position: absolute;
+  }
+  .howItWorks {
+    font-size: 1.5rem !important;
+  }
+  .tracer {
+    height: 41rem;
+    width: auto;
+    position: absolute;
+    left: 15%;
+  }
+  .dva {
+    width: 48% !important;
+  }
+  .text1 {
+    p {
+      text-align: left;
+    }
+    .salesEmail {
+      margin-left: 0px;
+    }
+    padding-left: 1rem;
+  }
+  .talentTools {
+    background-color: black;
+  }
+}
+@media (width: 375px) and (height: 812px) {
+  .wrekkingball {
+    top: 585% !important;
+  }
+  .talentTools {
+    background-color: black;
+  }
+}
+@media (width: 375px) {
+  .talentTools {
+    background-color: black;
+  }
+  .sectionOne {
+    height: 95rem !important;
+  }
+  .wrekkingball {
+    top: 585% !important;
+  }
+  .sectionThreeContainer {
+    height: 93rem !important;
+  }
+  .wrekkingball {
+    height: auto;
+    width: 56%;
+    position: absolute;
+    left: 43%;
+    top: 95% !important;
+  }
+  .mcree {
+    left: -11%;
+    top: 47%;
+    height: 491px;
+    width: 51%;
+    position: absolute;
+  }
+}
+@media (width: 412px) {
+  .sectionOne {
+    height: 89rem !important;
+  }
+  .sectionThreeContainer {
+    height: 82rem !important;
+  }
+  .wrekkingball {
+    height: auto;
+    width: 56%;
+    position: absolute;
+    left: 43%;
+    top: 95% !important;
+  }
+  .mcree {
+    left: -14%;
+    top: -3% !important;
+    height: auto;
+    width: 58%;
+    position: absolute;
+  }
+}
+@media (width: 414px) {
+  .sectionOne {
+    height: 98rem !important;
+  }
+  .sectionThreeContainer {
+    height: 82rem !important;
+  }
+  .mcree {
+    left: -14%;
+    top: -3% !important;
+    height: auto;
+    width: 58%;
+    position: absolute;
+  }
+  .wrekkingball {
+    height: auto;
+    width: 56%;
+    position: absolute;
+    left: 43%;
+    top: 95% !important;
+  }
+}
+@media (min-width: 360px) and (max-width: 414px) {
+  .sectionThreeContainer {
+    height: 101rem;
+  }
+  .sections5 {
+    width: 100%;
+    height: 72rem;
+    position: relative;
+  }
+  .sectionOne {
+    height: 108rem;
+  }
+  .mcree {
+    left: -14%;
+    top: -2%;
+    height: auto;
+    width: 56%;
+    position: absolute;
+  }
+  .tracer {
+    opacity: 0.2;
+  }
+
+  .wrapper {
+    padding: 0rem;
+  }
+  .topTextContainer {
+    padding: 1rem;
+  }
+  .howItWorks {
+    font-size: 1.2rem;
+    margin-left: 9rem;
+    margin-top: 6rem;
+  }
+  .sectionOneListContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 6rem;
+  }
+  .listItems {
+    text-align: left;
+    margin-left: 5.3rem;
+  }
+  .studioDescription {
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin-top: 1rem;
+    /* padding-left: 1rem; */
+    /* padding-right: 1rem; */
+  }
+  .bottomMostText {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    padding-left: 3rem;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .talentTools {
+    /* width: 30rem; */
+    height: auto;
+    /* margin: 1rem; */
+    /* border: 1px solid red; */
+    float: right;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    background-color: black;
+    margin-bottom: 3rem;
+    padding-top: 1rem;
+  }
+  .handMatchBrand {
+    width: 14rem;
+    /* border: 1px solid orange; */
+    height: auto;
+    margin-top: 2rem;
+  }
+  .matchingTitle {
+    padding: 0rem;
+  }
+  .serviceContainter {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: 0rem;
+    padding: 0rem;
+  }
+  .handpickMainText {
+    margin-bottom: 2rem;
+  }
+  .wrekkingball {
+    height: auto;
+    width: 56%;
+    position: absolute;
+    left: 43%;
+    top: 95%;
+    /* z-index: 1; */
+  }
+  .sec4Header {
+    h2 {
+      color: yellow;
+      font-weight: 500;
+      text-align: left;
+      font-size: 1.5rem;
+    }
+  }
+  .clientReview1 {
+    padding-right: 1rem;
+    height: 21rem;
+  }
+  .clientReview2 {
+    padding-right: 1rem;
+    height: 18rem;
+  }
+  .quote {
+    left: 10%;
+  }
+  .studioPagePriceContainer {
+    height: 25rem;
+  }
+  .transparentPricingContainer {
+    height: 68rem;
+  }
+  .talentToolsPrice {
+    margin-top: 2rem;
+  }
+  .dva {
+    height: auto;
+    width: 57%;
+    position: absolute;
+    left: 24%;
+    top: 79%;
+  }
+  .studioPriceIcon {
+    max-width: 21%;
+    margin-top: -21px;
+  }
+  .salesEmail {
+    text-align: left;
+    margin-left: 14px;
+  }
+  .text2 {
+    margin-left: 1rem;
+  }
+}
+@media (min-width: 1367px) {
+  .mcree {
+    left: -4%;
+    top: -5%;
+    height: 528px;
+    width: auto;
+    position: absolute;
+  }
+  .clientReview1 {
+    position: relative;
+    max-width: 53rem;
+  }
+  .clientReview2 {
+    position: relative;
+    max-width: 53rem;
+  }
+  .quote {
+    left: 6%;
+  }
+  .wrekkingball {
+    top: 70%;
+  }
+  .dva {
+    width: 33%;
+  }
+  .tracer {
+    position: relative;
+    margin-left: -23rem;
+  }
+}
+@media (min-width: 1368px) {
+  .sec4Header {
+    max-width: 43rem;
+  }
+  .studioPagecontainer {
+    margin-top: 4rem !important;
+  }
+}
+/*@media(min-width: 1632px) {*/
+/*.mcree {*/
+/*left: -8%;*/
+/*top: -4%;*/
+/*height: auto;*/
+/*width: 29%;*/
+/*position: absolute;*/
+/*}*/
+/*}*/
+/*@media only screen  and (min-width : 1824px) {*/
+/*!* Styles *!*/
+/*.mcree {*/
+/*left: -4%;*/
+/*top: -5%;*/
+/*height: 605px;*/
+/*width: auto;*/
+/*position: absolute;*/
+/*}*/
+/*}*/
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .mcree {
+    left: -14%;
+    height: 463px;
+  }
+}
+
+/*
+ * Old Employers page styles
+ */
+
+/*.root {*/
+/*padding-top: 4rem;*/
+/*text-align: center;*/
+/*}*/
+/*.top {*/
+/*max-width: 100%;*/
+/*background-image: url("./img/caveillustration.png");*/
+/*background-repeat:no-repeat;*/
+/*background-position:left center;*/
+/*background-size: cover;*/
+/*height: 35rem;*/
+/*padding-top: 18%;*/
+/*div {*/
+/*color: yellow;*/
+/*& > i {*/
+/*font-size: 2rem;*/
+/*}*/
+
+/*}*/
+/*}*/
+
+/*.top > i {*/
+/*top: 50%;*/
+/*transform: translateY(-50%);*/
+/*position: absolute;*/
+/*font-size: 2rem;*/
+/*}*/
+
+/*.top {*/
+/*position: relative;*/
+/*padding: 0 2rem;*/
+/*margin: 1.5rem auto;*/
+/*& > i {*/
+/*left: 2rem;*/
+/*font-size: 1.5rem;*/
+/*}*/
+/*h1 {*/
+/*margin: 0;*/
+/*font-weight: 400;*/
+/*}*/
+/*}*/
+
+/*.nav {*/
+/*height: 4rem;*/
+/*display: flex;*/
+/*padding: 0 1.5rem;*/
+/*align-items: center;*/
+/*justify-content: space-between;*/
+/*border-bottom: 1px solid #323232;*/
+/*i {*/
+/*margin-right: 1rem;*/
+/*}*/
+/*}*/
+
+/*.studioMargin{*/
+/*margin-top: 3rem !important;*/
+/*}*/
+/*.customPadding{*/
+/*padding: 1rem;*/
+/*}*/
+
+/*.contentPadding{*/
+/*padding-left: 13rem;*/
+/*font-size: 14px;*/
+/*}*/
+
+/*.floating{*/
+/*float: left;*/
+/*}*/
+
+/*.yellow{*/
+/*color: yellow;*/
+/*}*/
+
+/*!*.content {*!*/
+/*!*margin-top: 5rem;*!*/
+/*!*margin-bottom: 5rem;*!*/
+/*!*& > div:first-child > div {*!*/
+/*!*background-color: rgb(50, 50 ,50);*!*/
+/*!*padding: 0.2em 0.4em;*!*/
+/*!*padding-bottom: 2rem;*!*/
+/*!*margin: 1em auto;*!*/
+/*!*margin-top: 0em;*!*/
+/*!*border-radius: 0.5em;*!*/
+/*!*}*!*/
+/*!*& > div:not(:first-child) {*!*/
+/*!*width: 40%;*!*/
+/*!*padding: 1.5rem;*!*/
+/*!*margin-left: 0em;*!*/
+/*!*background-color: rgb(50, 50, 50);*!*/
+/*!*border-radius: 0.5em;*!*/
+/*!*float: right;*!*/
+/*!*}*!*/
+/*!*}*!*/
+
+/*@media (max-width: 576px) {*/
+/*.root {*/
+/*padding-top: 5rem;*/
+/*}*/
+/*.top {*/
+/*margin: 2rem auto 1.5rem;*/
+/*padding-top: 33%;*/
+/*}*/
+/*!*.content {*!*/
+/*!*margin-bottom: 36rem;*!*/
+/*!*.floating{*!*/
+/*!*float: none;*!*/
+/*!*}*!*/
+/*!*.contentPadding{*!*/
+/*!*padding: 1rem;*!*/
+/*!*}*!*/
+/*!*& > div {*!*/
+/*!*margin: 0 4%;*!*/
+/*!*width: 90%;*!*/
+/*!*}*!*/
+/*!*& > div:first-child {*!*/
+/*!*width: 90%;*!*/
+/*!*}*!*/
+/*!*& > div:not(:first-child) {*!*/
+/*!*margin-top: 2rem;*!*/
+/*!*margin-right: 1.8rem;*!*/
+/*!*width: 90%;*!*/
+/*!*}*!*/
+/*!*}*!*/
+/*}*/
+
+/*@media (min-width: 576px) {*/
+/*.root {*/
+/*padding-top: 5rem;*/
+/*}*/
+/*.top {*/
+/*margin: 2rem auto 1.5rem;*/
+/*}*/
+/*!*.content {*!*/
+/*!*margin-bottom: 36rem;*!*/
+/*!*& > div {*!*/
+/*!*margin: 0 4%;*!*/
+/*!*}*!*/
+/*!*& > div:first-child {*!*/
+/*!*width: 90%;*!*/
+/*!*}*!*/
+/*!*& > div:not(:first-child) {*!*/
+/*!*margin-top: 2rem;*!*/
+/*!*margin-right: 2.3rem;*!*/
+/*!*width: 90%;*!*/
+/*!*}*!*/
+/*!*}*!*/
+/*}*/
+
+/*@media (min-width:768px) {*/
+/*.top {*/
+/*margin: 2.5rem auto 2rem;*/
+/*padding-top: 18%;*/
+/*& > i {*/
+/*display: none;*/
+
+/*}*/
+/*}*/
+/*!*.content {*!*/
+/*!*margin-bottom: 5rem;*!*/
+/*!*& > div {*!*/
+/*!*display: inline-block;*!*/
+/*!*margin: 0 3%;*!*/
+/*!*}*!*/
+/*!*& > div:first-child {*!*/
+/*!*width: 45%;*!*/
+/*!*}*!*/
+/*!*& > div:not(:first-child) {*!*/
+/*!*margin-top: 0rem;*!*/
+/*!*margin: auto auto;*!*/
+/*!*margin-right: 2rem;*!*/
+/*!*width: 45%;*!*/
+/*!*}*!*/
+/*!*}*!*/
+/*}*/
+
+/* 
+@media (max-width:768px) {*/
+/*.top {*/
+/*margin: 2.5rem auto 2rem;*/
+/*padding-top: 25%;*/
+/*& > i {*/
+/*display: none;*/
+/*}*/
+/*}*/
+/*}*/
+/*@media (min-width: 1450px) {*/
+/*.top {*/
+/*margin: 2.5rem auto 2rem;*/
+/*padding-top: 17%;*/
+/*& > i {*/
+/*display: none;*/
+/*}*/
+/*}*/
+/*}*/
+/*@media (min-width: 1750px) {*/
+/*.top {*/
+/*margin: 2.5rem auto 2rem;*/
+/*padding-top: 14%;*/
+/*& > i {*/
+/*display: none;*/
+/*}*/
+/*}*/
+/*}*/
+/*@media (min-width: 1750px) {*/
+/*.top {*/
+/*margin: 2.5rem auto 2rem;*/
+/*padding-top: 12%;*/
+/*& > i {*/
+/*display: none;*/
+/*}*/
+/*}*/
+/*}*/
+/*.choosePlan {*/
+/*margin-top: 5%;*/
+/*}*/

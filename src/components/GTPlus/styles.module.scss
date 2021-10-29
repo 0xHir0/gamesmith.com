@@ -1,0 +1,65 @@
+.gtplus {
+
+.header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+  .gt_icons {
+    width: 2.3rem;
+  }
+  .arrow {
+    width: 1rem;
+    height: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  p {
+    color: #FFFFFF;
+    font-size: 14px;
+  }
+  .last_step {
+    width: 24rem;
+  }
+.line {
+  width: 5rem;
+  border: 1px solid #FFDE01;
+  border-radius: 2px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gt_steps {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.arrow_step {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.gt_btn {
+  color: #FFDE01;
+  border: 1px solid #FFDE01;
+  padding: 17px 35px;
+  width: 20rem;
+  border-radius: 7px;
+}
+.gt_btn:hover {
+  color: white;
+  border: 1px solid white;
+}
+@media (max-width: 768px) {
+  .gt_steps {
+    flex-direction: column;
+  }
+}
+}

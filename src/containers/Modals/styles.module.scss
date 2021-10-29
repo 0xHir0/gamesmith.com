@@ -1,0 +1,224 @@
+/*
+ * Modal styles
+ */
+
+.signin {
+  :global(.btn) {
+    margin: 1rem 0;
+  }
+}
+.signup {
+  :global(.btn) {
+    margin: 1rem 0;
+  }
+}
+
+.directsignup {
+  :global(.btn) {
+    margin: 1rem 0;
+  }
+}
+.editemail {
+  :global(.btn) {
+    margin: 1rem 0;
+  }
+}
+
+.iconColor {
+  color: #e8d603;
+}
+
+.addImg {
+  width: 6%;
+}
+
+.verifyImg {
+  width: 20%;
+}
+
+.connectImg {
+  width: 10%;
+}
+
+.jobImg {
+  width: 10%;
+}
+
+.line {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  color: yellow;
+  border-width: 2px;
+}
+
+.buttons {
+  margin: 1rem !important;
+  padding: 15px;
+  color: yellow !important;
+  background-color: transparent !important;
+  border-color: yellow !important;
+}
+
+.deleteButtonCancle {
+  padding: 1rem;
+  color: white !important;
+  background-color: transparent !important;
+  border-radius: 0;
+  border-right: 1px solid yellow;
+}
+
+.cancelButton {
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  margin-right: 1rem;
+  color: white !important;
+  border: 1px solid white;
+  background-color: transparent !important;
+  border-radius: 5px;
+}
+
+.cancelButton2 {
+  padding: 10px;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+}
+
+.titleStyle {
+  h2 {
+    font-size: 1.2rem !important;
+  }
+}
+
+.deleteButtonConfirm {
+  padding: 1rem;
+  color: white !important;
+  background-color: transparent !important;
+  border-radius: 0;
+  border-left: 1px solid yellow;
+}
+
+.applicantModal {
+  width: 75% !important;
+}
+.setCrossBorder {
+  border-radius: 50% !important;
+  border: 2px solid !important;
+  color: yellow;
+}
+.setBackgroundColor {
+  background-color: #181818 !important;
+  width: 70% !important;
+}
+.spHeader {
+  background-color: #181818 !important;
+  height: auto;
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.spBottomText {
+  height: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.2rem;
+  border: 1px solid;
+  font-size: 0.8rem;
+}
+.spBottomText p {
+  color: white !important;
+}
+.price h1 {
+  margin-bottom: 0 !important;
+  font-size: 4rem !important;
+}
+
+.pricing {
+  height: 8.9rem;
+  background-color: yellow;
+  border: 1px solid;
+}
+.deleteBtn {
+  padding: 15px !important;
+}
+.termsAndCond a:hover {
+  color: yellow !important;
+}
+.startExploringBtn {
+  padding: 0.5rem 2rem !important;
+  text-transform: none;
+  font-weight: 400;
+  background-color: #ffdd00 !important;
+  color: black !important;
+  &:hover {
+    color: black !important;
+  }
+}
+@media (min-width: 768px) {
+  .price {
+    margin-bottom: 0 !important;
+    font-size: 4rem !important;
+  }
+}
+@media (max-width: 767px) {
+  .price {
+    margin-bottom: 0 !important;
+    font-size: 4rem !important;
+  }
+}
+@media (max-width: 576px) {
+  .applicantModal,
+  .setBackgroundColor {
+    width: 100% !important;
+  }
+  .setCrossBorder {
+    position: relative !important;
+    top: 35px !important;
+    right: 0px !important;
+  }
+  .rightNav {
+    display: none !important;
+  }
+}
+.alert {
+  width: 44px;
+  height: 44px;
+}
+.outOfClicks {
+  font-size: 0.9rem;
+}
+.mail {
+  color: yellow !important;
+}
+.socialBtn {
+  margin-right: 1rem;
+}
+.socialShare {
+  margin-right: 1rem;
+  max-width: 3rem;
+  min-width: 3rem;
+  padding: 8px 1px;
+  border-radius: 50%;
+  text-align: center;
+  img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+@media (max-width: 1100px) {
+  .socialShare {
+    margin-right: 1rem;
+    padding: 2px 5px;
+    border-radius: 50%;
+    img {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}

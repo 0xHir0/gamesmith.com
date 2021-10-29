@@ -1,0 +1,134 @@
+/*
+ * Studio styles
+ */
+
+.root {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.studioHeading {
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 10px;
+}
+.studios {
+  max-width: 1130px;
+  margin: auto;
+}
+.addStudio {
+  width: 100%;
+  text-align: right;
+}
+
+.addStudioBtn {
+  margin-bottom: 1rem;
+  background-color: #E8D603 !important;
+  letter-spacing: 0.05rem;
+  font-weight: 400 !important;
+  margin-right: 0.7rem;
+  /* opacity: 1; */
+  padding-top: 0.8rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.60rem;
+  padding-left: 1.5rem;
+  /* opacity: 1; */
+  font-size: 0.725rem !important;
+  border-radius: 8px;
+  font-family: Mark Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 8px;
+  background-color: #FFDD00;
+  color: #323232 !important;
+  border-radius: 50px;
+  text-align: center;
+}
+.float:hover {
+  color: #323232 !important;
+}
+.my-float {
+  margin-top: 22px;
+}
+@media (max-width: 360px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 26px;
+    background-color: #FFDD00;
+    color: #323232 !important;
+    border-radius: 50px;
+    text-align: center;
+  }
+}
+@media (width: 768px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 50px;
+    background-color: #FFDD00;
+    color: #323232 !important;
+    border-radius: 50px;
+    z-index: 11;
+    text-align: center;
+  }
+}
+@media (width: 1024px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 50px;
+    background-color: #FFDD00;
+    color: #323232 !important;
+    border-radius: 50px;
+    z-index: 11;
+    text-align: center;
+  }
+}
+@media (min-width:  1367px){
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 30px;
+    background-color: #FFDD00;
+    color: #323232 !important;
+    border-radius: 50px;
+    z-index: 11;
+    text-align: center;
+  }
+}
+
+@media(max-width: 860px) {
+  .addStudio {
+    text-align: center;
+  }
+}
+
+
+.top {
+  position: relative;
+  max-width: 68rem;
+  padding: 0 2rem;
+  margin: 1.5rem auto;
+& > i {
+    left: 2rem;
+    font-size: 1.5rem;
+  }
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+}

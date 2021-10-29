@@ -1,0 +1,165 @@
+/*
+ * Request card styles
+ */
+
+.root {
+  position: relative;
+  margin: 0 auto 2rem;
+  background: #323232;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 26rem;
+  min-height: 20rem;
+  padding: 2rem 1rem;
+}
+
+.avatar {
+  height: 8rem;
+  width: 8rem;
+  margin: auto;
+  position: static;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  div {
+    font-size: 2.5rem;
+  }
+}
+
+.linkTo {
+  color: white;
+  &:hover {
+    color: yellow;
+  }
+}
+
+.button {
+  margin: 1rem auto 0;
+  text-align: center;
+  display: block;
+  &:first-of-type {
+    margin-top: 2rem;
+  }
+}
+
+.maker {
+  h1 {
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 2rem 0 0;
+  }
+  h3 {
+    color: #ffffff;
+    font-size: 1.25rem;
+    margin: 0.75rem 0 0;
+  }
+  i {
+    font-size: 0.8em;
+    margin-right: 0.5rem;
+  }
+  p {
+    margin: 1rem 0 0;
+    color: #1c1c1c;
+    font-size: 1.25rem;
+    &:not(:first-of-type) {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+.info {
+  position: relative;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .maker h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .root,
+  .maker,
+  .info {
+    min-height: 10rem;
+  }
+  .root {
+    border-radius: 0;
+    max-width: none;
+    margin-bottom: 1.5rem;
+    padding: 0;
+  }
+  .flex {
+    display: flex;
+  }
+  .button {
+    padding: 0.75rem 2rem;
+    margin: 0 0.5rem;
+    display: inline-block;
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  .avatar {
+    height: 80px;
+    width: 80px;
+    margin-right: 2rem;
+    div {
+      font-size: 1.75rem;
+    }
+  }
+  .maker,
+  .info {
+    width: auto;
+    display: inline-flex;
+    padding: 1rem 1.5rem 1rem 2rem;
+    text-align: left;
+  }
+  .maker {
+    flex-basis: 26rem;
+    align-items: center;
+    h1 {
+      font-size: 1.3rem;
+      margin: 0;
+    }
+    h3 {
+      font-size: 1.15rem;
+    }
+    p {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+      &:first-of-type {
+        color: #ffffff;
+      }
+      &:not(:first-of-type) {
+        font-size: 1.15rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .info {
+    flex: 1;
+    background: #262626;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 992px) {
+  .info,
+  .maker {
+    padding: 1rem 1.5rem 1rem 2.5rem;
+  }
+  .maker {
+    flex-basis: 28rem;
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 360) {
+  .maker {
+    flex-basis: 36rem;
+  }
+}

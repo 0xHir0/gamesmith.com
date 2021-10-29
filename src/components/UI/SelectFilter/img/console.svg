@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="15px" viewBox="0 0 26 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>thin-1008_gamepad_video_game_playing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fileter-bar/expanded" transform="translate(-368.000000, -86.000000)" stroke="#979797" stroke-width="1.056">
+            <g id="icons" transform="translate(277.000000, 83.000000)">
+                <g id="thin-1008_gamepad_video_game_playing" transform="translate(92.074197, 5.526316)">
+                    <path d="M18.8175884,-1.10526316 C18.8099915,-1.10526316 18.802289,-1.10505172 18.7945865,-1.104946 L5.41811658,-1.104946 C5.41020307,-1.10515744 5.40271162,-1.10526316 5.39490362,-1.10526316 C2.42016242,-1.10526316 7.10542736e-15,1.40560641 7.10542736e-15,4.49191442 C7.10542736e-15,6.67515515 7.10542736e-15,11.5555455 3.51771351,11.5555455 C5.43299398,11.5555455 8.89193649,9.16625492 10.0572272,6.34784348 L14.1549483,6.34784348 C15.32045,9.16625492 18.7793926,11.5555455 20.694673,11.5555455 C24.2123865,11.5555455 24.2123865,6.67515515 24.2123865,4.49191442 C24.212492,1.40560641 21.7923296,-1.10526316 18.8175884,-1.10526316 L18.8175884,-1.10526316 Z" id="Shape"></path>
+                    <ellipse id="Oval" cx="5.83647748" cy="5.31210618" rx="2.0353548" ry="2.03935469"></ellipse>
+                    <path d="M19.4979393,3.27275149 L19.4979393,7.35156659" id="Shape"></path>
+                    <path d="M21.5332941,5.31210618 L17.462479,5.31210618" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,77 @@
+/*
+ * Recruiter constants
+ */
+
+ export const RECRUITER_REQUEST = 'app/Recruiter/RECRUITER_REQUEST';
+ export const RECRUITER_SUCCESS = 'app/Recruiter/RECRUITER_SUCCESS';
+ export const RECRUITER_ERROR = 'app/Recruiter/RECRUITER_ERROR';
+
+ export const RECRUITER_CONNECTIONS_REQUEST = 'app/Recruiter/RECRUITER_CONNECTIONS_REQUEST';
+ export const RECRUITER_CONNECTIONS_SUCCESS = 'app/Recruiter/RECRUITER_CONNECTIONS_SUCCESS';
+ export const RECRUITER_CONNECTIONS_ERROR = 'app/Recruiter/RECRUITER_CONNECTIONS_ERROR';
+
+ export const POSTED_JOBS_REQUEST = 'app/Recruiter/POSTED_JOBS_REQUEST';
+ export const POSTED_JOBS_SUCCESS = 'app/Recruiter/POSTED_JOBS_SUCCESS';
+ export const POSTED_JOBS_ERROR = 'app/Recruiter/POSTED_JOBS_ERROR';
+
+ export const ADD_JOBS_REQUEST = 'app/Recruiter/ADD_JOBS_REQUEST';
+ export const ADD_JOBS_SUCCESS = 'app/Recruiter/ADD_JOBS_SUCCESS';
+ export const ADD_JOBS_ERROR = 'app/Recruiter/ADD_JOBS_ERROR';
+
+ export const EDIT_JOBS_REQUEST = 'app/Recruiter/EDIT_JOBS_REQUEST';
+ export const EDIT_JOBS_SUCCESS = 'app/Recruiter/EDIT_JOBS_SUCCESS';
+ export const EDIT_JOBS_ERROR = 'app/Recruiter/EDIT_JOBS_ERROR';
+
+ export const DELETE_JOBS_REQUEST = 'app/Recruiter/DELETE_JOBS_REQUEST';
+ export const DELETE_JOBS_SUCCESS = 'app/Recruiter/DELETE_JOBS_SUCCESS';
+ export const DELETE_JOBS_ERROR = 'app/Recruiter/DELETE_JOBS_ERROR';
+
+ export const JOB_APPLICANTS_REQUEST = 'app/Recruiter/JOB_APPLICANTS_REQUEST';
+ export const JOB_APPLICANTS_SUCCESS = 'app/Recruiter/JOB_APPLICANTS_SUCCESS';
+ export const JOB_APPLICANTS_ERROR = 'app/Recruiter/JOB_APPLICANTS_ERROR';
+
+ export const GLOBAL_APPLICANTS_REQUEST = 'app/Recruiter/GLOBAL_APPLICANTS_REQUEST';
+ export const GLOBAL_APPLICANTS_SUCCESS = 'app/Recruiter/GLOBAL_APPLICANTS_SUCCESS';
+ export const GLOBAL_APPLICANTS_ERROR = 'app/Recruiter/GLOBAL_APPLICANTS_ERROR';
+
+ export const UPGRADE_TO_STUDIO_REQUEST = 'app/Recruiter/UPGRADE_TO_STUDIO_REQUEST';
+ export const UPGRADE_TO_STUDIO_SUCCESS = 'app/Recruiter/UPGRADE_TO_STUDIO_SUCCESS';
+ export const UPGRADE_TO_STUDIO_ERROR = 'app/Recruiter/UPGRADE_TO_STUDIO_ERROR';
+
+ export const REJECT_APPLICANT_REQUEST = 'app/Recruiter/REJECT_APPLICANT_REQUEST';
+ export const REJECT_APPLICANT_SUCCESS = 'app/Recruiter/REJECT_APPLICANT_SUCCESS';
+ export const REJECT_APPLICANT_ERROR = 'app/Recruiter/REJECT_APPLICANT_ERROR';
+
+ export const MOVE_APPLICANT_REQUEST = 'app/Recruiter/MOVE_APPLICANT_REQUEST';
+ export const MOVE_APPLICANT_SUCCESS = 'app/Recruiter/MOVE_APPLICANT_SUCCESS';
+ export const MOVE_APPLICANT_ERROR = 'app/Recruiter/MOVE_APPLICANT_ERROR';
+
+ export const MOVE_GLOBAL_APPLICANT_REQUEST = 'app/Recruiter/MOVE_GLOBAL_APPLICANT_REQUEST';
+ export const MOVE_GLOBAL_APPLICANT_SUCCESS = 'app/Recruiter/MOVE_GLOBAL_APPLICANT_SUCCESS';
+ export const MOVE_GLOBAL_APPLICANT_ERROR = 'app/Recruiter/MOVE_GLOBAL_APPLICANT_ERROR';
+
+ export const EDIT_STUDIO_REQUEST = 'app/Recruiter/EDIT_STUDIO_REQUEST';
+ export const EDIT_STUDIO_SUCCESS = 'app/Recruiter/EDIT_STUDIO_SUCCESS';
+ export const EDIT_STUDIO_ERROR = 'app/Recruiter/EDIT_STUDIO_ERROR';
+
+ export const GET_RECRUITER_STUDIO_REQUEST = 'app/Recruiter/GET_RECRUITER_STUDIO_REQUEST';
+ export const GET_RECRUITER_STUDIO_REQUEST_ERROR = 'app/Recruiter/GET_RECRUITER_STUDIO_REQUEST_ERROR';
+ export const GET_RECRUITER_STUDIO_REQUEST_SUCCESS = 'app/Recruiter/GET_RECRUITER_STUDIO_REQUEST_SUCCESS';
+
+ export const DELETE_GAME_REQUEST = 'app/Recruiter/DELETE_GAME_REQUEST';
+ export const DELETE_GAME_SUCCESS = 'app/Recruiter/DELETE_GAME_SUCCESS';
+ export const DELETE_GAME_ERROR = 'app/Recruiter/DELETE_GAME_ERROR';
+
+ export const DELETE_STUDIO_CONTENT_REQUEST = 'app/Recruiter/DELETE_STUDIO_CONTENT_REQUEST';
+ export const DELETE_STUDIO_CONTENT_SUCCESS = 'app/Recruiter/DELETE_STUDIO_CONTENT_SUCCESS';
+ export const DELETE_STUDIO_CONTENT_ERROR = 'app/Recruiter/DELETE_STUDIO_CONTENT_ERROR';
+
+ export const NEXT_PAGE_REQUEST = 'app/Recruiter/NEXT_PAGE_REQUEST';
+ export const NEXT_PAGE_SUCCESS = 'app/Recruiter/NEXT_PAGE_SUCCESS';
+ export const NEXT_PAGE_ERROR = 'app/Recruiter/NEXT_PAGE_ERROR';
+
+ export const TOGGLE_VIEW = 'app/Recruiter/TOGGLE_VIEW';
+
+ export const DOWNGRADE_SUBSCRIPTION = 'app/Recruiter/DOWNGRADE_SUBSCRIPTION';
+ export const GT_PLUS_REQUEST = 'app/Recruiter/GT_PLUS_REQUEST';
+

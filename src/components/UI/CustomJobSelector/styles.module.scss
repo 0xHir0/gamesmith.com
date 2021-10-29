@@ -1,0 +1,144 @@
+/*
+ * CustomJobSelector styles
+ */
+
+.root {
+  position: relative;
+  background-color: #323232;
+  margin-top: 2px;
+  cursor: pointer;
+}
+
+.title {
+  border-left: 1px solid whitesmoke;
+  text-align: left;
+  padding: 18px;
+}
+.custom_label {
+  color: lightgrey;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.selected_label {
+  color: #E8D603;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+
+.counter {
+  display: none;
+}
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+}
+
+.angleDown {
+  width: 14px;
+  height: 14px;
+  float: right;
+  margin-top: 0.4rem;
+}
+
+.arrow {
+  color: #323232;
+  float: right;
+}
+
+.arrow_rotate {
+  transition: all 0.2s ease;
+  transform: rotate(180deg);
+}
+
+.back_rotate {
+  transition: all 0.2s ease;
+  transform: rotate(0deg);
+}
+
+.list_option {
+  z-index: 12;
+  position: absolute;
+  border-left: 1px solid whitesmoke;
+  text-align: left;
+  background-color: #323232;
+  height: 14rem;
+  max-height: 14rem;
+  padding-left: 20px;
+  width: 100%;
+}
+
+.scroll {
+  background-color: #323232;
+  max-height: 14rem;
+  overflow-y: scroll;
+  /*width: 100%;*/
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 2px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #888;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #323232;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 1050px) {
+  .root {
+    background-color: #323232;
+    margin-right: 1px;
+    margin-top: 0;
+    text-align: left;
+    cursor: pointer;
+    border-bottom: 1px solid lightgrey;
+  }
+  .title {
+    border-left: none;
+  }
+  .custom_label {
+    font-size: 1.1rem;
+    font-weight: normal;
+  }
+  .selected_label {
+    font-size: 1.1rem;
+    color: lightgrey;
+    text-decoration: none;
+    font-weight: normal;
+  }
+  .list_option {
+    border-left: none;
+    max-height: fit-content;
+    height: fit-content;
+  }
+  .scroll {
+    overflow-y: visible;
+    max-height: fit-content;
+  }
+  .counter {
+    display: inline;
+    margin-left: 0.5rem;
+    background-color: #E8D603;
+    color: black;
+    border-radius: 50%;
+    padding: 1px 4px;
+  }
+  .icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+  }
+}
+

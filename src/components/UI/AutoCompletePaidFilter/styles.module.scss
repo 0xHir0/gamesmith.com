@@ -1,0 +1,172 @@
+/*
+ * Select styles
+ */
+
+.paidFilterRoot {
+  width: 100%;
+  color: #ffffff;
+  padding: 1.5rem 0;
+  position: relative;
+  text-align: left;
+  & > div {
+    display: block;
+  }
+  .paidFilter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    padding: 2px 2px 0 3px;
+  }
+  .paidFilter > *:first-child {
+    width: 10%;
+  }
+  .paidFilter > *:nth-child(2) {
+    width: 90%;
+  }
+  label {
+    font-size: medium;
+    font-weight: lighter;
+    text-transform: capitalize;
+    top: 0;
+    color: white;
+    margin: -1rem 2rem 0 0;
+    letter-spacing: 0.05rem;
+    text-transform: capitalize;
+    transition: all 0.125s ease, text-transform 0.1s ease;
+    &[required]::after {
+      content: "*";
+      padding-left: 0.25rem;
+      color: #191919;
+    }
+  }
+  .error {
+    font-size: 0.85rem;
+    color: red;
+    bottom: -0.25rem;
+  }
+  label,
+  .error {
+    padding: 0.25rem 0;
+    position: absolute;
+    left: 0;
+    transition: all 0.25s ease;
+    pointer-events: none;
+  }
+  .paidFilter > input {
+    border: 0;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    /*border-bottom: 1px solid #9E9E9E;*/
+  }
+  .langFilter {
+    input {
+      border: 0;
+      width: 100%;
+      font-family: sans-serif;
+      font-size: 1rem;
+      padding: 0.5rem 0;
+      color: grey;
+      /*border-bottom: 1px solid #9E9E9E;*/
+    }
+  }
+  .paidFilter > .line {
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #262626;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    -webkit-transition: all 0.125s ease;
+    transition: all 0.125s ease;
+    bottom: 1.5rem;
+    &:global(.error) {
+      background: red;
+    }
+  }
+  input:focus {
+    outline: 0;
+  }
+  &.filled .line {
+    width: 100%;
+    -webkit-transition: all 0.075s ease;
+    transition: all 0.075s ease;
+  }
+}
+
+.paidFilter > .Select {
+  /*border-bottom: 1px solid #9E9E9E !important;*/
+  border-bottom: none !important;
+  & > * {
+    outline: none !important;
+  }
+}
+.Select-control {
+  background: none !important;
+  color: #191919 !important;
+  border-radius: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.Select-placeholder,
+.Select-input,
+.Select--single > .Select-control .Select-value {
+  color: #191919 !important;
+  padding: 0 !important;
+}
+.Select-value .Select-value-label {
+  color: #ffffff;
+}
+.Select-menu-outer {
+  background-color: white !important;
+  /*border-color: #191919 !important;*/
+}
+#filterBy .Select-menu-outer {
+  z-index: 99999;
+}
+.Select-option {
+  background-color: #323232 !important;
+  color: #ffffff !important;
+}
+.social-links .Select-option {
+  display: inline-flex !important;
+}
+.social-links .Select-menu-outer {
+  width: 200%;
+}
+.Select-option.is-selected {
+  background-color: #262626 !important;
+  color: #ffffff !important;
+}
+.Select-option.is-focused {
+  background-color: #262626 !important;
+  color: #ffffff !important;
+}
+.is-open > .Select-control {
+  background: none !important;
+}
+.has-value.Select--single > .Select-control .Select-value a.Select-value-label {
+  cursor: auto;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    padding: 1.65rem 0;
+    label {
+      padding: 0.15rem 0;
+    }
+    .line {
+      bottom: 0;
+    }
+    .error {
+      padding: 0.15rem 0;
+    }
+  }
+}

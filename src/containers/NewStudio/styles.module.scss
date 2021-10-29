@@ -1,0 +1,323 @@
+/*
+ * NewStudio styles
+ */
+.root {
+  margin: 0 auto;
+  max-width: 61rem;
+  padding-top: 3rem;
+  text-align: center;
+  .wrap {
+    border-radius: 9px;
+    overflow: hidden;
+    .head {
+      position: relative;
+      height: 15rem;
+      .banner {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .studioArt {
+        height: auto;
+        object-fit: contain;
+        background-size: cover;
+      }
+   }
+   .about {
+      background-color: #323232;
+      font-size: 12px;
+      font-family: 'Mark Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+      display: flex;
+      flex-direction: row;
+      color: white;
+      padding: 0.2rem 0;
+      .logo {
+        width: 14%;
+        .subItems {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          .logoBox {
+            height: 80px;
+            width: 80px;
+            position: relative;
+          }
+          .img {
+            position: absolute;
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+          }
+          .content {
+            color: white;
+            font-size: 1rem;
+            padding: 1rem 0.5rem;
+          }
+        }
+      }
+      .menuItems {
+        width: 67%;
+        align-items: center;
+        padding: 1rem 0;
+        display: block;
+        .menuDescription {
+          display: flex;
+          flex-direction: row;
+
+          .description {
+            align-self: flex-end;
+            color: white;
+            width: 12.5%;
+            border-right: 1px solid whitesmoke;
+          }
+        }
+        .menuHeading {
+          display: flex;
+          flex-direction: row;
+          .heading {
+            width: 12.5%;
+            color: grey;
+            margin-top: 1rem;
+            text-transform: uppercase;
+            font-size: 0.6rem;
+            font-weight: bold;
+          }
+        }
+      }
+      .menuItemsSmall {
+        display: none;
+      }
+      .menuButtons {
+        width: 19%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0 0.4rem;
+        .addStudioBtn {
+          height: 2rem;
+          font-weight: normal;
+          color: black;
+          text-transform: none;
+          background-color: #f6dc34;
+          padding: 0.6rem !important;
+          font-size: 0.6rem !important;
+          min-width: 5rem;
+          max-width: 5rem;
+          border: 2px;
+          text-align: center;
+          img {
+            width: 14px;
+            float: left;
+            margin: 0 3px;
+          }
+        }
+     }
+    }
+  }
+ .overview {
+   border-radius: 9px;
+   color: black;
+   margin-top: 1rem;
+   background-color: #323232;
+    padding: 1rem 0;
+    .overviewItems {
+      display: flex;
+      flex-direction: row;
+      width: 80%;
+      .items {
+        display: flex;
+        flex-direction: column;
+        width: 13%;
+        border-right: 1px solid white;
+        justify-content: center;
+        font-size: smaller;
+        cursor: pointer;
+        .icon {
+          margin: 0 auto;
+          width: border-box;
+        }
+        .itemContent {
+          margin-top: 0.4rem;
+          color: white;
+          font-size: smaller;
+        }
+        .yellowItemContent {
+          margin-top: 0.4rem;
+          color: yellow;
+          font-size: smaller;
+        }
+      }
+    }
+  }
+}
+
+.hiringBtn{
+  margin-top: 6rem;
+  height: 2rem;
+  font-weight: normal;
+  color: black;
+  text-transform: none;
+  background-color: #f6dc34;
+  padding: 0.6rem !important;
+  font-size: 0.7rem !important;
+  min-width: 6rem;
+&:hover {
+   background-color: transparent !important;
+   color: yellow !important;
+   border: 1px solid yellow!important;
+   font-size: 0.7rem !important;
+ }
+}
+.span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 150px;
+  padding: 0.2rem 0.9rem;
+  color: black;
+  font-size: 11px;
+  background-color: rgb(232, 214, 3);
+  border-radius: 0 0.4rem 0 0;
+  text-transform: uppercase;
+}
+@media (max-width: 1050px) {
+  .root {
+    margin: 0 auto;
+    max-width: 61rem;
+    padding-top: 7rem;
+    text-align: center;
+    .wrap {
+      border-radius: 0 !important;
+      overflow: hidden;
+      .head {
+        position: relative;
+        height: 15rem;
+        width: 100%;
+        .studioArt {
+          height: auto;
+          object-fit: contain;
+          background-size: cover;
+        }
+      }
+      .about {
+        background-color: #323232;
+        font-size: 15px;
+        font-family: 'Mark Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        padding: 0.2rem 0;
+        align-items: center;
+        .logo {
+          width: 100%;
+        }
+      .hideMenu {
+        display: none !important;
+      }
+      .hideBorder {
+        border-right: 0 !important;
+      }
+      .menuItems {
+        display: none;
+      }
+        .menuItemsSmall {
+          display: block;
+          width: 67%;
+          align-items: center;
+          padding: 1rem 0;
+          .menuDescriptionSmall {
+            display: flex;
+            flex-direction: row;
+            margin-top: 2rem;
+            .descriptionSmall {
+              align-self: flex-end;
+              color: white;
+              width: 33.33%;
+              font-size: 0.8rem;
+              border-right: 1px solid whitesmoke;
+            }
+          }
+          .menuHeadingSmall {
+            display: flex;
+            flex-direction: row;
+            .headingSmall {
+              width: 33.33%;
+              color: grey;
+              margin-top: 1rem;
+              text-transform: uppercase;
+              font-size: 0.6rem;
+              font-weight: bold;
+            }
+          }
+        }
+      .menuButtons {
+        margin: 2rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+          .addStudioBtn {
+            height: 2rem;
+            font-weight: normal;
+            color: black;
+            text-transform: none;
+            background-color: #f6dc34;
+            padding: 0.6rem !important;
+            font-size: 0.6rem !important;
+            min-width: 6rem;
+            max-width: 6rem;
+            border: 2px;
+            text-align: center;
+              img {
+                width: 14px;
+                float: left;
+                margin: 0 3px;
+              }
+          }
+      }
+  }
+}
+   .overview {
+      border-radius: 0 !important;
+      width: 100%;
+      color: black;
+      margin-top: 1rem;
+      background-color: #323232;
+      padding: 1rem 0;
+      .overviewItems {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70%;
+        margin: 0 auto;
+        .items {
+          width: 20%;
+          border-right: 1px solid white;
+          display: flex;
+          flex-direction: row;
+          font-size: smaller;
+          cursor: pointer;
+          margin-top: 1rem;
+          .icon {
+            display: none;
+          }
+          .itemContent {
+            margin-top: 0.4rem;
+            color: white;
+            font-size: smaller;
+          }
+          .yellowItemContent {
+            margin-top: 0.4rem;
+            color: yellow;
+            font-size: smaller;
+          }
+        }
+        .hide {
+          border-right: 0;
+        }
+      }
+    }
+ }
+}

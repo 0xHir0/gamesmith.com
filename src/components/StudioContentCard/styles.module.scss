@@ -1,0 +1,25 @@
+/*
+ * Studio Content card styles
+ */
+/*button {*/
+/*min-width: 3rem !important;*/
+/*}*/
+@media (max-width: 576px) {
+  .studioContentContainer {
+    div {
+      width: 100% !important;
+      margin: auto !important;
+    }
+  }
+  iframe {
+    width: 260px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+  iframe {
+    width: 400px !important;
+  }
+}
+.imageRes {
+  transform: translateZ(0);
+}

@@ -1,0 +1,59 @@
+/*
+ * Verify styles
+ */
+
+.root {
+  padding-top: 5rem;
+  text-align: center;
+  :global(.hidden) {
+    display: none;
+  }
+}
+
+.btn {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+}
+
+.top,
+.games {
+  margin: auto;
+  max-width: 56rem;
+}
+
+.top {
+  padding: 0 2rem;
+  margin: 2rem auto;
+  h1 {
+    margin: 0 0 1rem;
+    font-weight: 400;
+  }
+}
+
+.games {
+  padding: 0 0 2.5rem;
+}
+
+@media (min-width: 576px) {
+  .root {
+    padding-top: 5rem;
+  }
+  .top {
+    margin: 2rem auto 1.5rem;
+    p:first-of-type {
+      margin-bottom: 0;
+    }
+    p:last-of-type {
+      margin-top: 0;
+    }
+  }
+  .games {
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .top {
+    margin: 2.5rem auto;
+  }
+}

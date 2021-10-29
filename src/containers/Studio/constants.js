@@ -1,0 +1,22 @@
+/*
+ * Studio constants
+ */
+
+export const STUDIO_REQUEST = 'app/Studio/STUDIO_REQUEST';
+export const STUDIO_SUCCESS = 'app/Studio/STUDIO_SUCCESS';
+export const STUDIO_ERROR = 'app/Studio/STUDIO_ERROR';
+
+export const EDIT_STUDIO_JOB_REQUEST = 'app/Studio/EDIT_STUDIO_JOB_REQUEST';
+export const EDIT_STUDIO_JOB_SUCCESS = 'app/Studio/EDIT_STUDIO_JOB_SUCCESS';
+export const EDIT_STUDIO_JOB_ERROR = 'app/Studio/EDIT_STUDIO_JOB_ERROR';
+
+export const APPLY_STUDIO_JOB_REQUEST = 'app/Studio/APPLY_STUDIO_JOB_REQUEST';
+export const APPLY_STUDIO_JOB_SUCCESS = 'app/Studio/APPLY_STUDIO_JOB_SUCCESS';
+export const APPLY_STUDIO_JOB_ERROR = 'app/Studio/APPLY_STUDIO_JOB_ERROR';
+
+export const SCROLL_TO_JOBS = 'app/Studios/SCROLL_TO_JOBS';
+
+export const GET_STUDIO_RECRUITER_REQUEST = 'app/Studios/GET_STUDIO_RECRUITER_REQUEST'
+export const GET_STUDIO_RECRUITER_SUCCESS = 'app/Studios/GET_STUDIO_RECRUITER_SUCCESS'
+export const GET_STUDIO_RECRUITER_ERROR = 'app/Studios/GET_STUDIO_RECRUITER_ERROR'
+

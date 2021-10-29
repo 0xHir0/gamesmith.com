@@ -1,0 +1,467 @@
+/*
+ * Jobs styles
+ */
+
+.rootjob {
+  text-align: center;
+}
+
+.top,
+.jobs {
+  max-width: 85%;
+}
+
+.jobFilters {
+  max-width: 80%;
+  margin: 0 auto auto;
+  background-color: #292929;
+  height: 2.4rem;
+}
+.filterTitle {
+  padding: 0.8rem 0;
+  font-size: 0.8rem;
+  text-align: left;
+}
+.signatureIcon {
+  margin: auto 1rem;
+  width: 20px;
+  height: 20px;
+}
+
+.sort_buttons {
+  max-width: 85%;
+  font-size: small;
+  margin: 3rem auto auto;
+  padding: 0.5rem 2rem 2.5rem;
+}
+
+.full {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  top: 0rem;
+}
+
+.autfull {
+  width: 100%;
+  background-size: cover;
+  position: relative;
+  top: 0rem;
+}
+
+.bannersDiv {
+  display: flex;
+  background: #292929;
+  margin-bottom: 25px;
+  align-items: center;
+  background-color: #292929;
+  -ms-flex-pack: justify;
+  /* justify-content: space-between; */
+  padding-left: 20px;
+  position: relative;
+  padding-right: 45px;
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: left;
+    width: 100%;
+  }
+  button {
+    display: block;
+    width: 2.5rem;
+    z-index: 20;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: #e8d603;
+    transition: all 0.25s ease-out;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: #191919;
+    &:hover,
+    &:focus {
+      width: 2.8rem;
+      background: #ffdd00;
+      box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+    }
+  }
+  .innerBannersDiv {
+    padding-right: 2.1%;
+  }
+}
+.bottomDiv {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+.bannersdesc {
+  display: inline-block;
+  width: 150px;
+  margin-right: 1rem;
+  border-radius: 0 1rem 0 0;
+  text-align: center;
+  padding: 0.2rem;
+  color: black;
+  /* font-size: 14px; */
+  font-weight: bold;
+  background-color: rgb(232, 214, 3);
+}
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  height: 5rem;
+  width: 5rem;
+  margin-bottom: 0.5rem;
+}
+.layer {
+  position: relative;
+  top: 0rem;
+  left: 0;
+  width: 100%;
+  height: 400px;
+}
+
+.filters {
+  padding-top: 10rem;
+}
+
+.searchButton {
+  padding: 17px !important;
+  min-width: 40px;
+  border-radius: 3px;
+}
+
+.tc {
+  color: #ffdd00 !important;
+  margin-top: 0% !important;
+}
+
+.bg {
+  background-color: #323232 !important;
+  width: 30%;
+  border: 1px solid #676767;
+  height: 55px;
+}
+
+.topPadding {
+  padding-top: 0px !important;
+}
+
+.search,
+.top > i {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.search {
+  right: 2rem;
+}
+
+h4 {
+  color: white !important;
+  font-weight: 500 !important;
+}
+
+.top {
+  position: relative;
+  padding: 0 2rem;
+  margin: 1.5rem auto;
+  & > i {
+    left: 2rem;
+    font-size: 1.5rem;
+  }
+  h1 {
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+.jobs {
+  margin: 3rem auto auto;
+  padding: 0.5rem 2rem 2.5rem;
+}
+
+.nav {
+  height: 4rem;
+  display: flex;
+  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #323232;
+  i {
+    margin-right: 1rem;
+  }
+}
+
+.subscriptionFormContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.subs {
+  position: relative;
+  top: 2rem;
+  border-radius: 5px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  opacity: 0.8;
+  padding-top: 1.5rem;
+  background-color: #2d2d2d;
+}
+
+.emailSubscription {
+  position: relative;
+  top: 6rem;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 30rem;
+  min-width: 30rem;
+  z-index: 1;
+}
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  .searchBar {
+    width: 80%;
+    margin: auto;
+    height: 2.4rem;
+    display: flex;
+    .searchInput {
+      flex: 1;
+      padding: 0.8rem;
+      background-color: #c5c6bb;
+      font-size: 0.9rem;
+      color: black;
+    }
+    .search_icon {
+      background-color: #d5bd00;
+      min-width: 3rem;
+      border: black;
+      color: black;
+      &:hover {
+        background-color: #e8d603;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1150px) and (max-height: 360) {
+  .search,
+  .top > i {
+    position: absolute;
+  }
+}
+.searchform {
+  position: relative;
+  top: 0rem;
+}
+
+@media (min-width: 10px) and (max-width: 768px) {
+  .search input {
+    margin-top: 24px;
+  }
+  .button {
+    padding: 14px !important;
+  }
+}
+@media (min-width: 576px) and (max-width: 991px) {
+  .button {
+    padding: 12px !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .top {
+    margin: 2.5rem auto 2rem;
+    & > i {
+      display: none;
+    }
+  }
+  .search {
+    display: flex !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .bg {
+    width: 100%;
+    margin-bottom: 5%;
+  }
+  h1 {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+  }
+  h4 {
+    color: white !important;
+    font-weight: 500 !important;
+  }
+  .jobs_image {
+    background-image: url("./img/mobile-jobs.jpg") !important;
+  }
+  .full {
+    margin-top: 0rem !important;
+  }
+}
+
+.search {
+  width: 16rem;
+  display: unset;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1rem;
+  border: 1px solid #676767;
+  transition: border-color 0.25s;
+  border-radius: 2rem;
+  &:hover,
+  &:focus {
+    border-color: #909090;
+  }
+  input {
+    outline: none;
+  }
+  i {
+    margin-left: 0.5rem;
+    font-size: 1rem;
+  }
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 40px;
+  background-color: #ffdd00;
+  color: #323232 !important;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.my-float {
+  margin-top: 22px;
+}
+
+.float:hover {
+  color: #323232 !important;
+}
+@media (max-width: 360px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 26px;
+    background-color: #ffdd00;
+    color: #323232 !important;
+    border-radius: 50px;
+    text-align: center;
+  }
+}
+@media (width: 768px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 21px;
+    background-color: #ffdd00;
+    color: #323232 !important;
+    border-radius: 50px;
+    text-align: center;
+  }
+}
+
+.sort_type {
+  p {
+    color: #ffdd00 !important;
+  }
+}
+
+.secondry_filter:hover {
+  display: inline-block !important;
+  cursor: pointer;
+  p {
+    color: #ffdd00 !important;
+  }
+}
+
+.secondry_filter {
+  display: inline-block !important;
+}
+
+.main_title {
+  position: relative;
+  width: 100%;
+  top: 8rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
+}
+
+.jobs_image {
+  background-image: url("./img/lanterns-wide.jpg");
+}
+
+@media (max-width: 544px) {
+  .secondry_filter_margin {
+    font-size: 10px !important;
+    margin-left: 1.6rem !important;
+  }
+}
+@media (max-width: 768px) {
+  .sort_buttons {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .filters {
+    padding-top: 1rem;
+  }
+  .jobs {
+    padding: 0;
+  }
+  .bannersDiv {
+    flex-direction: column;
+    padding-right: 0px;
+    border-radius: 1rem;
+    transform: scale(0.9);
+    margin-bottom: -10px !important;
+    position: relative;
+    margin: 0 auto 2rem;
+    background: #323232;
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 26rem;
+    min-width: 10rem;
+    min-height: 10rem;
+    padding: 2rem 1rem;
+    text-align: center;
+    h1 {
+      text-align: center;
+    }
+    .innerBannersDiv {
+      padding-right: 4.1%;
+    }
+    img,
+    button {
+      display: none;
+    }
+    .bottomDiv {
+      position: relative;
+      small {
+        display: inline-block;
+        width: 300px;
+        margin-right: 0;
+        margin-top: 1rem;
+        border-radius: 0;
+        text-align: left;
+        padding: 0.5rem;
+        color: black;
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+      }
+    }
+  }
+}

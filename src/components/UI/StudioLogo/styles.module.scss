@@ -1,0 +1,79 @@
+/*
+ * UploadPhoto styles
+ */
+
+.root {
+  margin-bottom: 1rem;
+  input {
+    display: none;
+  }
+}
+.container {
+  text-align: left;
+}
+.alighnLeft {
+  text-align: left;
+}
+.margin {
+  margin-right: 3%;
+}
+.avatar {
+  height: 5rem;
+  width: 20rem;
+  /*margin: 1rem auto;*/
+  padding: 6px;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px dashed white;
+  background-clip: content-box;
+  img {
+    width: 300px;
+    height: 250px;
+    border-radius: 3%;
+  }
+}
+
+.setImage {
+  width: 350px;
+  height: 200px;
+}
+.uploadLogo {
+  margin-top: 10px !important;
+  line-height: 40px;
+  width: 300px !important;
+  height: 50px !important;
+  text-align: center !important;
+  float: left !important;
+  border: 1px dotted !important;
+  border-radius: 20px !important;
+}
+.description {
+  display: inline-block;
+  width: 45%;
+  margin-left: 20px !important;
+}
+
+@media (min-width: 768px) {
+  .avatar {
+    height: 5rem;
+    width: 20rem;
+    border-radius: 1rem;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 576px) {
+  .uploadLogo {
+    width: 270px !important;
+  }
+  .setImage {
+    width: 270px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+}

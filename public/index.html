@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8" />
+    <!-- Upgrade the remaining non secure requests -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <!-- Make the page mobile compatible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" 
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" 
+    crossorigin="anonymous">
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="57x57"
+      href="/apple-touch-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="60x60"
+      href="/apple-touch-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="72x72"
+      href="/apple-touch-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="76x76"
+      href="/apple-touch-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="114x114"
+      href="/apple-touch-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="120x120"
+      href="/apple-touch-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="144x144"
+      href="/apple-touch-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon-precomposed"
+      sizes="152x152"
+      href="/apple-touch-icon-152x152.png"
+    />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon-128x128.png"
+      sizes="128x128"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/favicon-196x196.png"
+      sizes="196x196"
+    />
+
+    <meta name="build" content="staging, 9/16/2020@10.30pst" />
+
+    <meta name="msapplication-TileColor" content="#191919" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="/mstile-70x70.png" />
+    <meta
+      name="msapplication-square150x150logo"
+      content="/mstile-150x150.png"
+    />
+    <meta name="msapplication-wide310x150logo" content="/mstile-310x150.png" />
+    <meta
+      name="msapplication-square310x310logo"
+      content="/mstile-310x310.png"
+    />
+    <meta name="theme-color" content="#191919" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=rot9w84nickkz8pmsnsdcoe095jobjx65oqhnhvh4j1w1c50"></script>
+    <script>
+      UPLOADCARE_PUBLIC_KEY = "b252c6ab3f7b886e9777";
+    </script>
+
+    <!--<script charset="utf-8" src="data/uploadCare/uploadCare.min.js"></script>-->
+    <script
+      charset="utf-8"
+      src="//ucarecdn.com/libs/widget/3.2.1/uploadcare.full.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        window.sib = { equeue: [], client_key: "oqe3edxp1h3yj2p1mcygq" };
+        /* OPTIONAL: email for identify request*/
+        // window.sib.email_id = 'example@domain.com';
+        window.sendinblue = {};
+        for (
+          var j = ["track", "identify", "trackLink", "page"], i = 0;
+          i < j.length;
+          i++
+        ) {
+          (function (k) {
+            window.sendinblue[k] = function () {
+              var arg = Array.prototype.slice.call(arguments);
+              (
+                window.sib[k] ||
+                function () {
+                  var t = {};
+                  t[k] = arg;
+                  window.sib.equeue.push(t);
+                }
+              )(arg[0], arg[1], arg[2]);
+            };
+          })(j[i]);
+        }
+        var n = document.createElement("script"),
+          i = document.getElementsByTagName("script")[0];
+        (n.type = "text/javascript"),
+          (n.id = "sendinblue-js"),
+          (n.async = !0),
+          (n.src =
+            "https://sibautomation.com/sa.js?key=" + window.sib.client_key),
+          i.parentNode.insertBefore(n, i),
+          window.sendinblue.page();
+      })();
+    </script>
+    <!--    <script type="text/javascript">-->
+    <!--        !function(f,b,e,v,n,t,s)-->
+    <!--        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?-->
+    <!--            n.callMethod.apply(n,arguments):n.queue.push(arguments)};-->
+    <!--        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';-->
+    <!--        n.queue=[];t=b.createElement(e);t.async=!0;-->
+    <!--        t.src=v;s=b.getElementsByTagName(e)[0];-->
+    <!--        s.parentNode.insertBefore(t,s)}(window,document,'script',-->
+    <!--            'https://connect.facebook.net/en_US/fbevents.js');-->
+
+    <!--        fbq('init', '657839911622589');-->
+    <!--        fbq('track', 'PageView');-->
+    <!--    </script>-->
+    <script type="text/javascript">
+      window.$crisp = [];
+      window.CRISP_WEBSITE_ID = "6654a69d-6735-4924-b494-a82c353b86ad";
+      (function () {
+        d = document;
+        s = d.createElement("script");
+        s.src = "https://client.crisp.chat/l.js";
+        s.async = 1;
+        d.getElementsByTagName("head")[0].appendChild(s);
+      })();
+      $crisp.push(["safe", true]);
+    </script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "AW-667973581");
+    </script>
+    <!-- Allow installing the app to the homescreen -->
+    <link rel="manifest" href="manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <title>Gamesmith</title>
+  </head>
+  <body>
+    <!-- The app hooks into this div -->
+    <div id="app" style="background-color: #1c1c1c; overflow-x: hidden"></div>
+    <!-- A lot of magic happens in this file. HtmlWebpackPlugin automatically includes all assets (e.g. bundle.js, main.css) with the correct HTML tags, which is why they are missing in this HTML file. Don't add any assets here! (Check out webpackconfig.js if you want to know more) -->
+    <!--    <script type="text/javascript">-->
+    <!--      var _scq = _scq || [];-->
+    <!--      var _scs = _scs || {};-->
+    <!--      _scs.teamId = "Wuedwy0HyorkiSkTnghbKc";-->
+
+    <!--      (function() {-->
+    <!--        var dc = document.createElement('script');-->
+    <!--        dc.type = 'text/javascript';-->
+    <!--        dc.async = true;-->
+    <!--        dc.src = '//cdn.sendx.io/prod/Wuedwy0HyorkiSkTnghbKc.js';-->
+    <!--        var s = document.getElementsByTagName('script')[0];-->
+    <!--        s.parentNode.insertBefore(dc, s);-->
+    <!--      })();-->
+    <!--    </script>-->
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript">
+      (function (document) {
+        var s, h;
+        s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        s.src =
+          window.location.origin + "/Gamesmith_analytics.js?id=UA-157431594-1";
+        h = document.getElementsByTagName("head")[0];
+        h.appendChild(s);
+      })(document);
+    </script>
+
+    <script type="text/javascript">
+      (function (d, m) {
+        var s, h;
+        s = document.createElement("script");
+        s.type = "text/javascript";
+        s.async = true;
+        // s.src="https://apps.applozic.com/sidebox.app";
+        s.src = window.location.origin + "/applozic/sidebox.js";
+        h = document.getElementsByTagName("head")[0];
+        h.appendChild(s);
+        window.applozic = m;
+        m.init = function (t) {
+          m._globals = t;
+        };
+      })(document, window.applozic || {});
+    </script>
+  </body>
+</html>

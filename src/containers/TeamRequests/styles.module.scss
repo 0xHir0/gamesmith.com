@@ -1,0 +1,66 @@
+/*
+ * Team Requests styles
+ */
+
+.root {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.top,
+.nav,
+.requests {
+  margin: auto;
+  max-width: 68rem;
+}
+
+.top {
+  padding: 0 2rem;
+  margin: 2rem auto;
+  h1 {
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+.requests {
+  padding: 0.5rem 2rem 2.5rem;
+}
+
+.nav {
+  height: 4rem;
+  display: flex;
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #323232;
+  i {
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .root {
+    padding-top: 5rem;
+  }
+  .top {
+    margin: 2rem auto 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .top {
+    margin: 2.5rem auto 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav {
+    width: 100%;
+    border: none;
+    left: 50%;
+    top: 7.25rem;
+    position: absolute;
+    transform: translateX(-50%);
+  }
+}

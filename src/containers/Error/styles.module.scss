@@ -1,0 +1,38 @@
+/*
+ * Error styles
+ */
+
+.root {
+  padding: 6rem 2rem 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h3 {
+    font-size: 1.75rem;
+    margin: 0 0 1rem;
+  }
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 2.5rem;
+  }
+  a {
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.6rem 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .root {
+    padding: 7rem 2rem 1rem;
+    h3 {
+      font-size: 2rem;
+      margin: 0 0 1.5rem;
+    }
+    p {
+      margin-bottom: 3rem;
+    }
+  }
+}

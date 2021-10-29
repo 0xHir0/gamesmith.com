@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 13 23" style="enable-background:new 0 0 13 23;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:0.88;}
+</style>
+<title>phone</title>
+<desc>Created with Sketch.</desc>
+<g id="Symbols">
+	<g transform="translate(-423.000000, -82.000000)">
+		<g id="icons" transform="translate(277.000000, 83.000000)">
+			<g id="phone" transform="translate(141.914784, 0.000000)">
+				<g id="Group" transform="translate(4.404040, 0.000000)">
+					<path id="Shape" class="st0" d="M9.9,0.4H2.2c-1,0-1.8,0.8-1.8,1.8v16.6c0,1,0.8,1.8,1.8,1.8h7.7c1,0,1.8-0.8,1.8-1.8V2.2
+						C11.7,1.2,10.9,0.4,9.9,0.4L9.9,0.4z"/>
+					<ellipse id="Oval" class="st0" cx="6" cy="18.4" rx="1" ry="1"/>
+					<rect id="Rectangle-path" x="0.4" y="3.1" class="st0" width="11.2" height="13.1"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,35 @@
+/*
+ * Gamex constants
+ */
+
+export const GAME_REQUEST = "app/Game/GAME_REQUEST";
+export const GAME_SUCCESS = "app/Game/GAME_SUCCESS";
+export const GAME_ERROR = "app/Game/GAME_ERROR";
+
+export const GAME_MAKERS_REQUEST = "app/Game/GAME_MAKERS_REQUEST";
+export const GAME_MAKERS_SUCCESS = "app/Game/GAME_MAKERS_SUCCESS";
+export const GAME_MAKERS_ERROR = "app/Game/GAME_MAKERS_ERROR";
+
+export const GAME_INFORMATION_REQUEST = "app/Game/GAME_INFORMATION_REQUEST";
+export const GAME_INFORMATION_SUCCESS = "app/Game/GAME_INFORMATION_SUCCESS";
+export const GAME_INFORMATION_ERROR = "app/Game/GAME_INFORMATION_ERROR";
+
+// export const GAME_MAKERS_SUCCESS = 'app/Game/GAME_MAKERS_SUCCESS';
+// export const GAME_MAKERS_ERROR = 'app/Game/GAME_MAKERS_ERROR';
+
+export const NEXT_PAGE_REQUEST = "app/Game/NEXT_PAGE_REQUEST";
+export const NEXT_PAGE_SUCCESS = "app/Game/NEXT_PAGE_SUCCESS";
+export const NEXT_PAGE_ERROR = "app/Game/NEXT_PAGE_ERROR";
+
+export const CONNECT_SUCCESS = "app/Game/CONNECT_SUCCESS";
+
+export const MAKER_EXPERIENCE_REQUEST = "app/Game/MAKER_EXPERIENCE_REQUEST";
+export const MAKER_EXPERIENCE_SUCCESS = "app/Game/MAKER_EXPERIENCE_SUCCESS";
+export const MAKER_EXPERIENCE_ERROR = "app/Game/MAKER_EXPERIENCE_ERROR";
+
+export const SEARCH_GAME_MAKER_REQUEST = "app/Games/SEARCH_GAME_MAKER_REQUEST";
+export const SEARCH_GAME_MAKER_SUCCESS = "app/Games/SEARCH_GAME_MAKER_SUCCESS";
+export const SEARCH_GAME_MAKER_ERROR = "app/Games/SEARCH_GAME_MAKER_ERROR";
+export const TOGGLE_SEARCH = "app/Game/TOGGLE_SEARCH";
+
+export const CLEAR_GAMES = "app/Games/CLEAR_GAMES";

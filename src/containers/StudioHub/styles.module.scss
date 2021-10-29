@@ -1,0 +1,66 @@
+/*
+ * StudioHub styles
+ */
+
+.root {
+  padding-top: 5rem;
+}
+
+.container {
+  text-align: center;
+}
+
+.logo {
+  width: 4rem;
+  margin-right: 3rem;
+  height: auto;
+}
+
+.footer_logo {
+  width: 4rem;
+  height: auto;
+}
+
+.studio_hub_footer {
+  background-color: #4a4a4a;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-left: 2%;
+  padding-right: 2%;
+  text-align: center;
+}
+
+.footer_heading {
+  color: yellow;
+}
+
+.color_p {
+  color: #727272;
+}
+
+.custom_color {
+  color: #f8e81c;
+  p {
+    color: #f8e81c;
+  }
+}
+
+.top_logo {
+  width: 10%;
+}
+
+.form {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.trusted_by {
+  color: white;
+  margin-top: 2rem;
+}
+
+@media (min-width: 576px) {
+  .root {
+    padding-top: 5rem;
+  }
+}

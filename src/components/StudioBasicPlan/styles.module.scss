@@ -1,0 +1,74 @@
+/*
+ * Studio Basic Plan styles
+ */
+
+.root {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  div:first-child h4 {
+    color: white !important;
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.basic {
+  width: 35%;
+  margin: auto auto;
+  h4 {
+    margin-top: 50px;
+    font-size: 19px;
+  }
+}
+
+:global {
+  .rounded-list {
+    ol {
+      counter-reset: item;
+      margin: 0;
+      padding-left: 0;
+    }
+    ol > li {
+      counter-increment: item;
+      list-style: none inside;
+      margin: 40px 0;
+      overflow: hidden;
+      font-size: 15px !important;
+      line-height: 1.3;
+      text-align: justify;
+      p {
+        margin-top: 5px;
+        padding-left: 40px;
+      }
+    }
+    ol > li:before {
+      content: counter(item);
+      margin-right: 10px;
+      padding: 4px;
+      display: block;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      width: 28px;
+      background: yellow;
+      color: #4a483e;
+      text-align: center;
+      font: 18px "Lato", Helvetica, Arial, sans-serif;
+      font-weight: 25;
+      float: left;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .basic {
+    width: 50% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .basic {
+    width: 70% !important;
+  }
+}

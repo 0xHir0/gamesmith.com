@@ -1,0 +1,92 @@
+/*
+ * Free Filters form styles
+ */
+
+.root {
+  p:first-of-type {
+    margin-bottom: 1rem;
+  }
+  i{
+    padding-right: 10px;
+  }
+  label{
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.searchFilters{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.input{
+  padding-right: 10px;
+  width: 100%;
+}
+
+.searchBtn {
+  min-width: 6rem;
+  height: 45px;
+  margin-top: 25px;
+  padding: 0px;
+  font-size: medium;
+}
+
+.submitBtn{
+  padding-right: 10px;
+}
+
+.clearBtn {
+  color: #E8D603;
+  background: transparent;
+  border: 2px solid #E8D603;
+  height: 45px;
+  margin-top: 25px;
+  padding-top: 0.5rem;
+  min-width: 6rem;
+  font-size: 15px;
+  background: transparent !important;
+  &:hover {
+   color: #E8D603;
+   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+ }
+}
+
+:global {
+  #currCompany, #pastCompany .Select-menu-outer {
+    z-index: 11;
+  }
+   #filters{
+     .Select-input{
+        input{
+          max-width: 160px;
+          min-width: 130px;
+        }
+    }
+  }
+}
+
+.btnDiv{
+  display: flex;
+}
+
+@media (max-width: 860px ) {
+  .root{
+    padding: 1rem;
+  }
+  .searchFilters {
+    margin-top: 20px;
+    display: block;
+    margin-left: 5px;
+  }
+
+  .btnDiv {
+    margin-left: 1.5rem;
+  }
+
+  .clearBtn {
+    padding: 0.7rem 0.3rem;
+  }
+}

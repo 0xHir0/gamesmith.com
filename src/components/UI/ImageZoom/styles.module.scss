@@ -1,0 +1,18 @@
+/*
+ * Image Zoom styles
+ */
+@media (max-width: 576px) {
+  :global {
+    .ril-image-current {
+      transform: none !important;
+    }
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  :global {
+    .ril-image-current {
+      transform: none !important;
+    }
+  }
+}

@@ -1,0 +1,185 @@
+/*
+ * Studio description card styles
+ */
+
+.basicInfo {
+  width: 30%;
+  height: 100%;
+  margin-top: 30px;
+  float: left;
+  margin-left: 10%;
+  text-align: left;
+  display: inline-block;
+  img {
+    /*width: 200px !important;*/
+    height: 160px;
+    margin-bottom: 25%;
+  }
+  span {
+    display: block !important;
+    margin-right: 10px !important;
+    margin-bottom: 20px !important;
+    color: #d8d8d8;
+    /*font-size: 16px;*/
+    i {
+      margin-left: 10px;
+    }
+  }
+  .platforms {
+    width: 100%;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+    img {
+      width: 21px !important;
+      height: 20px !important;
+      margin-bottom: 0 !important;
+    }
+  }
+  .contactInfo {
+    widows: 100% !important;
+    h5 {
+      color: #d8d8d8;
+      margin-bottom: 0px;
+    }
+    p {
+      color: yellow;
+      font-size: 15px;
+      font-style: italic;
+      margin-top: 0px;
+    }
+  }
+}
+
+.basicLicense {
+  margin-top: 6% !important;
+}
+
+.basicLicenseStyle {
+  margin-bottom: 10%;
+}
+
+.websiteImg {
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 10px;
+  margin-bottom: 0px !important;
+}
+
+.edit {
+  height: auto;
+  width: auto;
+  position: absolute;
+  right: 7%;
+  margin-top: 30px;
+  background-color: unset !important;
+  padding: 0px;
+}
+
+.seeAllJobs {
+  margin-bottom: 2rem;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.iconImg {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  a {
+    color: white;
+    font-size: 16px;
+    margin-top: 3px;
+  }
+}
+
+.studioInfo {
+  display: flex !important;
+}
+
+.detailInfo {
+  width: 50%;
+  text-align: left;
+  margin-right: 10%;
+  height: 100%;
+  display: inline-block;
+  h1 {
+    margin-top: 10%;
+    margin-left: 0px !important;
+  }
+}
+
+.messageStudioBtn {
+  color: #2f3236 !important;
+  font-size: 14px;
+  padding: 14px !important;
+  border-radius: 0px !important;
+  min-width: 6rem !important;
+}
+
+@media (max-width: 768px) {
+  .detailInfo {
+    width: 45% !important;
+  }
+  .basicInfo {
+    width: 33% !important;
+  }
+}
+@media (max-width: 576px) {
+  .studioInfo {
+    display: inherit !important;
+  }
+  .detailInfo {
+    width: 70% !important;
+    text-align: justify !important;
+    margin: auto auto !important;
+    h1 {
+      margin: 0px !important;
+      margin-top: 20px !important;
+      text-align: center !important;
+    }
+  }
+  .basicInfo {
+    width: 90% !important;
+    margin: auto auto;
+    text-align: center !important;
+    margin-top: 287px !important;
+    float: none !important;
+    img {
+      margin-bottom: 20px !important;
+    }
+    .platforms {
+      margin-top: 30px !important;
+      margin-bottom: 30px !important;
+    }
+  }
+}
+
+.buttonChat {
+  display: inline-block;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  text-transform: capitalize;
+  padding: 0.5rem 1rem !important;
+  font-size: 0.9rem !important;
+  max-width: 11rem;
+  min-width: 11rem;
+  height: 2.5rem;
+  img {
+    width: 25%;
+    height: auto;
+    margin-right: 1px;
+    float: left;
+  }
+  div {
+    margin-top: 7px;
+  }
+}
+
+.fonts {
+  font-style: normal;
+  font-family: "Mark Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,111 @@
+/*
+ * Calculator Filters form styles
+ */
+
+.root {
+p:first-of-type {
+  margin-bottom: 1rem;
+}
+i{
+  /*padding-right: 10px;*/
+  padding-right: 7px;
+  padding-left: 5px;
+}
+label{
+  font-weight: bold;
+  color: white;
+}
+}
+
+.searchFilters{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.input{
+  padding-right: 10px;
+  width: 100%;
+  min-width: 10px;
+}
+
+.searchBtn {
+  min-width: 8rem;
+  height: 45px;
+  margin-top: 25px;
+  padding: 0px;
+  font-size: medium;
+}
+
+.submitBtn{
+  padding-right: 10px;
+}
+
+.clearBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8e81c;
+  background: transparent;
+  border: 2px solid #f8e81c;
+  border-radius: 6px;
+  height: 45px;
+  margin-top: 25px;
+  padding:0;
+  min-width: 6rem;
+  font-size: 14.4px;
+  background: transparent !important;
+&:hover {
+   color: #E8D603;
+   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+ }
+}
+
+
+/*:global {*/
+/*#sex, #pastCompany .Select-menu-outer {*/
+  /*z-index: 99999;*/
+/*}*/
+/*#filters{*/
+/*.Select-input{*/
+/*input{*/
+  /*max-width: 160px;*/
+  /*!*min-width: 130px;*!*/
+/*}*/
+/*}*/
+/*}*/
+/*}*/
+
+.btnDiv{
+  display: flex;
+}
+
+@media (max-width: 860px ) {
+  .root{
+    padding: 1rem;
+  }
+  .searchFilters {
+    margin-top: 20px;
+    display: block;
+    margin-left: 5px;
+  }
+
+  .btnDiv {
+    margin-left: 1.5rem;
+  }
+
+  .clearBtn {
+    padding: 0.7rem 0.3rem;
+  }
+
+}
+
+@media (max-width: 379px) {
+  .clearBtn {
+    padding: 0.7rem 0.2rem;
+  }
+  .btnDiv {
+    margin-left: 0;
+  }
+
+}

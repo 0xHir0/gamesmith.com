@@ -1,0 +1,214 @@
+/*Recruiter Maker styles*/
+
+.root {
+  background-color: #323232;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  .row {
+    display: flex;
+    align-items: center;
+    .colAvatar {
+      .avatar {
+        width: 5rem;
+        height: 5rem;
+        margin-right: 1rem;
+        margin-bottom: 2rem;
+      }
+    }
+    .colName {
+      .userName {
+        margin-right: 2rem;
+        color: whitesmoke;
+      }
+      .blur {
+        color: transparent;
+        text-shadow: 0 0 10px white;
+      }
+      .employmentType {
+        display: flex;
+        .employmentTypeIcon {
+          width: 20px;
+          height: 20px;
+          margin-right: 1rem;
+        }
+        .employmentTypeText {
+          color: #f6dc34;
+        }
+      }
+    }
+    .colScore {
+      .scoreLine {
+        color: #f6dc34;
+        font-size: 0.9rem;
+        text-align: right;
+      }
+    }
+  }
+  .job {
+    display: flex;
+    .work {
+      width: 20px;
+      height: 20px;
+    }
+    .jobTitle {
+      color: lightgrey;
+      margin: 0 1rem;
+    }
+  }
+  .description {
+    display: flex;
+    margin: 1rem 0;
+    .locIcon {
+      color: whitesmoke;
+      width: 22px;
+      height: 22px;
+      margin-right: 1rem;
+    }
+    .loc {
+      color: lightgrey;
+      margin-right: 2rem;
+    }
+    .blur {
+      color: transparent;
+      text-shadow: 0 0 10px whitesmoke;
+    }
+  }
+  .about {
+    margin-bottom: 1.5rem;
+  }
+  .gameHistory {
+    display: flex;
+    justify-content: space-between;
+    :nth-child(2) {
+      color: #f6dc34;
+    }
+  }
+  .gameCredits{
+    display: inline-flex;
+    align-items: center;
+    .trophy{
+      width: 16px;
+      height: 16px;
+      margin-left: 10px;
+    }
+  }
+  .heading {
+    font-weight: bold;
+    color: ghostwhite;
+    font-size: 1rem;
+  }
+  .paragraph {
+    font-size: 0.9rem;
+  }
+  .see {
+    color: #f6dc34;
+    cursor: pointer;
+  }
+  .moreGames {
+
+  }
+  .button {
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    .ShowMoreButton {
+      background-color: #f6dc34;
+      text-align: center;
+      padding: 0.5rem 0.3rem 0.1rem!important;
+      font-size: 0.75rem !important;
+      font-weight: normal;
+      min-width: 10rem;
+      max-width: 10rem;
+      height: 2.1rem;
+      border: 2px;
+      img {
+        padding: 0;
+        float: left;
+        margin: -3px 2px 1px 20px;
+        width: 22px;
+        height: 22px;
+      }
+    }
+    .contactDetails {
+      background-color: #f6dc34;
+      text-align: center;
+      padding: 0.5rem 0.3rem 0.1rem!important;
+      font-size: 0.75rem !important;
+      font-weight: normal;
+      min-width: 10rem;
+      max-width: 10rem;
+      height: 2.1rem;
+      border: 2px;
+      img {
+        padding: 0;
+        float: left;
+        margin: -3px 2px 1px 3px;
+        width: 22px;
+        height: 22px;
+      }
+    }
+    .messageButton {
+      background-color: #f6dc34;
+      text-align: center;
+      padding: 0.5rem 0.3rem 0.1rem!important;
+      font-size: 0.75rem !important;
+      font-weight: normal;
+      min-width: 10rem;
+      max-width: 10rem;
+      height: 2.1rem;
+      border: 2px;
+      img {
+        padding: 0;
+        float: left;
+        margin: -3px 2px 1px 20px;
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+}
+@media (max-width: 767px){
+  .root {
+    .row {
+      .colAvatar {
+        .avatar {
+          width: 7rem;
+          height: 7rem;
+          margin: 0 auto;
+        }
+      }
+      .colName {
+        .userName {
+          text-align: center;
+        }
+      }
+      .colScore {
+        .scoreLine {
+          font-size: 1rem;
+          color: white;
+          text-align: left;
+        }
+      }
+    }
+    .description {
+      display: flex;
+      flex-direction: column;
+    }
+    .button {
+      display: flex;
+      flex-direction: column;
+      .ShowMoreButton {
+        margin-bottom: 1rem;
+      }
+      .contactDetails {
+        margin-bottom: 1rem;
+      }
+      .messageButton {
+        margin-bottom: 1rem;
+      }
+
+    }
+  }
+}

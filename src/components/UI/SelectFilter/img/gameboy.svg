@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="23px" viewBox="0 0 15 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>gameboy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="fileter-bar/expanded" transform="translate(-509.000000, -82.000000)" stroke="#979797">
+            <g id="icons" transform="translate(277.000000, 83.000000)">
+                <g id="gameboy" transform="translate(232.787879, 0.000000)">
+                    <path d="M11.1471746,0.414575 L2.06494659,0.414575 C0.929058264,0.414575 -3.55271368e-15,1.21485 -3.55271368e-15,2.1919625 L-3.55271368e-15,18.793075 C-3.55271368e-15,19.7707125 0.929058264,20.5702 2.06494659,20.5702 L11.1471746,20.5702 C12.2830629,20.5702 13.2121212,19.7707125 13.2121212,18.793075 L13.2121212,2.191875 C13.2121212,1.2147625 12.2830629,0.414575 11.1471746,0.414575 L11.1471746,0.414575 Z" id="Shape" stroke-width="0.88"></path>
+                    <ellipse id="Oval" stroke-width="0.704" cx="8.25757576" cy="17.1315789" rx="1" ry="1"></ellipse>
+                    <ellipse id="Oval-Copy" stroke-width="0.704" cx="10.459596" cy="16.0263158" rx="1" ry="1"></ellipse>
+                    <rect id="Rectangle-path" stroke-width="0.88" x="1.98180474" y="3.0625" width="9.24848443" height="5.77960526"></rect>
+                    <path d="M3.85353535,14.9210526 L3.85353535,17.1315789" id="Line" stroke-width="1.1" stroke-linecap="square"></path>
+                    <path d="M2.75252525,16.0263158 L4.95454545,16.0263158" id="Line" stroke-width="1.1" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

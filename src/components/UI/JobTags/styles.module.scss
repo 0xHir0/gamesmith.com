@@ -1,0 +1,76 @@
+/*
+ * Tags styles
+ */
+
+.root {
+  width: 100%;
+  color: #ffffff;
+  padding: 2.5rem 0 0.5rem;
+  position: relative;
+  text-align: left;
+  & > div {
+    display: inline-block;
+  }
+  label:not(.tag) {
+    font-size: 0.75rem;
+    top: 0;
+    left: 0;
+    color: #1c1c1c;
+    position: absolute;
+    padding: 0.25rem 0;
+    margin: 0.25rem 0 0;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    pointer-events: none;
+    &[required]::after {
+      content: "*";
+      padding-left: 0.25rem;
+      color: #ffffff;
+    }
+  }
+}
+
+.checkbox {
+  display: none;
+}
+
+.tag {
+  color: #1c1c1c;
+  display: block;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border: 1px solid #1c1c1c;
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0.75rem 0.75rem 0;
+  background: transparent;
+  text-transform: uppercase;
+  font-family: "Mark Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  transition: color 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  &.active {
+    color: #262626;
+    border-color: #ffdd00;
+    background: #ffdd00;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    padding: 2.25rem 0 0.75rem;
+    label:not(.tag) {
+      padding: 0.15rem 0;
+    }
+  }
+  .tag {
+    font-size: 0.85rem;
+    border-radius: 8px;
+    padding: 0.45rem 0.65rem;
+    margin: 0 0.65rem 0.65rem 0;
+  }
+}

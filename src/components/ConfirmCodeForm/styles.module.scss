@@ -1,0 +1,16 @@
+/*
+ * Confirm code form styles
+ */
+
+.root {
+  p:first-of-type {
+    margin-bottom: 1rem;
+  }
+  p {
+    color: #f8e81c;
+  }
+  p:hover {
+    color: white;
+    cursor: pointer;
+  }
+}

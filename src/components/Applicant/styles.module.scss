@@ -1,0 +1,107 @@
+.root {
+  text-align: left;
+  /*padding-top: 10px;*/
+  /*padding-left: 25px;*/
+  margin-bottom: 2px;
+  min-height: 45px;
+  background: #323232;
+  display: flex;
+  p {
+    color: #dddddd;
+    width: 29% !important;
+    /*float: left;*/
+    margin: 10px 10px 10px;
+    a {
+      color: white;
+    }
+  }
+  .action {
+    margin-left: 10px;
+    color: #f8e81c;
+  }
+}
+
+.links {
+  display: flex;
+  margin-top: 10px !important;
+  margin-right: 10px !important;
+  .subLinks {
+    display: flex !important;
+  }
+}
+
+.red {
+  color: red !important;
+}
+.job {
+  color: #818183 !important;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+
+.applicantDropdownContent {
+  :global {
+    .dd-menu,
+    .dd-menu-items {
+      top: 2rem !important;
+      width: 330px !important;
+      left: none !important;
+      transform: translateX(-92%) !important;
+      position: absolute !important;
+      text-align: center;
+      z-index: 10;
+    }
+    .dd-menu,
+    .dd-menu-items a {
+      padding: 12px 16px !important;
+      display: block !important;
+    }
+  }
+}
+.applicantDropdownContent a:last-child {
+  border-bottom: 2px solid black;
+}
+
+:global {
+  .show {
+    display: block !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .root {
+    padding: 10px;
+    border-radius: 5px;
+    p {
+      width: 300% !important;
+    }
+    div {
+      margin-right: 5px !important;
+    }
+    .links {
+      /*width: 100%;*/
+      /*display: inline-block;*/
+      margin: 0;
+      font-size: large;
+      /*text-align: center;*/
+      /*margin-top: 50px !important;*/
+    }
+  }
+}
+@media (max-width: 576px) {
+  .applicantDropdownContent {
+    :global {
+      .dd-menu,
+      .dd-menu-items {
+        top: 3.7rem !important;
+        width: 300px !important;
+        transform: translateX(-90%) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.outer {
+  height: 110px !important;
+  p {
+    width: 50%;
+    float: right;
+    text-align: justify;
+  }
+}
+.btnUpload {
+  width: 300px !important;
+  height: 100px !important;
+  text-align: center !important;
+  float: left !important;
+  border: 1px dotted !important;
+  border-radius: 20px !important;
+  line-height: 100px;
+}
+
+@media (max-width: 576px) {
+  .outer {
+    p {
+      width: 100% !important;
+    }
+  }
+  .btnUpload {
+    width: 270px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .outer {
+    p {
+      width: 100% !important;
+    }
+  }
+  .btnUpload {
+    margin-bottom: 20px !important;
+  }
+}

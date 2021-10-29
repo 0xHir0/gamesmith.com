@@ -1,0 +1,23 @@
+/*
+ * CompanyEmployees styles
+ */
+
+.root {
+  padding-top: 4rem;
+}
+
+.company_makers {
+  max-width: 1200px;
+  padding: 0.5rem 2rem 2.5rem;
+  margin: auto;
+}
+
+.center_text {
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .root {
+    padding-top: 5rem;
+  }
+}

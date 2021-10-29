@@ -1,0 +1,134 @@
+.star_icon {
+  width: 50px;
+}
+
+.user_list {
+  height: 16rem;
+  overflow: scroll;
+}
+
+.user_icon {
+  margin: 1rem 0 1rem 1rem;
+}
+
+.circle {
+  width: 20px;
+}
+
+.list_container {
+  border-bottom: 1px solid lightgrey;
+  margin-right: 15px;
+}
+
+.list_container > p {
+  font-size: 10px;
+  margin: 3px;
+}
+
+.list_container > img {
+  margin-top: 10px;
+}
+
+.list_container > div {
+  text-align: left !important;
+  padding-left: 5px;
+}
+
+.info_section > h5 {
+  margin-bottom: 2px !important;
+}
+
+.info_section > p {
+  margin-top: 3px !important;
+}
+
+.img_container {
+  display: flex;
+}
+
+.is_requested {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.select_all_btn {
+  cursor: pointer;
+}
+@media (max-width: 3000px) {
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  .searchBar {
+    width: 100%;
+    /*margin-bottom: 2rem;*/
+    height: 2.4rem;
+    display: flex;
+    margin: 0 auto;
+    .searchInput {
+      display: unset;
+      flex: 1;
+      width: 100%;
+      padding: 0.8rem;
+      font-size: 1rem;
+      border: 1px solid #676767;
+      transition: border-color 0.25s;
+      border-radius: 18px;
+      &:hover,
+      &:focus {
+        border-color: #909090;
+      }
+    }
+    .search_icon {
+      margin-left: -3pc;
+      font-size: 1rem;
+      font-weight:100;
+      min-width: 3rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+    }
+  }
+}
+}
+
+
+// .searchBox > .searchBar {
+//   width: 90%;
+//   display: flex;
+//   margin: 0 auto 1rem;
+// }
+
+.searchBar > .searchInput {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  // background-color: #C5C6BB;
+  color: white;
+  flex: 1;
+  font-size: 0.9rem;
+  padding: 0.8rem;
+}
+
+// .searchBar > .search_icon {
+//   background-color: #D5BD00;
+//   min-width: 3rem;
+//   border: black;
+//   color: black;
+//   border-top-right-radius: 5px;
+//   border-bottom-right-radius: 5px;
+// }
+
+// .search_icon:hover {
+//   background-color: #E8D603;
+// }
+
+.text_white {
+  color: white;
+}
+
+.titleMsg {
+  margin-bottom: 3rem;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}

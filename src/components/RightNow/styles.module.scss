@@ -1,0 +1,90 @@
+/*
+ * RightNow styles
+ */
+
+.root {
+  width: 100%;
+  p {
+    max-width: 17rem;
+    margin: 0 auto;
+  }
+}
+
+.user {
+  & > div {
+    position: relative;
+    background: #323232;
+    border-radius: 10px;
+    max-width: 18rem;
+    height: 20rem;
+    margin: 4rem auto 1rem;
+    padding: 2.5rem 1rem 2rem;
+    backface-visibility: hidden;
+    -webkit-filter: blur(0);
+  }
+  img {
+    margin-top: -6rem;
+    max-width: 9rem;
+    border-radius: 50%;
+    position: static;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+  h2 {
+    line-height: 1.2;
+    margin: 2rem 0 0;
+  }
+  h3 {
+    margin: 0.5rem 0 1.5rem;
+  }
+  i {
+    font-size: 0.8em;
+    margin-right: 0.5rem;
+  }
+  .button {
+    margin-top: 1.25rem;
+  }
+}
+
+.slider {
+  margin: 2rem 0;
+  position: relative;
+}
+
+@media (min-width: 576px) {
+  .root p {
+    max-width: none;
+  }
+  .slider {
+    margin: 2rem 0 2.5rem;
+  }
+  .user {
+    & > div {
+      max-width: 80%;
+      height: 20rem;
+      padding-bottom: 2rem;
+    }
+    img {
+      margin-top: -6rem;
+      max-width: 10rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    padding: 1rem 0;
+    h2 {
+      margin-top: 1.75rem;
+    }
+  }
+  .slider {
+    margin: 2.5rem 0 3rem;
+  }
+  .user {
+    & > div {
+      max-width: 85%;
+      height: 20rem;
+      padding-bottom: 2.5rem;
+    }
+  }
+}

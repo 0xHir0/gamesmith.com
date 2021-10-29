@@ -1,0 +1,123 @@
+.main {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.heading {
+  margin-top: 5%;
+  width: 100%;
+  display: block;
+  color: white;
+}
+
+.branding {
+  float: left;
+  width: 40%;
+  margin-bottom: 5%;
+}
+.branding2 {
+  float: left;
+  width: 100%;
+  margin-bottom: 5%;
+
+.brandingPlans {
+  display: flex;
+  margin-top: 15%;
+  margin-left: 15%;
+  border-right: none;
+}
+
+.recruitmentSectionHeading {
+  padding-left: 1rem;
+}
+
+}
+
+.paid {
+  float: right;
+  width: 60%;
+}
+
+.brandingPlans {
+  display: flex;
+  margin-top: 15%;
+  border-right: yellow solid 2px;
+}
+.brandingPlans2{
+  display: block;
+  margin: auto;
+  width: 95%;
+  margin-bottom: 10%;
+}
+
+.buttonMargin{
+ margin-top: 2.18rem;
+}
+
+.buttonMarginPaid{
+  margin-top: 2.2rem;
+}
+
+.paidPlans {
+  display: flex;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.paidPlans2 {
+  display: block;
+  margin: auto;
+  width: 95%;
+}
+.plansContainer {
+   display: flex;
+   align-content: center;
+}
+
+@media (min-width: 1026px) {
+  .recruitmentSectionHeading {
+    padding-left: 0;
+  }
+  .buttonMargin {
+    margin-top: 2.56rem;
+  }
+}
+
+.allPlansContainer {
+  color: white;
+  margin-top: 3rem;
+  align-items: center;
+  align-content: center;
+  .plan {
+    margin: 0 26vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .plans {
+    margin: 0 16vw;
+    display: flex;
+    align-items: center;
+    align-content: center;
+  }
+  .recruitmentPlans {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 722px) and (min-width: 490px) {
+  .allPlansContainer {
+    .plans {
+      margin: 0 5vw;
+    }
+  .recruitmentPlans {
+    margin-top: 2rem;
+  }
+  }
+}
+@media (max-width: 489px) {
+  .allPlansContainer {
+    .plans {
+      display: block;
+  }
+}
+}

@@ -1,0 +1,39 @@
+/*
+  Pending Requests styles
+ */
+
+.root {
+  background-color: #323232;
+  margin: 1rem;
+  padding: 1.2rem;
+  border-radius: 10px;
+  .row {
+    .avatar {
+      margin: 0 auto;
+    }
+  }
+  .verificationLine {
+    padding: 0.6rem;
+    .highlight {
+      color: white;
+      font-weight: bold;
+    }
+    .verification {
+      font-size: 0.9rem;
+    }
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto 2rem;
+    .withdrawButton {
+      background-color: #f6dc34;
+      padding: 0.6rem 0.4rem !important;
+      font-size: 0.7rem !important;
+      min-width: 5rem;
+      max-width: 5rem;
+      border: 2px;
+    }
+  }
+}

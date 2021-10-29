@@ -1,0 +1,52 @@
+/*
+ * Avatar styles
+ */
+
+.wrapper {
+  height: 2.75rem;
+  width: 2.75rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #191919;
+  text-align: -webkit-center;
+  div {
+    color: #f8e81c;
+    line-height: 3;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    align-content: center;
+    width: 100% !important;
+    text-align: center;
+  }
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+_::-webkit-full-page-media,
+_:future,
+:root .safari_only {
+  vertical-align: middle !important;
+}
+
+
+@media (max-width: 768px) {
+  .wrapper div {
+    font-size: 1.2rem;
+  }
+}
+
+.isDisabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  text-decoration: none;
+}
+
+.isEnabled {
+  cursor: auto;
+}

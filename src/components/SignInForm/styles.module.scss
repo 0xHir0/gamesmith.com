@@ -1,0 +1,16 @@
+.root {
+  margin: 0 auto;
+  color: white !important;
+  .ReactModalPortal input[type="text"]::placeholder {
+    color: white !important;
+  }
+}
+@media (max-width: 1150px) {
+  .root {
+    margin: 0 auto;
+  }
+}
+
+.term {
+  padding: 1rem 0;
+}

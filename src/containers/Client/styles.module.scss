@@ -1,0 +1,309 @@
+/*
+ * Client styles
+ */
+
+.root {
+  text-align: center;
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.logo {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.miniHeader {
+  height: 140px;
+  background: white;
+  margin-top: 5rem;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  margin-left: 15% !important;
+  margin-right: 15% !important;
+  text-align: left;
+}
+
+.button {
+  background-color: #edd813;
+  padding: 0.6rem 1rem;
+  border-radius: 20px;
+  text-align: center;
+  text-transform: none;
+  font-size: small;
+  z-index: 3;
+  &:hover {
+    color: black !important;
+  }
+}
+
+.buttonAlt {
+  background-color: transparent;
+  border: solid rgba(0, 0, 0, 1) 1px;
+  font-size: 18px;
+  border-radius: 30px;
+  text-transform: none;
+  padding: 0.6rem 0.7rem;
+  z-index: 3;
+  &:hover {
+    color: #e8d603 !important;
+    background-color: black !important;
+  }
+}
+
+.home {
+  padding: 14.5rem 24% 10rem;
+  background-image: url("./img/hero.jpg");
+  background-size: cover;
+  height: 100vh;
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.34em;
+    font-size: 50px;
+  }
+}
+.innerStudioSection {
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+.build {
+  background-color: #f4dc34;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  display: flex;
+  flex-direction: row;
+  h3,
+  h4 {
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 28px;
+  }
+  p {
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+  }
+  .buildLeft {
+    padding-top: 2%;
+    padding-left: 13%;
+    width: 60%;
+    text-align: left;
+    p {
+      span {
+        color: yellow;
+        cursor: pointer;
+      }
+    }
+  }
+  .buildRight {
+    width: 57.5%;
+    padding-right: 25%;
+    filter: brightness(0.5);
+  }
+}
+
+.work {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: white;
+  h3 {
+    color: black;
+    font-weight: bold;
+  }
+  .workUpperLeft {
+    width: 50%;
+    padding-top: 5%;
+    p {
+      font-size: small;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .workUpperRight {
+    width: 50%;
+  }
+  .workMiddleLeft {
+    width: 50%;
+    margin-left: 40px;
+  }
+  .workMiddleRight {
+    padding-top: 5%;
+    width: 53%;
+    text-align: right;
+    p {
+      font-size: small;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .workLowerLeft {
+    width: 48%;
+    padding-top: 1rem;
+    p {
+      font-size: small;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+  .workLowerRight {
+    width: 52%;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  .pageLeft {
+    padding-top: 10px;
+    text-align: center;
+    font-size: xx-large;
+    color: yellow;
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      font-weight: lighter;
+    }
+  }
+  .pageRight {
+    padding-left: 5px;
+    p {
+      font-size: small;
+      font-weight: bold;
+      color: yellow;
+    }
+  }
+}
+
+.partnership {
+  background-color: #3e3e3e;
+  padding: 3% 23%;
+  .illogika {
+    padding: 2px 40%;
+  }
+}
+.containerLimit {
+  max-width: 90%;
+  margin: auto;
+  display: flex;
+}
+.clientBGCol {
+  background: #f0f0f0;
+  max-width: 25%;
+  width: 25%;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  margin: 10px;
+  h4,
+  h3 {
+    color: black;
+  }
+  img {
+    max-width: 220px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .work {
+    .workUpperLeft {
+      width: 100%;
+      text-align: left;
+    }
+    .workUpperRight {
+      width: 100%;
+    }
+    .workMiddleLeft {
+      width: 100%;
+      margin-left: 0;
+    }
+    .workMiddleRight {
+      width: 100%;
+      text-align: left;
+    }
+    .workLowerLeft {
+      width: 100%;
+      text-align: left;
+    }
+    .workLowerRight {
+      width: 100%;
+    }
+  }
+  .page {
+    .pageRight {
+      padding-left: 0;
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .home {
+    background-size: auto;
+    height: 100vh;
+    background-position: top;
+  }
+
+  .miniHeader {
+    display: none;
+  }
+  .clientBGCol {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 360px;
+  }
+  .buttonContainer {
+    text-align: center;
+  }
+  .containerLimit {
+    display: block;
+  }
+  .work h3 {
+    margin-top: 20px;
+  }
+  .buildLeft,
+  .buildRight {
+    min-width: 100%;
+    text-align: center;
+    h3 {
+      font-size: 30px;
+    }
+    h3,
+    p,
+    h4 {
+      text-align: center;
+    }
+  }
+  .buildLeft {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+  }
+  .home {
+    padding: 2.5rem 4% 10rem;
+    padding-top: 16rem;
+    h2 {
+      font-size: 38px;
+    }
+  }
+}

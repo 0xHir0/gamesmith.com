@@ -1,0 +1,29 @@
+{
+  "name": "react-youtube-video",
+  "version": "0.0.0",
+  "description": "youtube-video",
+  "main": "dist/react-youtube-video.min.js",
+  "homepage": "https://github.com/sdantuoni/react-youtube-video",
+  "authors": [
+    "Santiago D&#39;Antuoni"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}

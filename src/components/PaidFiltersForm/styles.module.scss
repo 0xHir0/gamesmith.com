@@ -1,0 +1,531 @@
+/*
+ * Paid Filters form styles
+ */
+.root {
+  margin-top: 2rem;
+}
+
+@media (min-width: 900px) {
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    .searchBar {
+      width: 100%;
+      /*margin-bottom: 2rem;*/
+      height: 2.4rem;
+      display: flex;
+      margin: 0 auto;
+      .searchInput {
+        display: unset;
+        flex: 1;
+        padding: 0.8rem;
+        font-size: 1rem;
+        border: 1px solid #676767;
+        transition: border-color 0.25s;
+        border-radius: 18px;
+        &:hover,
+        &:focus {
+          border-color: #909090;
+        }
+      }
+      .search_icon {
+        margin-left: -4.2%;
+        font-size: 1rem;
+        font-weight:100;
+      }
+    }
+    .filterButton {
+      background-image: url("./img/option.png");
+      background-position: 1rem;
+      background-repeat: no-repeat;
+      margin-left: 2rem;
+      /*margin-bottom: 2rem;*/
+      background-color: #d5bd00;
+      padding: 0.5rem 0 0.5rem 1rem !important;
+      font-size: 0.9rem !important;
+      text-transform: none;
+      min-width: 7rem;
+    }
+  }
+  .filters {
+    background: #262626;
+    margin-top: 2rem;
+    .row {
+      display: flex;
+      flex-direction: row;
+    }
+    .JobCheck {
+      width: 25%;
+      .betaButton {
+        display: flex;
+        flex-direction: row;
+        .btn {
+          min-width: auto;
+          padding: 0.1rem !important;
+          margin: 1.5rem 0.3rem;
+          border-radius: 20px;
+          text-transform: none;
+          font-size: 0.7rem;
+          position: relative;
+          z-index: 101;
+        }
+      }
+      .blurr {
+        position: absolute;
+        -webkit-backdrop-filter: blur(1.5px);
+        backdrop-filter: blur(1.5px);
+        z-index: 100;
+      }
+      h5 {
+        padding-left: 0.8rem;
+        font-weight: lighter;
+        text-align: left;
+        font-size: medium;
+      }
+      .seeMore {
+        padding-left: 0.8rem;
+        color: yellow;
+        font-size: medium;
+        cursor: pointer;
+      }
+      li {
+        font-size: 0.9rem;
+        font-weight: lighter;
+        text-align: left;
+        margin: 0.5rem 0;
+        cursor: pointer;
+        display: flex;
+      }
+      ul li .check {
+        border: 1px solid white;
+        border-radius: 100%;
+        height: 1rem;
+        width: 1rem;
+        margin-right: 0.6rem;
+        transition: border 0.25s;
+        -webkit-transition: border 0.25s;
+      }
+      ul li:hover .check {
+        border: 1px solid yellow;
+      }
+      ul li:checked .check {
+        border: 1px solid yellow;
+      }
+      ul li .check::before {
+        display: block;
+        position: relative;
+        top: 2px;
+        content: "";
+        border-radius: 100%;
+        height: 0.6rem;
+        width: 0.6rem;
+        margin: auto;
+        transition: background 0.25s;
+        -webkit-transition: background 0.25s;
+        cursor: pointer;
+      }
+      ul li:hover .check::before {
+        background-color: yellow;
+      }
+      ul li:checked ~ .check {
+        border: 1px solid yellow;
+      }
+      input[type="radio"]:checked ~ .check::before {
+        background-color: yellow;
+      }
+      input[type="radio"]:checked ~ .check {
+        border: 1px solid yellow;
+      }
+      ul li input[type="radio"] {
+        visibility: hidden;
+      }
+      p {
+        padding-left: 0.8rem;
+        display: flex;
+      }
+    }
+    .JobFamily {
+      width: 25%;
+      padding-left: 0.8rem;
+      .input {
+        width: 90%;
+        margin-top: 2rem;
+      }
+      /*.button {*/
+      /*  margin: 4rem 0 1rem;*/
+      /*  padding: 0.7rem !important;*/
+      /*  font-size: 0.8rem !important;*/
+      /*  text-transform: none;*/
+      /*  min-width: 7rem;*/
+      /*  float: left;*/
+      /*  border: none;*/
+      /*}*/
+    }
+    .searchButtons {
+      .button {
+        margin: 4rem 0.8rem 1rem;
+        padding: 0.7rem !important;
+        font-size: 0.8rem !important;
+        text-transform: none;
+        min-width: 7rem;
+        float: left;
+        border: none;
+      }
+    }
+  }
+  .filters2 {
+    margin-top: 1.5rem;
+    .divider {
+      margin-top: 1rem;
+      float: right;
+      .searchedLabel {
+        font-size: 0.9rem;
+      }
+      .filterIcon {
+        color: #f8e81c;
+        padding-left: 0.5rem;
+      }
+      .SortBylist {
+        z-index: 21;
+        margin-top: 1rem;
+        padding: 0.5rem;
+        border-radius: 2%;
+        background: #262626;
+        position: absolute;
+        width: 11.1rem;
+      }
+      li {
+        font-size: 0.9rem;
+        font-weight: lighter;
+        text-align: left;
+        margin: 1rem 0;
+        cursor: pointer;
+        display: flex;
+      }
+      li .circle {
+        border: 1px solid white;
+        border-radius: 100%;
+        height: 1rem;
+        width: 1rem;
+        margin-right: 0.5rem;
+        transition: border 0.25s;
+        -webkit-transition: border 0.25s;
+      }
+      li:hover .circle {
+        border: 1px solid yellow;
+        background-color: yellow;
+      }
+      input[type="radio"]:checked ~ .circle {
+        border: 1px solid yellow;
+        background-color: yellow;
+      }
+      li input[type="radio"] {
+        visibility: hidden;
+      }
+    }
+    .workCategories {
+      float: left;
+      .search {
+        .button2 {
+          display: inline-block !important;
+          -webkit-appearance: none !important;
+          appearance: none !important;
+          cursor: pointer;
+          position: relative;
+          text-transform: none;
+          padding: 0.6rem 2rem !important;
+          font-size: 0.9rem;
+          border: 1px solid white;
+          color: white;
+          border-radius: 2rem;
+        }
+        .filterBox {
+          z-index: 21;
+        }
+        .workCategoriesList {
+          z-index: 21;
+          margin-top: 1rem;
+          padding: 1rem 0;
+          border-radius: 6%;
+          border: 1px solid white;
+          background: #191919;
+          position: absolute;
+          width: 18rem;
+        }
+        .radioButton {
+          width: 22px;
+          height: 22px;
+          margin: 0 10px;
+        }
+        li {
+          padding: 0.2rem 1rem;
+          font-size: 0.9rem;
+          font-weight: lighter;
+          text-align: left;
+          margin: 1.5rem 0;
+          cursor: pointer;
+          display: flex;
+        }
+        .hr {
+          border-top: 1px solid whitesmoke;
+        }
+        .clear {
+          float: left;
+          margin: 1rem 1rem 0;
+          color: white !important;
+          border-bottom: 1px solid white;
+          font-size: 0.8rem;
+        }
+        .saveButton {
+          float: right;
+          margin: 0.5rem 1rem 0;
+          border: 1rem;
+          padding: 0.5rem 0.2rem !important;
+          font-size: 0.8rem !important;
+          min-width: 79px !important;
+          text-transform: none;
+        }
+        /*li .square {*/
+        /*  border: 1px solid white;*/
+        /*  height: 1rem;*/
+        /*  width: 1rem;*/
+        /*  margin-right: 1rem;*/
+        /*  transition: border 0.25s;*/
+        /*  -webkit-transition: border 0.25s;*/
+        /*}*/
+        /*li:hover .square {*/
+        /*  border: 1px solid yellow;*/
+        /*  background-color: yellow;*/
+        /*}*/
+        /*input[type='radio']:checked ~ .square {*/
+        /*  border: 1px solid yellow;*/
+        /*  background-color: yellow;*/
+        /*}*/
+        /*li input[type=radio] {*/
+        /*  visibility: hidden;*/
+        /*}*/
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .searchBox {
+    display: flex;
+    flex-direction: row;
+    .searchBar {
+      width: 100%;
+      /*margin-bottom: 2rem;*/
+      height: 2.4rem;
+      display: flex;
+      margin: 0 auto;
+      .searchInput {
+        display: unset;
+        flex: 1;
+        padding: 0.8rem;
+        font-size: 1rem;
+        border: 1px solid #676767;
+        transition: border-color 0.25s;
+        border-radius: 9px;
+        &:hover,
+        &:focus {
+          border-color: #909090;
+        }
+      }
+      .search_icon {
+        margin-left: -9%;
+        font-size: 1rem;
+        font-weight:100;
+      }
+    }
+    .filterButton {
+      background-image: url("./img/option.png");
+      background-position: 1rem;
+      background-repeat: no-repeat;
+      margin-left: 2rem;
+      /*margin-bottom: 2rem;*/
+      background-color: #d5bd00;
+      padding: 0.5rem 0 0.5rem 1rem !important;
+      font-size: 0.9rem !important;
+      text-transform: none;
+      min-width: 7rem;
+    }
+  }
+  .filters {
+    margin-top: 1rem;
+    .row {
+      display: flex;
+      flex-direction: column;
+    }
+    .JobCheck {
+      width: 100%;
+      .betaButton {
+        display: flex;
+        flex-direction: row;
+        .btn {
+          min-width: auto;
+          padding: 0 !important;
+          margin: 1.8rem 0 1.8rem 0.2rem;
+          border-radius: 40px;
+          text-transform: none;
+          font-size: x-small;
+          position: relative;
+          z-index: 101;
+        }
+      }
+      .blurr {
+        position: absolute;
+        -webkit-backdrop-filter: blur(1.5px);
+        backdrop-filter: blur(1.5px);
+        z-index: 100;
+      }
+      h5 {
+        padding-left: 1.5rem;
+        font-weight: lighter;
+        text-align: left;
+        font-size: medium;
+      }
+      .seeMore {
+        padding-left: 1.5rem;
+        color: yellow;
+        font-size: medium;
+        cursor: pointer;
+      }
+      ul {
+        padding: 0 1rem;
+      }
+      li {
+        font-size: 1rem;
+        font-weight: lighter;
+        text-align: left;
+        margin: 0;
+        padding: 0.3rem 0;
+        cursor: pointer;
+        display: flex;
+      }
+      ul li .check {
+        border: 1px solid white;
+        border-radius: 100%;
+        height: 1rem;
+        width: 1rem;
+        margin-right: 0.6rem;
+        transition: border 0.25s;
+        -webkit-transition: border 0.25s;
+      }
+      ul li:hover .check {
+        border: 1px solid yellow;
+      }
+      ul li:checked .check {
+        border: 1px solid yellow;
+      }
+      ul li .check::before {
+        display: block;
+        position: relative;
+        top: 2px;
+        content: "";
+        border-radius: 100%;
+        height: 0.6rem;
+        width: 0.6rem;
+        margin: auto;
+        transition: background 0.25s;
+        -webkit-transition: background 0.25s;
+        cursor: pointer;
+      }
+      ul li:hover .check::before {
+        background-color: yellow;
+      }
+      ul li:checked ~ .check {
+        border: 1px solid yellow;
+      }
+      input[type="radio"]:checked ~ .check::before {
+        background-color: yellow;
+      }
+      input[type="radio"]:checked ~ .check {
+        border: 1px solid yellow;
+      }
+      ul li input[type="radio"] {
+        visibility: hidden;
+      }
+      p {
+        padding-left: 0.8rem;
+        display: flex;
+      }
+    }
+    .JobFamily {
+      width: 100%;
+      padding-left: 1.5rem;
+      .input {
+        width: 90%;
+        margin-top: 1rem;
+      }
+      /*.button {*/
+      /*  margin: 4rem 0 1rem;*/
+      /*  padding: 0.7rem !important;*/
+      /*  font-size: 0.8rem !important;*/
+      /*  text-transform: none;*/
+      /*  min-width: 7rem;*/
+      /*  float: left;*/
+      /*  border: none;*/
+      /*}*/
+    }
+    .searchButtons {
+      .button {
+        margin: 4rem 0.8rem 1rem;
+        padding: 0.7rem !important;
+        font-size: 0.8rem !important;
+        text-transform: none;
+        min-width: 7rem;
+        float: left;
+        border: none;
+      }
+    }
+  }
+  .divider {
+    float: right;
+    position: relative;
+    z-index: 21;
+    .searchedLabel {
+      font-size: 0.9rem;
+    }
+    .filterIcon {
+      color: yellow;
+      padding-left: 0.5rem;
+    }
+    .SortBylist {
+      margin-top: 1rem;
+      padding: 0.3rem;
+      border-radius: 2%;
+      background: #262626;
+      width: 11.3rem;
+    }
+    li {
+      font-size: 0.9rem;
+      font-weight: lighter;
+      text-align: left;
+      margin: 0.2rem;
+      padding: 0.5rem 0 !important;
+      cursor: pointer;
+      display: flex;
+    }
+    li .circle {
+      border: 1px solid white;
+      border-radius: 100%;
+      height: 1rem;
+      width: 1rem;
+      margin-right: 0.5rem;
+      transition: border 0.25s;
+      -webkit-transition: border 0.25s;
+    }
+    li:hover .circle {
+      border: 1px solid yellow;
+      background-color: yellow;
+    }
+    input[type="radio"]:checked ~ .circle {
+      border: 1px solid yellow;
+      background-color: yellow;
+    }
+    li input[type="radio"] {
+      visibility: hidden;
+    }
+  }
+}

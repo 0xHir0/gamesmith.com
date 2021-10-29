@@ -1,0 +1,74 @@
+/*
+ * Studio card styles
+ */
+
+.full {
+  width: 95%;
+  background-size: cover;
+  margin: auto auto 10px;
+}
+
+.full {
+  background-position: 30%;
+  text-align: center;
+  height: 20rem;
+  align-items: center;
+  justify-content: center;
+  .outer {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: rgba(20, 24, 27, 0.73);
+    clip-path: polygon(46% 0%, 100% -1%, 100% 100%, 0 100%);
+  }
+  .inner {
+    width: 50%;
+    height: 100%;
+    margin-right: 20px;
+    float: right;
+    img {
+      width: 150px !important;
+      height: 150px !important;
+      padding: 5% !important;
+      margin-top: 25% !important;
+    }
+    .location {
+      font-size: 15px;
+    }
+    .size {
+      position: relative;
+      bottom: 3px;
+      width: 90%;
+    }
+    i {
+      font-size: 25px;
+      padding-right: 15px;
+    }
+    h4 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      color: white !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .full {
+    .inner {
+      width: 100%;
+      height: 100%;
+      margin: 0px !important;
+      float: none !important;
+      img {
+        margin-top: 6% !important;
+      }
+    }
+    .outer {
+      width: 100%;
+      height: 100%;
+      background: rgba(20, 24, 27, 0.5);
+      -webkit-clip-path: none !important;
+      clip-path: none !important;
+    }
+  }
+}

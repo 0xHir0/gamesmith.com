@@ -1,0 +1,153 @@
+.center {
+  h1 {
+    margin-bottom: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .button {
+    margin-top: 0.5rem;
+    padding: 1rem 6.5rem;
+    &:hover,
+    &:focus {
+      opacity: 1;
+    }
+  }
+}
+img.resize {
+  width: 540xp !important;
+  height: auto;
+}
+.content {
+  overflow: hidden;
+}
+.center {
+  padding-top: 18%;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .centerSignIn {
+    padding-left: 19% !important;
+    padding-top: 20% !important;
+  }
+  .center {
+    padding-left: 7%;
+    padding-right: 14%;
+    padding-top: 14%;
+    h1 {
+      font-size: 2rem !important;
+    }
+  }
+  .companyInfo {
+    color: #ffffff !important;
+    font-weight: 300;
+  }
+}
+@media (max-width: 576px) {
+  .center {
+    padding-right: 1%;
+    padding-top: 11% !important;
+    width: 100%;
+
+    .button {
+      padding: 0.6rem 5rem;
+    }
+    .slider_text {
+      font-weight: 700 !important;
+    }
+    .companyInfo {
+      margin-left: 12px;
+      color: #ffff !important;
+      font-weight: 300;
+      font-size: 1rem !important;
+    }
+    .button {
+      padding: 0.6rem 5rem;
+      font-weight: 500;
+    }
+    h1 {
+      font-size: 2rem !important;
+    }
+  }
+  .centerSignIn {
+    /*padding-left: 19% !important;*/
+    padding-top: 20% !important;
+  }
+}
+@media (max-width: 576px) {
+  .content > img {
+    height: 24rem;
+    object-fit: cover;
+    /*width: 100%;*/
+  }
+  .slider_text {
+    font-size: 2.15rem !important;
+    margin-left: 0rem;
+  }
+}
+@media (min-width: 768px) {
+  .center {
+    padding-right: 19%;
+    padding-left: 20%;
+  }
+  .slider_text {
+    font-size: 2.75rem !important;
+    margin-left: 0.85rem;
+  }
+  .companyInfo {
+    font-family: Mark Pro, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+    margin: 3rem 0;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #ffffff;
+  }
+}
+@media (min-width: 544px) and (max-width: 564px) {
+  .center {
+    padding-left: 7% !important;
+    padding-right: 7% !important;
+    padding-top: 16% !important;
+  }
+  .companyInfo {
+    color: #ffffff !important;
+    font-weight: 300;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .center {
+    padding-top: 10% !important;
+  }
+  .centerSignIn {
+    padding-top: 20% !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .centerSignIn {
+    margin-left: 6% !important;
+  }
+  .center {
+    padding-top: 17% !important;
+  }
+}
+@media (min-width: 1501px) and (max-width: 2500px) {
+  .centerSignIn {
+    margin-left: 8% !important;
+  }
+  .center {
+    padding-top: 17% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 810px) {
+  .companyInfo {
+    margin-top: 2rem !important;
+  }
+}
+@media (min-width: 964px) and (max-width: 1064px) {
+  .center {
+    padding-top: 14% !important;
+  }
+}

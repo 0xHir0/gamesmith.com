@@ -1,0 +1,42 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.container {
+  margin: 1.5rem 1.5rem 2rem;
+  padding: 2rem;
+  background-color: #323232;
+  border-radius: 10px;
+  .logo {
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem auto;
+    }
+  .title {
+    color: white;
+    }
+  .content {
+    padding: 0.3rem 0;
+    display: flex;
+    flex-direction: row;
+    .icon {
+      margin: auto 0.4rem auto 0;
+    }
+    .info {
+      margin: 0.2rem 0;
+      text-align: left;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 1150px) {
+  .container {
+    width: 50%;
+    text-align: center;
+  }
+  .content {
+    margin: 0 auto;
+  }
+}

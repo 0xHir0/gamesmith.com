@@ -1,0 +1,47 @@
+
+
+.root{
+  max-width: 75%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  text-align: left;
+}
+@media (max-width: 544px){
+  .root{
+    max-width: 75%;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+  }
+  .customMargin{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-right: 0 !important;
+  }
+  .planHeading{
+    text-align: center;
+  }
+
+}
+.planMargin{
+  margin-top: 5rem !important;
+}
+@media (min-width: 544px) {
+  .customMargin{
+    padding-right: 3rem;
+
+  }
+}
+
+.customMargin{
+  padding-right: 3rem;
+  padding-top: 1rem;
+}
+.yellow{
+  color: yellow;
+}
+h5 {
+  margin-top: 0;
+}
+ul {
+  list-style: inherit;
+}

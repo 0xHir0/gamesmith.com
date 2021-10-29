@@ -1,0 +1,50 @@
+.root {
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  label:not(.tag) {
+    font-size: 0.75rem;
+    color: #1c1c1c;
+    position: absolute;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    pointer-events: none;
+    &[required]::after {
+      content: "*";
+      color: #ffffff;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .root {
+    padding: 1rem 0 0.5rem;
+    label:not(.tag) {
+      padding: 0.1rem 0;
+    }
+  }
+}
+
+.font {
+  font-size: 0.8rem;
+  display: inline-block;
+  min-width: 75px;
+  text-align: left;
+}
+.row {
+  margin: 1.5rem 0 1rem;
+}
+
+.col {
+  text-align: left;
+  margin: 0.8rem 0;
+}
+
+.checkbox {
+  display: none;
+}
+
+.radioButton {
+  width: 18px;
+  height: 18px;
+  margin: 0 8px;
+}

@@ -1,0 +1,23 @@
+/*
+ * Forum styles
+ */
+
+.root {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 4rem;
+  h2 {
+    font-size: 1.5rem;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+}
+
+@media (min-width: 576px) {
+  .root {
+    padding-top: 5rem;
+  }
+}

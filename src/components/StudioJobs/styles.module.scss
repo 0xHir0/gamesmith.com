@@ -1,0 +1,36 @@
+.root {
+  margin-top: 3rem;
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    .center {
+      margin: 2rem auto;
+    }
+  }
+  .col {
+    width: 33.33%;
+  }
+  .heading {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1150px) {
+  .root {
+    .row {
+      display: flex;
+      flex-direction: column;
+      .center {
+      margin: 2rem auto;
+      }
+    }
+    .col {
+      width: 80%;
+      margin: auto;
+    }
+  .heading {
+    margin-top: 2rem;
+  }
+  }
+}

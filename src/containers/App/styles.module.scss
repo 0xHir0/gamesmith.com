@@ -1,0 +1,290 @@
+@import "sanitize.css/sanitize.css";
+@import "styles/font-awesome.css";
+@import "styles/icons.css";
+@import "styles/grid.css";
+@import "styles/slider.css";
+
+/* stylelint-disable */
+
+/*
+ * Mark Pro Web fonts
+ */
+/*
+ * Mark Pro Web fonts
+ */
+@font-face {
+  font-family: "FontAwesome";
+  src: url("./fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("./fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
+      format("embedded-opentype"),
+    url("./fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
+    url("./fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
+    url("./fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
+    url("./fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Mark Pro"), url("./fonts/markpro-reg.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Mark Pro"), url("./fonts/markpro-med.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Mark Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Mark Pro"), url("./fonts/markpro-bold.woff") format("woff");
+}
+
+/*
+ * Icon font
+ */
+
+@font-face {
+  font-family: "gamesmith";
+  src: url("./fonts/gamesmith.eot?g5dr0a");
+  src: url("./fonts/gamesmith.eot?g5dr0a#iefix") format("embedded-opentype"),
+    url("./fonts/gamesmith.ttf?g5dr0a") format("truetype"),
+    url("./fonts/gamesmith.woff?g5dr0a") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+ * App styles
+ */
+
+.root {
+  /* */
+}
+
+/*
+ * Global styles
+ */
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+body {
+  width: 100%;
+  color: #ffffff;
+  background: #191919 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 4.5rem);
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+  margin: 1rem 0;
+  font-size: 1.75rem;
+}
+
+h3,
+h4 {
+  margin: 0.5rem 0;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h4 {
+  color: #c3c3c3;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  cursor: pointer;
+  color: #f8e81c;
+  text-decoration: none;
+  transition: color 0.25s ease-out;
+  &:hover,
+  &:focus {
+    color: #f8e81c;
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+p {
+  color: #c3c3c3;
+  margin: 0.75rem 0;
+}
+:global {
+  .hidden {
+    display: none !important;
+    visibility: hidden;
+  }
+  .divLink {
+    cursor: pointer !important;
+    margin-right: 0.5rem;
+    display: inline-block;
+    * {
+      cursor: pointer !important;
+    }
+  }
+
+  .loader > div {
+    background-color: #ffdd00;
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 100%;
+    margin: 2px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+    -webkit-animation: loading 0.7s 0s infinite linear;
+    animation: loading 0.7s 0s infinite linear;
+  }
+
+  .loader > div:nth-child(2n-1) {
+    -webkit-animation-delay: -0.35s !important;
+    animation-delay: -0.35s !important;
+  }
+
+  .fa-lg {
+    font-size: 1.33333333em !important;
+    line-height: 0.75em !important;
+    vertical-align: -15% !important;
+  }
+
+  .fa-2x {
+    font-size: 2em !important;
+  }
+
+  .fa-3x {
+    font-size: 3em !important;
+  }
+
+  .fa-4x {
+    font-size: 4em !important;
+  }
+
+  .fa-5x {
+    font-size: 5em !important;
+  }
+  .text-red {
+    color: red;
+  }
+  .text-white {
+    color: white;
+  }
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 15px;
+  }
+  main {
+    min-height: calc(100vh - 6rem);
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h4 {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+  h1 {
+    font-size: 2.25rem;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 1.875rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@-webkit-keyframes :global(loading) {
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes :global(loading) {
+  50% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}

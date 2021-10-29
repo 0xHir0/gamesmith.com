@@ -1,0 +1,288 @@
+/*Recruiter People Styles*/
+
+
+@media (min-width: 1150px) {
+  .root {
+    margin: 0 auto 2rem;
+    max-width: 57rem;
+    .searchBox {
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      display: flex;
+      flex-direction: row;
+      .searchBar {
+        border-radius: 1rem;
+        margin: 0 auto 1rem;
+        width: 100%;
+        height: 2.4rem;
+        display: flex;
+        .searchInput {
+          flex: 1;
+          padding: 0.8rem;
+          background-color: #323232;
+          font-size: 0.9rem;
+          color: white;
+        }
+        .search_icon {
+          background-color: #f6dc34;
+          min-width: 3rem;
+          max-width: 3rem;
+          border: black;
+          color: black;
+          margin: 0 auto;
+          &:hover {
+             background-color: #f6dc34;
+           }
+        }
+      }
+    }
+    .pages {
+      margin-bottom: 0.8rem;
+      display: flex;
+      .pageNumbers {
+        align-self: flex-end;
+      }
+    }
+    .makerCard {
+      border-radius: 1rem;
+    }
+    .BtnClass {
+      display: flex;
+      .moreButton {
+        text-transform: none;
+        margin: 0 auto;
+        max-width: 6rem;
+        min-width: 6rem;
+        padding: 0.3rem 0.4rem;
+        background-color: #f6dc34;
+    }
+  }
+    .loader {
+      width: 100%;
+      text-align: center;
+    }
+    .filters {
+      display: flex;
+    }
+    .noPeople {
+      text-align: left;
+      font-size: 1rem;
+      color: whitesmoke;
+    }
+    .filter {
+      margin: auto 1rem;
+      cursor: pointer;
+    }
+    .searchedFilter {
+      color: #f6dc34;
+      margin: auto 1rem;
+      cursor: pointer;
+    }
+    .returndiv {
+      position: absolute;
+    }
+    .nav {
+      height: 4rem;
+      display: flex;
+      padding: 0 1.5rem;
+      align-items: center;
+      justify-content: space-between;
+      i {
+        margin-right: 1rem;
+      }
+    }
+    .float {
+      cursor: pointer;
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 120px;
+      right: 40px;
+      background-color: #f6dc34;
+      color: #323232 !important;
+      border-radius: 50px;
+      text-align: center;
+    }
+    .float:hover {
+      color: #323232 !important;
+    }
+  }
+}
+@media (max-width: 1150px) {
+  .root {
+    margin: 0 auto 2rem;
+    max-width: 35rem;
+    align-items: center;
+    justify-content: center;
+    .searchBox {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      .searchBar {
+        border-radius: 1rem;
+        width: 100%;
+        display: flex;
+        margin: 0 auto 1rem;
+        .searchInput {
+          flex: 1;
+          padding: 0.8rem;
+          background-color: #323232;
+          font-size: 0.9rem;
+          color: white;
+        }
+        .search_icon {
+          background-color: #f6dc34;
+          min-width: 3rem;
+          border: black;
+          color: black;
+          margin: 0 auto;
+          &:hover {
+             background-color: #f6dc34;
+           }
+        }
+      }
+    }
+    .makerCard {
+      margin: 0 auto;
+      border-radius: 1rem;
+      max-width: 40rem;
+      .BtnClass {
+        .moreButton {
+          text-transform: none;
+          margin: 0 auto;
+          max-width: 6rem;
+          min-width: 6rem;
+          background-color: #f6dc34;
+        }
+      }
+    }
+    .loader {
+      width: 100%;
+      text-align: center;
+    }
+    .filters {
+      display: flex;
+    }
+    .noPeople {
+      text-align: left;
+      font-size: 1rem;
+      color: whitesmoke;
+    }
+    .filter {
+      margin: auto 1rem;
+      cursor: pointer;
+    }
+    .searchedFilter {
+      color: #f6dc34;
+      margin: auto 1rem;
+      cursor: pointer;
+    }
+    .float {
+      cursor: pointer;
+      position: fixed;
+      width: 60px;
+      height: 60px;
+      bottom: 120px;
+      right: 40px;
+      background-color: #f6dc34;
+      color: #323232 !important;
+      border-radius: 50px;
+      text-align: center;
+    }
+    .float:hover {
+      color: #323232 !important;
+    }
+  }
+}
+
+@media (max-width: 630px) {
+  .root {
+    max-width: 26rem;
+  }
+}
+@media (min-width: 1250px) {
+  .main {
+    padding-top: 5rem;
+    .recruiterHeader {
+      width: 90%;
+      margin: 40px auto;
+    }
+    .top {
+      align-items: center;
+      position: relative;
+      .topLinks {
+        text-align: justify;
+        a {
+          margin-right: 2%;
+          font-size: smaller;
+        }
+        a:hover {
+          font-weight: 500;
+        }
+        .highLight {
+          color: yellow;
+          font-weight: 500;
+        }
+        .unHighLight {
+          color: white;
+        }
+      }
+      button {
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        font-size: 0.9rem;
+        padding: 0.6rem 1.5rem;
+      }
+      .jobPostButton {
+        left: 44%;
+        padding: 0.4rem 0.8rem !important;
+        font-size: 0.8rem !important;
+      }
+    }
+  }
+}
+@media (max-width: 1250px) {
+  .main {
+    padding-top: 5rem;
+    .recruiterHeader {
+      width: 90%;
+      margin: 40px auto;
+    }
+    .top {
+      align-items: center;
+      position: relative;
+      .topLinks {
+        text-align: justify;
+        a {
+          margin-right: 2%;
+          font-size: smaller;
+        }
+        a:hover {
+          font-weight: 500;
+        }
+        .highLight {
+          color: yellow;
+          font-weight: 500;
+        }
+        .unHighLight {
+          color: white;
+        }
+      }
+      button {
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        font-size: 0.9rem;
+        padding: 0.6rem 1.5rem;
+      }
+      .jobPostButton {
+        left: 55%;
+        padding: 0.4rem 0.8rem !important;
+        font-size: 0.8rem !important;
+      }
+    }
+  }
+}

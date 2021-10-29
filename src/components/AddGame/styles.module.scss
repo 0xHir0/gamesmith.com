@@ -1,0 +1,93 @@
+/*
+  Add Game Form Styles
+ */
+
+.root {
+  margin: 0 14rem;
+  padding-bottom: 2rem;
+  .formName {
+    display: none;
+  }
+  .subheading {
+    font-size: 0.9rem;
+    color: white;
+  }
+  .switch {
+    margin: 1rem 0;
+  }
+  .noGame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .continueButton {
+      border-radius: 0;
+      margin-bottom: 2rem;
+      font-weight: normal;
+      padding: 0.8rem 4rem;
+      text-align: center;
+    }
+  }
+  .row {
+    display: flex;
+    margin-bottom: 1rem;
+    .col {
+      width: 33.3%;
+      margin-right: 2rem;
+    }
+    .gameMakerOption {
+      margin: 0.5rem;
+    }
+  }
+  .doneButton {
+    border-radius: 5px;
+    margin-bottom: 2rem;
+    font-weight: normal;
+    padding: 0.8rem 5rem;
+  }
+  .previous {
+    color: whitesmoke;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .root {
+    margin: 0 7rem;
+    .formName {
+      display: block;
+      .dots {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 1rem;
+        .enableCount {
+          color: #E8D603;
+          background-color: #E8D603;
+          border-radius: 50%;
+          margin-right: 0.7rem;
+          width: 20px;
+          height: 20px;
+        }
+        .disableCount {
+          color: whitesmoke;
+          background-color: whitesmoke;
+          border-radius: 50%;
+          margin-right: 0.7rem;
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .row {
+      text-align: left;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1rem;
+      .col {
+        width: 100%;
+        margin-right: 2rem;
+      }
+    }
+  }
+}

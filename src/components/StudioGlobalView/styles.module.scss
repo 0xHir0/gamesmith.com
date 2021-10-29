@@ -1,0 +1,44 @@
+/*
+ * Studio Global View styles
+ */
+
+.topHeading {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  background-color: rgba(119, 115, 128, 0.32);
+  display: inline-flex;
+  margin-bottom: 3px;
+  div {
+    width: 30%;
+    text-align: left !important;
+    margin: 0px 10px 0px 10px;
+  }
+}
+.audienceSection {
+  height: 18rem;
+}
+.upgradeNowButton {
+  padding-top: 0.6rem;
+  padding-right: 2.5rem;
+  padding-bottom: 0.6rem;
+  padding-left: 2.5rem;
+  margin-bottom: 2rem;
+}
+.games {
+  padding-top: 1.5rem;
+  padding-bottom: 2%;
+}
+
+.upgradeLincense{
+  text-align: center;
+  margin: 50px auto;
+  background-color: #2F3236;
+  padding: 3%;
+  h4 {
+    color: white !important;
+  }
+  h4:nth-child(4) {
+    margin-top: 60px !important;
+  }
+}

@@ -1,0 +1,297 @@
+/*
+* Applicant Detail styles
+*/
+
+.root {
+  composes: container-fluid from global;
+  min-height: calc(100vh - 8.5rem);
+}
+
+.profile {
+  composes: col-md-12 col-xl-12 from global;
+  background: #262626;
+}
+.user,
+.contactInfo,
+.link {
+  border-bottom: 2px solid #191919;
+  clear: both;
+}
+.avatar {
+  width: 8rem;
+  height: 8rem;
+  margin-bottom: 1rem;
+  div {
+    font-size: 2.5rem;
+  }
+}
+
+.user {
+  text-align: center;
+  h3 {
+    font-size: 1.6rem;
+    margin-bottom: 0.25rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+  a {
+    margin-top: 0.75rem;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+  }
+  .applicantBtn {
+    display: block;
+    margin: auto;
+    margin-top: 0.75rem;
+  }
+}
+
+.info {
+  li {
+    color: #ffffff;
+    display: flex;
+    align-items: baseline;
+    &:first-of-type i {
+      font-size: 1rem;
+    }
+    &:not(:last-of-type) {
+      margin-bottom: 1.25rem;
+    }
+  }
+  i,
+  span {
+    font-size: 1.35rem;
+    display: inline-block;
+  }
+  i {
+    color: #1c1c1c;
+    width: 3rem;
+    display: table;
+  }
+}
+.about,
+.games {
+  position: relative;
+  h3 {
+    color: #1c1c1c;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  p {
+    color: #ffffff;
+    line-height: 1.6;
+  }
+}
+
+.about {
+  transition: max-height 0s;
+  background-color: #262626;
+  margin-bottom: 1.5rem;
+  padding-left: 25% !important;
+  padding-right: 25% !important;
+}
+
+.link {
+  &:last-of-type {
+    border: none;
+  }
+}
+
+.link {
+  display: block;
+  font-size: 1.5rem;
+  position: relative;
+  &::after {
+    color: #f8e81c;
+    font-family: "gamesmith";
+    content: "\E902";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    font-size: 1.25rem;
+    align-items: center;
+    padding-right: 2rem;
+  }
+}
+
+.history {
+  composes: col-md-8 col-xl-8 from global;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  position: relative;
+  h1 {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+  .applicantBtn {
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 0.9rem;
+    padding: 0.6rem 1.5rem !important;
+    margin-top: 10px !important;
+  }
+}
+.setLi {
+  margin-bottom: 1.5%;
+}
+.games {
+  padding-bottom: 2rem;
+}
+
+.verified {
+  color:#f8e81c;
+  display: block;
+  padding: 0.25rem;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+
+@media (max-width: 405px) {
+  .top {
+    display: grid;
+    margin-bottom: 10%;
+    .applicantBtn {
+      width: 100% !important;
+      margin-top: 42px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .root {
+    min-height: calc(100vh - 12rem);
+  }
+  .user button {
+    margin-top: 1rem !important;
+    padding: 0.6rem 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .user,
+  .info,
+  .about,
+  .contactInfo {
+    padding: 1rem 1.75rem;
+  }
+  .avatar {
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 0.5rem;
+    div {
+      font-size: 1.75rem;
+    }
+  }
+  .user {
+    a {
+      font-size: 0.8rem;
+    }
+    .applicantBtn {
+      font-size: 0.9rem;
+    }
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.2rem;
+    }
+    h4 {
+      font-size: 1.15rem;
+    }
+  }
+  .verified {
+    font-size: 0.65rem;
+  }
+  .link {
+    display: none;
+  }
+  .contactInfo,
+  .info {
+    li {
+      margin-left: 25%;
+      text-align: left;
+      &:first-of-type i {
+        font-size: 1rem;
+      }
+      &:not(:last-of-type) {
+        margin-bottom: 0.9rem;
+      }
+    }
+    i,
+    span {
+      font-size: 1rem;
+      margin-left: 3%;
+      color: #c2c2c2;
+    }
+    i {
+      width: 2rem;
+      color: #c2c2c2;
+    }
+  }
+  .about,
+  .games {
+    h4 {
+      font-size: 1.25rem;
+      text-align: justify;
+      color: white;
+    }
+    p {
+      font-size: 0.9rem;
+      text-align: justify;
+      color: #c2c2c2 !important;
+    }
+  }
+  .games {
+    display: grid;
+    .more {
+      height: 60%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .avatar {
+    height: 6rem;
+    width: 6rem;
+    div {
+      font-size: 2rem;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contactInfo {
+    .plat {
+      font-size: large;
+      padding: 1rem 1.75rem;
+    }
+
+    li {
+      margin-left: 20%;
+      text-align: left;
+      width: 100% !important;
+    }
+  }
+  .setLi {
+    margin-bottom: 1.5%;
+    span {
+      margin-left: 10px !important;
+    }
+  }
+  .info {
+    margin-top: 10px;
+  }
+}

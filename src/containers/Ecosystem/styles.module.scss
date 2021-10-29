@@ -1,0 +1,51 @@
+/*
+ * Ecosystem styles
+ */
+
+.root {
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.studios {
+  margin-top: 0.5rem !important;
+  max-width: 68rem;
+}
+.studios {
+  margin: auto;
+  padding: 0.5rem 3rem 2.5rem;
+}
+.noPartners {
+  padding-top: 2rem;
+
+}
+/*.ddPartners {*/
+  /*animation: fadeIn 0.5s;*/
+/*}*/
+/*@keyframes fadeIn {*/
+  /*from {*/
+    /*height: 0;*/
+    /*opacity: 0;*/
+    /*transform: translate3d(0, -20%, 0);*/
+  /*}*/
+  /*to {*/
+    /*height: 8.3rem;*/
+    /*opacity: 1;*/
+    /*transform: translate3d(0, 0, 0);*/
+  /*}*/
+/*}*/
+.ddPartners {
+  animation: mymove 1s infinite;
+  animation-timing-function: linear;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}
+
+@keyframes mymove {
+  from {top: 0px;}
+  to {top: 200px;}
+}

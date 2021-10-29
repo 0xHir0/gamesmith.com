@@ -1,0 +1,108 @@
+/*
+ * AdNewstudio styles
+ */
+
+.root {
+  width: 100%;
+  margin: auto;
+}
+.left {
+  width: 48%;
+  float: left;
+}
+
+.right {
+  width: 48%;
+  float: right;
+  margin-left: 20px;
+}
+.bottomText {
+  text-align: center;
+  margin-top: 2rem;
+  align-content: center;
+  width: 100%;
+  p {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
+.payButton {
+  width: 100%;
+  /* padding: 0rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.4rem;
+}
+.payButton > img {
+  width: 15%;
+  height: auto;
+  margin-right: 2px;
+  margin-left: 2px;
+  float: left;
+}
+@media (max-width: 576px) {
+  .left {
+    width: 100%;
+    float: none;
+  }
+  .right {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .payButton {
+    width: 40% !important;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .left {
+    width: 46%;
+  }
+  .right {
+    width: 46%;
+  }
+}
+@media only screen and(min-width: 576px) and (max-width: 359px) {
+  .modalRemoveButton {
+    display: inline;
+    float: left;
+  }
+}
+.cardNumber {
+  color: white;
+  letter-spacing: 0.025em;
+  font-family: "Source Code Pro, monospace";
+}
+
+.CardNumberElement {
+  color: white;
+}
+
+label {
+  color: white;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+}
+
+.StripeElement {
+  display: block;
+  margin: 10px 0 20px !important;
+  max-width: 500px;
+  padding: 10px 14px;
+  font-size: 1em;
+  font-family: "Source Code Pro", monospace;
+  box-shadow: rgba(50, 50, 93, 0.14902) 0px 1px 3px,
+    rgba(0, 0, 0, 0.0196078) 0px 1px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  background: white;
+}
+.nameoncardField {
+  color: white;
+}
+
+input.nameoncardField:focus {
+  outline-width: 0;
+}

@@ -1,0 +1,86 @@
+/*
+ * Availability form styles
+ */
+
+.root {
+  & > p {
+    margin-bottom: 1rem;
+    margin-top: 32px;
+  }
+}
+:global {
+  .padding-right-15 {
+    padding-right: 25px !important;
+  }
+  .availableForm {
+    input:checked + label {
+      background: #f8e81c;
+    }
+    input:checked + label:after {
+      left: calc(100% - 5px);
+      transform: translateX(-100%);
+    }
+    label:active:after {
+      width: 40px;
+    }
+  }
+}
+
+.align {
+  text-align: center !important;
+}
+
+.top {
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-size: 1.34rem;
+}
+
+.bottom {
+  width: 65%;
+  margin: auto;
+  color: white;
+}
+
+.availableInput {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.available {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 60px;
+  height: 34px;
+  background: black;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+  margin: auto;
+}
+
+.available:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 26px;
+  width: 26px;
+  background: #323232;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 1150px) {
+  .top {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .bottom {
+    font-size: 18px;
+    width: 90%;
+    font-weight: 100;
+    color: #1c1c1c;
+  }
+}

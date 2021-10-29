@@ -1,0 +1,53 @@
+/*
+ * AdNewstudio styles
+ */
+
+.root {
+  width: 100%;
+  margin: auto;
+}
+.left {
+  width: 48%;
+  float: left;
+}
+
+.right {
+  width: 48%;
+  float: right;
+  margin-left: 20px;
+}
+.bottomText {
+  text-align: center;
+  margin-top: 2rem;
+  align-content: center;
+  width: 100%;
+  p {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
+@media (max-width: 576px) {
+  .left {
+    width: 100%;
+    float: none;
+  }
+  .right {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .left {
+    width: 46%;
+  }
+  .right {
+    width: 46%;
+  }
+}
+@media only screen and(min-width: 576px) and (max-width: 359px) {
+  .modalRemoveButton {
+    display: inline;
+    float: left;
+  }
+}

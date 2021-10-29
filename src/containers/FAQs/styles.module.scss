@@ -1,0 +1,100 @@
+.root {
+  padding-top: 2.5rem;
+  padding-bottom: 2rem;
+  text-align: left;
+  letter-spacing: 1px;
+}
+
+.top,
+.nav,
+.requests {
+  margin: auto;
+  max-width: 68rem;
+}
+
+.top {
+  margin: 2rem auto;
+  /*h1 {*/
+  /*margin: 0;*/
+  /*margin-bottom: 10px;*/
+  /*font-weight: 400;*/
+  /*}*/
+}
+
+/*.line {*/
+/*width: 95%;*/
+/*border-top: 2px solid yellow;*/
+/*margin: auto;*/
+/*}*/
+
+/*.questionCard {*/
+/*width: 95%;*/
+/*margin: auto;*/
+/*}*/
+
+.heading {
+  background-color: #121212;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+.header_text {
+  color: #b3a81d;
+}
+.rootbackgroundcolor {
+  background-color: #1c1c1c;
+}
+.heading_content {
+  color: white;
+  text-align: left;
+  margin-top: 0;
+  margin-top: 0.5rem;
+  font-family: Mark Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+.marginbottom {
+  margin-bottom: -10px !important;
+}
+
+.subheader {
+  margin-right: 0.3rem;
+  margin-top: 10px;
+  height: 45px !important;
+}
+.faq_footer {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.custommargin {
+  margin-top: 0 !important;
+}
+.line {
+  width: 100%;
+  border-top: 1px solid gray;
+  opacity: 0.2;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+.imgcontainer {
+  position: relative;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .subheader {
+    margin-right: 0.3rem;
+    margin-top: 5px;
+    height: 45px !important;
+  }
+  .heading_content {
+    color: white;
+    text-align: left;
+    margin-top: 1rem;
+    margin-top: 0.5rem;
+    font-family: Mark Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+  }
+}

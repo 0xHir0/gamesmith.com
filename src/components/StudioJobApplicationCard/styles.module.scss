@@ -1,0 +1,229 @@
+/*
+ * Studio Job Application card styles
+ */
+
+.root {
+  position: relative;
+  margin-bottom: 10px;
+  clear: both;
+  a {
+    height: 100%;
+    :hover {
+      color: white !important;
+    }
+  }
+}
+.gtHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.more {
+  float: right;
+  margin: 10px !important;
+  margin-right: 0px !important;
+  min-width: 10rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 15px !important;
+}
+
+.loader {
+  width: 40%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.root,
+.content {
+  border-radius: 1rem;
+}
+
+.title {
+  width: 100% !important;
+  word-wrap: break-word !important;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background: #2f3236;
+  i {
+    color: #1c1c1c;
+    margin-right: 0.5rem;
+  }
+  p {
+    margin: 0;
+    color: #1c1c1c;
+    font-size: 1.25rem;
+    &:not(:first-of-type) {
+      margin-top: 1rem;
+    }
+  }
+}
+.info {
+  text-align: left !important;
+  padding: 1rem 2rem;
+  text-align: -webkit-auto !important;
+  .infoDiv {
+    margin-right: 3%;
+    margin-top: 10%;
+  }
+  h1 {
+    margin: 0 0 0.75rem;
+    font-weight: 400;
+  }
+}
+.platform {
+  padding-right: 5px !important;
+  padding-left: 5px;
+  height: 1.4rem;
+}
+.location {
+  font-size: 15px;
+  margin-right: 3%;
+}
+.applicantsButtons {
+  position: absolute;
+  top: 70%;
+  right: 0%;
+  span {
+    margin-right: 20px;
+    font-size: smaller;
+    a {
+      display: inline-block;
+    }
+    i {
+      color: #f8e81c !important;
+    }
+  }
+}
+.topButtons {
+  position: absolute;
+  right: 2%;
+  top: 27%;
+  i {
+    color: #f8e81c !important;
+  }
+}
+.gtBtns {
+  display: inline-block;
+  margin-left: 1.4rem;
+  i {
+    color: #f8e81c !important;
+  }
+}
+.gtSwitch {
+  margin-left: 1rem;
+}
+.infoIcon {
+  width: 1.5rem;
+  margin-right: 10px;
+}
+.applicantsContainer {
+  margin-top: 0.3% !important;
+}
+
+/*.extra {*/
+/*display: none;*/
+/*}*/
+
+@media (min-width: 768px) {
+  .root,
+  .content {
+    border-radius: 0;
+    min-height: 8rem;
+  }
+  .content {
+    flex-direction: row;
+  }
+  .info,
+  .info {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+  }
+  .extra {
+    background: #262626;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 30rem;
+    p {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .extra {
+    flex-basis: 32rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .info {
+    width: 100% !important;
+    div {
+      margin-top: 2% !important;
+      text-align: center !important;
+    }
+    .location {
+      display: block !important;
+      height: 40px !important;
+    }
+    .title {
+      text-align: center !important;
+    }
+  }
+  .applicantsButtons {
+    position: relative;
+    height: 60px !important;
+    span {
+      margin-right: 20px;
+      font-size: small;
+      a {
+        display: inline-block;
+      }
+      i {
+        color:#f8e81c !important;
+      }
+    }
+  }
+  @-moz-document url-prefix() {
+    .applicantsButtons {
+      position: static;
+      height: 60px !important;
+      margin-top: 30px !important;
+    }
+  }
+  .topButtons {
+    position: relative !important;
+    font-size: large !important;
+    height: 40px !important;
+  }
+  .applicantsContainer {
+    margin-top: 1.3% !important;
+  }
+}
+
+@media (min-width: 360) {
+  .extra {
+    flex-basis: 36rem;
+  }
+}
+
+/*@media(width: 768px) {*/
+/*.topButtons {*/
+/*margin-left: 71%;*/
+/*}*/
+/*}*/

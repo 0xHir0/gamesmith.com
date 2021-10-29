@@ -1,0 +1,103 @@
+// Colors
+$label-colour: #343434;
+$disabled-colour: #ddd;
+$toggle-colour: #F6DC38;
+$white: #fff;
+$focus-color: #ff0;
+
+.toggleSwitch {
+  position: relative;
+  margin-right: 10px;
+  width: 75px;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  text-align: left;
+  transform: scale(0.75);
+  &Checkbox {
+    display: none;
+  }
+  &Label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 0 solid $label-colour;
+    border-radius: 20px;
+    margin: 0;
+    &:focus {
+      outline: none;
+      > span {
+        box-shadow: 0 0 2px 5px $focus-color;
+      }
+    }
+    > span:focus {
+      outline: none;
+    }
+  }
+  &Inner {
+    display: block !important;
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+    &:before,
+    &:after {
+      display: block;
+      float: left;
+      width: 50%;
+      height: 34px;
+      padding: 0;
+      line-height: 34px;
+      font-size: 14px;
+      color: white;
+      font-weight: bold;
+      box-sizing: border-box;
+    }
+    &:before {
+      content: attr(data-yes);
+      text-transform: uppercase;
+      padding-left: 10px;
+      background-color: $toggle-colour;
+      color: $white;
+    }
+  }
+  &Disabled {
+    background-color: $disabled-colour;
+    cursor: not-allowed;
+    &:before {
+      background-color: $disabled-colour;
+      cursor: not-allowed;
+    }
+  }
+  &Inner:after {
+    content: attr(data-no);
+    text-transform: uppercase;
+    padding-right: 10px;
+    background-color: $label-colour;
+    color: $white;
+    text-align: right;
+  }
+  &Switch {
+    display: block;
+    width: 20px;
+    margin: 6px;
+    background: $white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40px;
+    border: 0 solid $label-colour;
+    border-radius: 50%;
+    transition: all 0.3s ease-in 0s;
+  }
+  &Checkbox:checked + &Label {
+    .toggleSwitchInner {
+      margin-left: 0;
+    }
+    .toggleSwitchSwitch {
+      right: 0px;
+    }
+  }
+}
+

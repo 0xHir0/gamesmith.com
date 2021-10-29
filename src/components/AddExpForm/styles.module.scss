@@ -1,0 +1,65 @@
+/*
+ * Add experience form styles
+ */
+
+.root {
+  p:first-of-type {
+    margin-bottom: 1rem;
+  }
+}
+.imposition button img {
+  filter: brightness(0);
+  margin-top: 10px;
+}
+.left {
+  width: 48%;
+  float: left;
+}
+
+.right {
+  width: 48%;
+  float: right;
+  margin-left: 20px;
+}
+.error {
+  color: red;
+}
+
+.modalRemoveButton {
+  margin-right: 2rem;
+  button {
+    background-color: #323232 !important;
+  }
+}
+@media (max-width: 576px) {
+  .left {
+    width: 100%;
+    float: none;
+  }
+  .right {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+  .left {
+    width: 46%;
+  }
+  .right {
+    width: 46%;
+  }
+}
+@media only screen and(min-width: 576px) and (max-width: 359px) {
+  .modalRemoveButton {
+    display: inline;
+    float: left;
+  }
+}
+@media only screen and(min-width: 359px) {
+  .modalRemoveButton {
+    display: inline;
+    float: left;
+    margin-right: 0.9em;
+  }
+}

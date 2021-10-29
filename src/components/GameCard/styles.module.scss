@@ -1,0 +1,330 @@
+/*
+ * Game card styles
+ */
+
+.root {
+  position: relative;
+  margin-bottom: 1.5rem;
+  button {
+    display: none;
+  }
+  .iconColor {
+    color: #e8d603;
+  }
+}
+
+.root,
+.content,
+.overlay {
+  border-radius: 1rem;
+}
+
+.root,
+.content {
+  width: 100%;
+  min-height: 20rem;
+}
+
+.joinButton {
+  width: 9rem !important;
+  height: 3rem !important;
+  position: relative !important;
+  padding-left: 0px;
+  padding-top: 5px !important;
+  padding-right: 0px;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  font-weight: normal;
+  color: #333333;
+  img {
+    width: 25%;
+    height: auto;
+    margin-right: 1px;
+    margin-left: 8px;
+    float: left;
+  }
+  div {
+    padding-top: 10px;
+  }
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+.editExpButton {
+  width: 9rem !important;
+  height: 3rem !important;
+  position: relative !important;
+  padding-left: 0px;
+  padding-top: 5px !important;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #333333;
+  img {
+    width: 15%;
+    height: auto;
+    margin-right: 2px;
+    margin-left: 2px;
+    float: left;
+  }
+  div {
+    padding-top: 5px;
+  }
+  font-size: 0.75em !important;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  background-color: #323232;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.info,
+.extra {
+  z-index: 10;
+}
+
+.info {
+  padding: 3rem 2rem;
+  h1 {
+    margin: 0;
+    font-weight: 400;
+  }
+  i {
+    color: #1c1c1c;
+    margin-right: 0.5rem;
+  }
+  p {
+    margin: 0.75rem 0 0;
+    color: #ffffff;
+    z-index: 99999;
+    font-size: 1.25rem;
+  }
+}
+
+.extra {
+  display: none;
+}
+
+.avatar {
+  height: 50px !important;
+  width: 50px !important;
+  display: inline-block !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.makers {
+  margin-top: 2.5rem;
+  display: -ms-inline-flexbox;
+  p {
+    margin-top: 1rem;
+  }
+  a:not(:last-of-type) .avatar {
+    margin-right: 0.75rem;
+  }
+}
+
+.gameTitle {
+  display: flex;
+  h1:hover {
+    color: #f8e81c;
+  }
+}
+
+.gameButton {
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: #323232;
+  opacity: 0.65;
+}
+
+@media (min-width: 520px) {
+  .root {
+    display: flex;
+    padding-right: 2.5rem;
+    &:hover,
+    &:focus {
+      button {
+        width: 2.8rem;
+        background: #ffdd00;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+      }
+    }
+    button {
+      display: block;
+      width: 2.5rem;
+      z-index: 20;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      background: #f8e81c;
+      transition: all 0.25s ease-out;
+      i {
+        color: #191919;
+        margin: 0;
+      }
+    }
+  }
+  .root button,
+  .overlay {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+  .root,
+  .overlay,
+  .content {
+    border-radius: 0;
+  }
+  .root,
+  .content {
+    min-height: 8rem;
+  }
+  .content {
+    flex-direction: row;
+  }
+  .info {
+    flex: 1;
+    h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+  }
+  .makers {
+    margin-top: 4rem;
+    p {
+      font-size: 1rem;
+      display: inline-block;
+      margin: 1.4rem 0.75rem 0.75rem;
+      position: absolute;
+    }
+    a:not(:last-of-type) .avatar {
+      margin-right: 1.25rem;
+    }
+  }
+  .info,
+  .extra {
+    height: 188px;
+    width: auto;
+    display: inline-flex;
+    padding: 1.5rem 1rem 1.5rem 2.5rem;
+    text-align: left;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .extra {
+    /*if there is a need for the black block on the games card, uncomment the next line */
+    /*background: #262626;*/
+    /* if there is a need for a line to separate game info and company, uncomment next line*/
+    /*border-left: 1px solid black;*/
+    flex-basis: 16rem;
+    p {
+      color: #ffffff;
+      font-size: 1.25rem;
+      margin: 0;
+    }
+  }
+  .studio {
+    display: none;
+  }
+  .joinButton,
+  .editExpButton {
+    margin: 0 1rem;
+    min-width: initial;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 707px) {
+  .firstOverlay {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .extra {
+    flex-basis: 18rem;
+  }
+  .makers {
+    p {
+      margin: 1rem;
+      position: absolute;
+    }
+    a:not(:last-of-type) .avatar {
+      margin-right: 1rem;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .extra {
+    flex-basis: 22rem;
+  }
+}
+
+@media (min-width: 360) {
+  .extra {
+    flex-basis: 26rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .joinButton,
+  .editExpButton {
+    color: #333333;
+    display: block !important;
+    z-index: 21;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .joinButton,
+  .editExpButton {
+    color: #333333;
+    display: block !important;
+    z-index: 21;
+  }
+}
+
+a{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.awards {
+  padding: 0.2rem 0.9rem;
+  color: #F8E83B;
+  font-weight: bold;
+  font-size: 18px;
+  z-index: 1;
+  .trophy {
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.6rem;
+  }
+  
+  @media (max-width: 520px) {
+    position: relative;
+    top: 10px;
+  }
+}

@@ -1,0 +1,25 @@
+.linkTorecruiter {
+  background: #f8e81c !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: 500;
+  font-size: 1.07rem;
+}
+.linkTorecruiter:hover {
+  color: black !important;
+}
+
+.changePasswordButton {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.4rem;
+}
+
+.capitalizeFirstLetter {
+  text-transform: capitalize;
+}

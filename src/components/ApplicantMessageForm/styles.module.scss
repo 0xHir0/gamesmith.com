@@ -1,0 +1,20 @@
+/*
+ * Applicant Message form styles
+ */
+
+.root {
+  padding-top: 1.5rem;
+  .setColor {
+    color: white !important;
+  }
+}
+.align {
+  text-align: justify !important;
+  b {
+    margin-right: 20px;
+  }
+  p {
+    width: 125px !important;
+    display: inline-block !important;
+  }
+}

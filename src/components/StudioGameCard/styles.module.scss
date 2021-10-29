@@ -1,0 +1,77 @@
+/*
+ * Studio game card styles
+ */
+
+.full {
+  width: 100%;
+  height: 650px !important;
+  margin-top: 17px !important;
+  margin: auto auto 10px;
+}
+
+.game {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 20rem;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  .image {
+    height: 100%;
+    width: 50%;
+    float: right;
+    background: rgba(20, 24, 27, 0.73);
+    -webkit-clip-path: polygon(94% 0, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(94% 0, 100% 0, 100% 100%, 0% 100%);
+    div {
+      width: 40%;
+      float: right;
+      text-align: left;
+      margin-right: 8%;
+      top: 65%;
+      position: relative;
+      h1 {
+        margin: 0px !important;
+      }
+      p {
+        color: white !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .full {
+    background-size: cover !important;
+    width: 100%;
+    height: 230px !important;
+  }
+  .game {
+    top: 43% !important;
+    div {
+      width: 40%;
+      float: right;
+      text-align: left;
+      position: relative;
+      h1 {
+        margin: 0px !important;
+        font-size: 1.7rem;
+      }
+      p {
+        color: white !important;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media (width: 768px) {
+  .full {
+    height: 482px !important;
+  }
+}

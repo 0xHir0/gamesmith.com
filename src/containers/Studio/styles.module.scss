@@ -1,0 +1,440 @@
+/*
+ * Studio styles
+ */
+
+.root {
+  padding-top: 5rem;
+  text-align: center;
+  height: 100%;
+}
+
+h1 {
+  margin: 60px;
+}
+
+.hideNav {
+  display: none;
+}
+.editButton {
+  height: auto;
+  width: auto;
+  position: absolute;
+  right: 3%;
+  margin-top: 30px;
+  background-color: unset !important;
+  padding: 0px;
+}
+
+.full {
+  background-size: 100%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 50vh;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  .studioName {
+    float: left;
+    height: 100% !important;
+    width: 6% !important;
+    text-align: center;
+    background: rgba(20, 24, 27, 0.73);
+    position: fixed;
+    h4 {
+      writing-mode: vertical-rl !important;
+      margin: auto !important;
+      height: 100% !important;
+      font-weight: 500;
+      color: white;
+    }
+  }
+  .outer {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background: rgba(20, 24, 27, 0.73);
+    -webkit-clip-path: polygon(100% 32%, 100% 1%, 100% 100%, 10% 100%, 100% 0%);
+    clip-path: polygon(100% 32%, 100% 1%, 100% 100%, 10% 100%, 100% 0%);
+  }
+  .inner {
+    width: 50%;
+    height: 100px;
+    margin-top: 460px;
+    float: right;
+    img {
+      width: 100% !important;
+      height: 100% !important;
+      padding: 5% !important;
+      margin-top: 25% !important;
+      margin-bottom: 7%;
+    }
+    i {
+      margin-left: 10px;
+    }
+    h4 {
+      color: white !important;
+      font-size: 18px;
+      width: 60%;
+      margin: auto auto;
+      margin-bottom: 30px;
+      /*margin-top: 400px !important;*/
+    }
+    .joinButton {
+      width: 145px;
+      line-height: 40px;
+      background-color: #f8e81c;
+      color: #000000;
+      border-radius: 5px !important;
+      margin: auto auto;
+      /*padding: 0.75rem 2rem !important;*/
+      font-size: small;
+    }
+  }
+}
+
+/* scroll to top */
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 120px;
+  right: 36px;
+  background-color: #ffdd00;
+  color: #323232 !important;
+  border-radius: 50px;
+  z-index: 9999999999999;
+  text-align: center;
+}
+.float:hover {
+  color: #323232 !important;
+}
+.my-float {
+  margin-top: 22px;
+}
+
+@media (max-width: 414px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 14px;
+    background-color: #ffdd00;
+    color: #323232 !important;
+    border-radius: 50px;
+    text-align: center;
+  }
+}
+@media (width: 768px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 50px;
+    background-color: #ffdd00;
+    color: #323232 !important;
+    border-radius: 50px;
+    z-index: 999999999999999;
+    text-align: center;
+  }
+}
+@media (width: 1024px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 50px;
+    background-color: #ffdd00;
+    color: #323232 !important;
+    border-radius: 50px;
+    z-index: 999999999999999;
+    text-align: center;
+  }
+  .full {
+    width: 100%;
+    height: 47vh !important;
+    margin-top: 17px !important;
+    margin: auto auto 10px;
+  }
+}
+@media (width: 1366px) {
+  .full {
+    height: 76vh;
+  }
+}
+@media (min-width: 1367px) {
+  .float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 120px;
+    right: 30px;
+    background-color:#f8e81c;
+    color: #323232 !important;
+    border-radius: 50px;
+    z-index: 999999999999999;
+    text-align: center;
+  }
+}
+/*section for about*/
+
+.about {
+  height: 100% !important;
+  clear: both;
+}
+
+/*section for game*/
+
+.games {
+  margin-top: 50px !important;
+  clear: both;
+  height: 100% !important;
+}
+
+@media (max-width: 768px) {
+  .full {
+    width: 100%;
+    height: 47vh !important;
+    margin-top: 17px !important;
+    margin: auto auto 10px;
+  }
+}
+
+/*section for Culture */
+.culture {
+  width: 100%;
+  margin-top: 50px !important;
+  div {
+    margin: 20px !important;
+    div {
+      width: 585px;
+      margin: auto auto !important;
+      p {
+        border-radius: 5px;
+        width: 40px !important;
+        line-height: 2 !important;
+        float: right;
+        background-color: #f8e81c !important;
+        color: black !important;
+        right: 19.2rem !important;
+        margin: 0px;
+        cursor: pointer;
+        font-size: 16px;
+        position: relative;
+        left: 0px;
+        bottom: 32px;
+      }
+
+      img {
+        border-radius: 7px;
+        width: 585px;
+        height: auto;
+        display: inherit;
+        margin: auto auto;
+      }
+    }
+  }
+}
+
+/*Jobs section*/
+
+.jobs {
+  width: 85%;
+  margin: auto auto;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+.buttonContainer {
+  width: 50%;
+  margin: auto auto;
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+}
+
+@media (max-width: 767px) {
+  .full {
+    .inner {
+      width: 100%;
+      height: 100px;
+      margin-top: 380px !important;
+      float: right;
+    }
+    .outer {
+      width: 100%;
+      height: 100%;
+      float: right;
+      background: rgba(20, 24, 27, 0.5);
+      -webkit-clip-path: none !important;
+      clip-path: none !important;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .full {
+    .inner {
+      width: 100%;
+      height: 100px;
+      margin-top: 380px !important;
+      float: right;
+    }
+    .outer {
+      width: 100%;
+      height: 100%;
+      float: right;
+      background: rgba(20, 24, 27, 0);
+      -webkit-clip-path: none !important;
+      clip-path: none !important;
+    }
+  }
+}
+
+@media (width: 1024px) {
+  .outer {
+    clip-path: polygon(
+      100% 32%,
+      100% 1%,
+      100% 100%,
+      10% 100%,
+      100% 0%
+    ) !important;
+    -webkit-clip-path: polygon(
+      100% 32%,
+      100% 1%,
+      100% 100%,
+      10% 100%,
+      100% 0%
+    ) !important;
+  }
+}
+@media (width: 768px) {
+  .outer {
+    width: 50%;
+    height: 100%;
+    float: right;
+    padding-left: 0rem;
+    background: rgba(20, 24, 27, 0.5);
+    clip-path: polygon(
+      100% 32%,
+      100% 1%,
+      100% 100%,
+      10% 100%,
+      100% 0%
+    ) !important;
+    -webkit-clip-path: polygon(
+      100% 32%,
+      100% 1%,
+      100% 100%,
+      10% 100%,
+      100% 0%
+    ) !important;
+  }
+  .inner {
+    margin-top: 303px !important;
+    h4 {
+      width: 71% !important;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .full {
+    margin-top: 0rem !important;
+    height: 35vh !important;
+    background-size: cover;
+    .inner {
+      width: 100%;
+      height: 100px;
+      margin-top: 316px !important;
+      float: right;
+    }
+  }
+}
+@media (min-width: 1366px) and (max-width: 1899px) {
+  .full {
+    height: 55vh !important;
+    .inner {
+      margin-top: 39vh !important;
+    }
+  }
+}
+@media (width: 1366px) {
+  .full {
+    height: 104vh !important;
+    .outer {
+      height: 100%;
+    }
+    .inner {
+      margin-top: 65vh !important;
+    }
+  }
+}
+
+@media (min-width: 1900px) and (max-width: 2400px) {
+  .full {
+    height: 118vh !important;
+    .inner {
+      margin-top: 73vh !important;
+      color: white !important;
+      width: 43% !important;
+      margin-bottom: 30px !important;
+      h4 {
+        font-size: 26px !important;
+      }
+      .joinButton {
+        width: 245px;
+        line-height: 40px;
+        background-color: yellow;
+        color: #000000;
+        border-radius: 0px !important;
+        margin: auto auto;
+        /* padding: 0.75rem 2rem !important; */
+        font-size: large;
+      }
+    }
+  }
+}
+
+@media (min-width: 2401px) {
+  .full {
+    height: 99vh !important;
+    .inner {
+      margin-top: 78vh !important;
+      color: white !important;
+      width: 43% !important;
+      margin-bottom: 30px !important;
+      h4 {
+        font-size: 26px !important;
+      }
+      .joinButton {
+        width: 245px;
+        line-height: 40px;
+        background-color: yellow;
+        color: #000000;
+        border-radius: 0px !important;
+        margin: auto auto;
+        /* padding: 0.75rem 2rem !important; */
+        font-size: large;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .full {
+    background-size: cover !important;
+    width: 100%;
+  }
+  .outer {
+    width: 100%;
+    height: 100%;
+    float: right;
+    background: rgba(20, 24, 27, 0) !important;
+    -webkit-clip-path: none !important;
+    clip-path: none !important;
+  }
+}

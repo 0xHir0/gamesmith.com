@@ -1,0 +1,25 @@
+.root {
+  margin-top: 3rem;
+  margin-bottom:6rem;
+  .container {
+    width: 48%;
+    margin: auto;
+    background-color: #323232;
+    border-radius: 0.7rem;
+    .items {
+      text-align: left;
+      padding: 1rem;
+    }
+    .content{
+      display: flex;
+      flex-direction: row;
+      .icon {
+        align-items: center;
+        margin: auto 0.6rem auto 0;
+      }
+      .info {
+        margin: 0.3rem 0;
+      }
+    }
+  }
+}

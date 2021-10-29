@@ -1,0 +1,126 @@
+/*
+ * Studio Job card styles
+ */
+.root {
+  width: 49%;
+  padding-top: 2% !important;
+  padding-left: 2% !important;
+  height: 180px !important;
+  margin-bottom: 10px;
+  background: #2f3236;
+  display: inline-block;
+  position: relative !important;
+  border-radius: 7px;
+}
+h4 {
+  margin: 0;
+  padding-right: 25px;
+}
+.root:nth-child(odd) {
+  margin-right: 10px !important;
+}
+.title {
+  width: 100% !important;
+  word-wrap: break-word !important;
+  margin-top: 0px !important;
+}
+
+.content {
+  height: 100%;
+  background: #2f3236;
+  i {
+    color: #1c1c1c;
+    margin-right: 0.5rem;
+  }
+}
+.info {
+  height: 60% !important;
+  padding: 1px !important;
+  text-align: -webkit-auto !important;
+  h1 {
+    margin: 0 0 0.75rem;
+    font-weight: 400;
+  }
+}
+.platform {
+  padding-right: 5px !important;
+  padding-left: 5px;
+  height: 1rem;
+}
+.btnContainer {
+  position: absolute !important;
+  right: 0px;
+  bottom: 0px;
+  .studioJobEditBtn {
+    color: #2f3236 !important;
+    font-size: 14px;
+    padding: 14px !important;
+    border-radius: 0px !important;
+    min-width: 6rem !important;
+  }
+  .studioJobAppliedBtn {
+    font-size: 14px;
+    padding: 14px !important;
+    border-radius: 5px !important;
+    min-width: 6rem !important;
+    bottom: 0px !important;
+  }
+}
+.location {
+  width: 35% !important;
+  text-align: justify;
+  float: left;
+  display: inline-block;
+  word-wrap: break-word;
+}
+.platforms {
+  width: 35% !important;
+  display: table !important;
+  display: inline-block;
+}
+@media (max-width: 576px) {
+  .root {
+    width: 95% !important;
+  }
+  .root:nth-child(odd) {
+    margin-right: 0px !important;
+  }
+}
+@media (max-width: 992px) {
+  .root {
+    width: 95% !important;
+  }
+  .info {
+    height: 20% !important;
+    font-size: large !important;
+  }
+  .content {
+    height: 80% !important;
+  }
+  .btnContainer {
+    position: absolute !important;
+    right: 0px !important;
+    bottom: 0px !important;
+  }
+  .title {
+    text-align: center !important;
+  }
+  .bottom {
+    height: 75%;
+    font-size: large;
+    margin-top: 20px !important;
+  }
+  .platforms {
+    width: 100% !important;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .location {
+    width: 100% !important;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .root:nth-child(odd) {
+    margin-right: 0px !important;
+  }
+}

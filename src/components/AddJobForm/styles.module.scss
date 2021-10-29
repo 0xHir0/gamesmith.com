@@ -1,0 +1,69 @@
+/*
+ * AddJobForm styles
+ */
+
+.root {
+  width: 80%;
+  margin: auto;
+  .avatar {
+    display: flex !important;
+  }
+  p {
+    margin-top: 0px;
+    float: left;
+  }
+}
+.video {
+  margin-top: 1rem;
+}
+.left {
+  width: 48%;
+  float: left;
+}
+
+.right {
+  width: 48%;
+  float: right;
+  margin-left: 10px;
+}
+.cvContainer {
+  width: 100%;
+  margin-top: 2rem;
+  display: block;
+  .cvLabel {
+    text-align: left;
+  }
+  .cvOptions {
+    text-align: left;
+    display: flex;
+  }
+}
+.centerLogo {
+  a {
+    position: absolute;
+    left: 50%;
+    margin-left: -23%;
+    margin-top: 4% !important;
+  }
+}
+
+select {
+  background-color: #262626 !important;
+}
+
+.location {
+  border: 2px dotted gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+@media (max-width: 576px) {
+  .root {
+    width: 100% !important;
+  }
+}
+
+.margin {
+  margin-top: 102px;
+  margin-bottom: 17px;
+}

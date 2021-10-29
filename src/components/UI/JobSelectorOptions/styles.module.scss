@@ -1,0 +1,55 @@
+/*
+ * JobSelectorOptions styles
+ */
+
+.list_item {
+  font-size: 0.8rem;
+  margin: 0.4rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+  cursor: pointer;
+}
+
+.checkBox{
+  display: none;
+}
+
+.list_item:hover {
+  color: #323232;
+}
+
+.text_color:hover {
+  color: #FFDD00;
+}
+
+.text_color {
+  color: lightgrey;
+}
+
+.text_color_selected {
+  color: #FFDD00 !important;
+  font-weight: bold;
+}
+
+.check_box {
+  width: 29px;
+}
+
+.check_box:checked {
+  color: #323232;
+}
+@media (max-width: 1050px) {
+  .list_item {
+    font-size: 1.1rem;
+    text-overflow: ellipsis;
+  }
+  .checkBox {
+    width: 16px;
+    height: 16px;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+    display: inline;
+  }
+}

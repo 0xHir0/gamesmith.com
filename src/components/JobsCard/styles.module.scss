@@ -1,0 +1,323 @@
+/*!**/
+/** Jobs card styles*/
+/**!*/
+
+.root {
+  position: relative;
+  margin: 0 auto 2rem;
+  background: #323232;
+  border-radius: 1rem;
+  width: 100%;
+  max-width: 26rem;
+  min-width: 10rem;
+  min-height: 10rem;
+  padding: 2rem 1rem;
+  button:not(.button) {
+    display: none;
+    text-align: center;
+  }
+}
+
+.img {
+  max-width: 15% !important;
+}
+
+.avatar {
+  height: 8rem;
+  width: 8rem;
+  margin: 0 1.5rem;
+  max-width: none;
+  div {
+    font-size: 2.5rem;
+  }
+}
+
+.maker {
+  h1 {
+    line-height: 1.2;
+    font-weight: 400;
+    margin: 1rem 0;
+  }
+  i {
+    font-size: 0.8em;
+    margin-right: 0.5rem;
+  }
+}
+
+.game {
+  background-color: #292929;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+  text-align: center;
+  & > *:not(.overlay) {
+    z-index: 10;
+  }
+  h1 {
+    margin: 0 0 0.75rem;
+    font-weight: 400;
+  }
+  i {
+    color: #1c1c1c;
+  }
+}
+
+.overlay {
+  display: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: #323232;
+  opacity: 0.65;
+}
+
+.cusOverlay {
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background: #323232;
+  opacity: 0.65;
+  border-radius: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .game {
+    background-image: none !important;
+    background-color: #323232;
+  }
+}
+
+@media (min-width: 576px) {
+  .maker h1 {
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .root,
+  .maker,
+  .game {
+    min-height: 9rem;
+  }
+  .root {
+    border-radius: 10px;
+    max-width: none;
+    margin-bottom: 1.5rem;
+    padding: 0;
+    &:hover,
+    &:focus {
+      button:not(.button) {
+        width: 2.8rem;
+        background: #ffdd00;
+        box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+      }
+    }
+    button:not(.button) {
+    
+      display: block;
+      width: 2.5rem;
+      z-index: 20;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      background: #f8e81c;
+      transition: all 0.25s ease-out;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      i {
+        color: #191919;
+        margin: 0;
+      }
+    }
+  }
+  .flex {
+    background-color: #292929;
+    display: flex;
+    padding-right: 2.5rem;
+  }
+  .overlay {
+    display: block;
+  }
+  .button {
+    padding: 0.75rem 1.4rem;
+    margin: 0 1rem;
+    min-width: initial;
+    font-size: 0.9em;
+  }
+  .avatar {
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 0.5rem;
+    div {
+      font-size: 1.75rem;
+    }
+  }
+  .maker,
+  .game {
+    flex-basis: 30rem !important;
+    width: 30%;
+    display: inline-flex;
+    padding: 0;
+    text-align: left;
+  }
+  .maker {
+    align-items: center;
+    h1 {
+      font-size: 1.3rem;
+      margin: 0;
+    }
+    h3 {
+      font-size: 1rem;
+    }
+  }
+  .game {
+    flex: 0;
+    z-index: 10;
+    align-items: center;
+    background-color: #292929;
+    justify-content: space-between;
+    p {
+      font-size: 1.25rem;
+      margin: 0;
+      &:first-of-type {
+        color: #ffffff;
+      }
+      &:not(:first-of-type) {
+        font-size: 1.15rem;
+        margin-top: 1rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .maker {
+    flex-basis: 22rem;
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media (min-width: 360) {
+  .maker {
+    flex-basis: 24rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .root {
+    transform: scale(0.9);
+    margin-bottom: -8px;
+  }
+}
+
+.opportunities {
+  display: flex;
+  flex-direction: row;
+  font-family: "Mark Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.openTo {
+  display: inline-block;
+  width: 200px;
+  margin-right: 1rem;
+  border-radius: 0.4rem 1rem 0 0;
+  text-align: center;
+  padding: 0.2rem 0.9rem;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(232, 214, 3);
+  .briefCase {
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.6rem;
+  }
+}
+
+.location {
+  display: inline-block;
+  width: 330px;
+  margin-right: 1rem;
+  border-radius: 0 1rem 0 0;
+  text-align: center;
+  padding: 0.2rem;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(232, 214, 3);
+  .briefCase {
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    margin-right: 0.6rem;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 950px) {
+  .location {
+    width: 200px;
+  }
+  .openTo {
+    width: 180px;
+  }
+}
+
+@media (max-width: 767px) {
+  .opportunities {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Mark Pro", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  }
+  .location {
+    display: inline-block;
+    width: 300px;
+    margin-right: 0;
+    margin-top: 1rem;
+    border-radius: 0;
+    text-align: left;
+    padding: 0.5rem;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    .briefCase {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.6rem;
+    }
+  }
+  .openTo {
+    display: inline-block;
+    width: 300px;
+    margin-right: 0;
+    margin-top: 1rem;
+    border-radius: 0;
+    text-align: left;
+    padding: 0.5rem;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    .briefCase {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.6rem;
+    }
+  }
+  .maker {
+    margin: auto;
+  }
+  .avatar {
+    margin-bottom: 1rem;
+  }
+}

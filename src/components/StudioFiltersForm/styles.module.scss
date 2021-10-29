@@ -1,0 +1,114 @@
+/*
+ * Studio Filters form styles
+ */
+
+.root {
+  p:first-of-type {
+    margin-bottom: 1rem;
+  }
+  i{
+    padding-right: 10px;
+  }
+  label{
+    color: white ;
+    
+  }
+}
+.searchFilters{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+.Select-multi-value-wrapper {
+  height: 28px !important;
+  overflow: scroll !important;
+  font-size: 8px !important;
+}
+
+.Select .Select--multi .is-searchable .has-value {
+  height: 28px !important;
+  overflow: scroll !important;
+  font-size: 8px !important;
+}
+.input{
+  padding-right: 10px;
+  width: 100%;
+}
+
+
+
+.searchBtn {
+  min-width: 6rem;
+  height: 45px;
+  margin-top: 25px;
+  padding: 0px;
+  font-size: 14.4px;
+}
+
+.submitBtn{
+  padding-right: 10px;
+}
+
+.clearBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f8e81c;
+  background: transparent;
+  border: 2px solid #f8e81c;
+  border-radius: 6px;
+  height: 45px;
+  margin-top: 25px;
+  padding:0;
+  min-width: 6rem;
+  font-size: 14.4px;
+  background: transparent !important;
+&:hover {
+   color: #E8D603;
+   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15);
+ }
+}
+
+:global {
+#currCompany, #pastCompany .Select-menu-outer {
+  z-index: 11;
+}
+#filters{
+.Select-input{
+input{
+  max-width: 160px;
+  /*min-width: 130px;*/
+}
+}
+}
+}
+
+.btnDiv{
+  display: flex;
+}
+
+@media (max-width: 860px ) {
+  .root{
+    padding: 1rem;
+  }
+  .searchFilters {
+    margin-top: 20px;
+    display: block;
+    margin-left: 5px;
+  }
+
+  .btnDiv {
+    justify-content: center;
+    margin-left: -1.5rem;  }
+
+  .clearBtn {
+    padding: 0.7rem 0.3rem;
+  }
+}
+
+@media(max-width: 765px) {
+  .btnDiv {
+    justify-content: center;
+    margin-left: -1.5rem;
+  }
+}

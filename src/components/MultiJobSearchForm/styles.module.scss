@@ -1,0 +1,181 @@
+/*
+ * MultiJobSearchForm styles
+ */
+
+.root {
+  margin-left: 10% !important;
+  margin-right: 10% !important;
+  height: 10%;
+
+}
+.filters {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.responsiveInput {
+  width: 28%;
+}
+
+.searchBar {
+  background-color: #323232;
+  margin-top: 2px;
+  text-align: left;
+  padding: 20px;
+  cursor: pointer;
+  width: 100%;
+  height: 61px;
+  display: flex;
+  .search_icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5rem;
+  }
+  .searchInput {
+    flex:1;
+    justify-content:left;
+    font-size: 15px;
+    text-align: left;
+  }
+}
+
+.filterButton {
+  display: none;
+}
+
+.filterCount {
+  display: none;
+}
+.responsiveFilters {
+  width: 24%;
+}
+
+.mobileResponsiveFilters {
+  width: 100%;
+  min-height: 85vh;
+  z-index: 21;
+}
+
+.applyFilterButton {
+  min-width: 8rem;
+  max-width: 8rem;
+  border-radius: 0;
+  text-align: center;
+  text-transform: none;
+  font-size: 0.9rem;
+  padding: 0.8rem 0.6rem;
+  position: relative;
+  top: 40vh;
+}
+
+.filterTitle {
+  background-color: #E8D603;
+  padding: 20px;
+  text-align: left;
+}
+
+.icon {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+  margin-right: 1.9rem;
+}
+
+.label {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+@media (max-width: 1150px) {
+
+  .root {
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    height: 10%;
+    margin-top: 4rem;
+  }
+  .filters {
+    width: 100%;
+    display: flex;
+    background-color: #323232;
+  }
+  .responsiveInput {
+    width: 93%;
+  }
+
+  .filterButton {
+    padding: 3px !important;
+    width: 7%;
+    border-radius: 0;
+    min-width: 1.5rem;
+    display: flex;
+    img {
+      margin-bottom: auto;
+      margin-top: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .searchBar {
+    background-color: #323232;
+    margin-top: 2px;
+    text-align: left;
+    padding: 23px;
+    cursor: pointer;
+    width: 100%;
+    .search_icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 0.5rem;
+    }
+    .searchInput {
+      flex: 1;
+      color: lightgrey;
+      font-size: 1rem;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  .responsiveFilters {
+    display: none;
+  }
+  .filterCount {
+    position: absolute;
+    right: 0.4rem;
+    display: inline;
+    background-color: black;
+    color: #E8D603;
+    border-radius: 50%;
+    padding: 0 6px;
+  }
+  .resetButton {
+    background-color: transparent;
+    float: right;
+    border: 1px solid black;
+    min-width: 6rem !important;
+    max-width: 6rem !important;
+    padding: 6px;
+    margin-top: 0;
+    text-transform: none;
+    img {
+      width: 12px;
+      height: 12px;
+      float: left;
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  }
+  .searchBar {
+    padding: 18px;
+  }
+}
+@media screen and (max-width: 9000px) and (min-width:3000px){
+  .filters{
+    max-width: 70em;
+  }
+  }

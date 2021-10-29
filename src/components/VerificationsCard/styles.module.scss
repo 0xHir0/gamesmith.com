@@ -1,0 +1,24 @@
+/*
+  Verification Card styles
+ */
+
+.root {
+  background-color: #323232;
+  margin: 1rem;
+  padding: 1.2rem;
+  .row {
+    .avatar {
+      margin: 0 auto;
+    }
+  }
+  .verificationLine {
+    padding: 0.6rem;
+    .highlight {
+      color: white;
+      font-weight: bold;
+    }
+    .verification {
+      font-size: 0.9rem;
+    }
+  }
+}

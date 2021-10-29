@@ -1,0 +1,14 @@
+/*
+ * TribeHome styles
+ */
+
+.root {
+  padding-top: 4rem;
+  background: white;
+}
+
+@media (min-width: 576px) {
+  .root {
+    padding-top: 5rem;
+  }
+}

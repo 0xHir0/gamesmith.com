@@ -1,0 +1,36 @@
+/*
+ * Studio Right Nav styles
+ */
+
+.hideNav {
+  display: none;
+}
+
+.rightNav {
+  height: 100%;
+  z-index: 9999999 !important;
+  width: 5%;
+  right: 34px !important;
+  position: fixed !important;
+  line-height: 3.5;
+  writing-mode: vertical-rl !important;
+  a {
+    font-size: 16px;
+    line-height: 3.5;
+    color: #858585 !important;
+    margin-bottom: 25px !important;
+  }
+  :global {
+    .active {
+      color: white !important;
+      font-weight: 600 !important;
+    }
+  }
+}
+
+
+@media (max-width: 768px) {
+  .rightNav {
+    right: -10px !important;
+  }
+}

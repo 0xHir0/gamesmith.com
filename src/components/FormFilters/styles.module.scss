@@ -1,0 +1,24 @@
+/*
+ *  FormFilters form styles
+ */
+.column {
+  h5 {
+    padding-left: 0.8rem;
+    font-weight: lighter;
+    text-align: left;
+    font-size: medium;
+  }
+  li {
+    font-size: 1vw;
+    font-weight: lighter;
+    text-align: left;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    display: flex;
+  }
+  .radioButton {
+    width: 18px;
+    margin: 0 10px;
+  }
+
+}

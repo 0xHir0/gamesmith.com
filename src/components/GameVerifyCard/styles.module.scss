@@ -1,0 +1,103 @@
+/*
+ * Game Verify card styles
+ */
+
+.root {
+  position: relative;
+  margin: 0 auto 2rem;
+  a {
+    display: inline-block;
+  }
+  button {
+    display: none;
+  }
+  h2 {
+    margin-top: 0;
+  }
+  :global {
+    .icon-no {
+      color: red;
+    }
+    .icon-yes {
+      color:#f8e81c;
+    }
+  }
+}
+
+.buttons {
+  margin-top: 2rem;
+  i {
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin: 0 1rem;
+    transition: text-shadow 0.3s ease-in-out;
+    &:hover,
+    &:focus {
+      text-shadow: 0 0 1rem rgba(0, 0, 0, 0.75);
+    }
+  }
+}
+
+.root,
+.content {
+  width: 100%;
+  max-width: 40rem;
+  border-radius: 1rem;
+}
+
+.content {
+  position: relative;
+  background-color: #323232;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  small {
+    color: #1c1c1c;
+  }
+}
+
+@media (min-width: 768px) {
+  .root {
+    margin-bottom: 1.5rem;
+  }
+  .root,
+  .content {
+    border-radius: 0;
+  }
+  .content {
+    flex: 1;
+    p:nth-of-type(1) {
+      margin: 0;
+    }
+    p:nth-of-type(2),
+    p:nth-of-type(3) {
+      display: none;
+    }
+    p:nth-of-type(1),
+    h1 {
+      font-size: 1.25rem;
+    }
+    p {
+      margin: 0.65rem 0 0;
+    }
+  }
+  .buttons {
+    margin: 0;
+    i {
+      top: 2rem;
+      font-size: 2.5rem;
+      position: absolute;
+      &:first-of-type {
+        left: 1rem;
+      }
+      &:last-of-type {
+        right: 1rem;
+      }
+    }
+  }
+}

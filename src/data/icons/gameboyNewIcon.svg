@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 15 23" style="enable-background:new 0 0 15 23;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#FFFFFF;stroke-width:0.88;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:0.704;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:1.1;stroke-linecap:square;}
+</style>
+<title>gameboy</title>
+<desc>Created with Sketch.</desc>
+<g id="Symbols">
+	<g transform="translate(-509.000000, -82.000000)">
+		<g id="icons" transform="translate(277.000000, 83.000000)">
+			<g id="gameboy" transform="translate(232.787879, 0.000000)">
+				<path id="Shape" class="st0" d="M11.3,0.4H2.2C1,0.4,0.1,1.2,0.1,2.2v16.6c0,1,0.9,1.8,2.1,1.8h9.1c1.1,0,2.1-0.8,2.1-1.8V2.2
+					C13.3,1.2,12.4,0.4,11.3,0.4L11.3,0.4z"/>
+				<ellipse id="Oval" class="st1" cx="8.4" cy="17.1" rx="1" ry="1"/>
+				<ellipse id="Oval-Copy" class="st1" cx="10.6" cy="16" rx="1" ry="1"/>
+				<rect id="Rectangle-path" x="2.1" y="3.1" class="st0" width="9.2" height="5.8"/>
+				<path id="Line" class="st2" d="M4,14.9v2.2"/>
+				<path class="st2" d="M2.9,16h2.2"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

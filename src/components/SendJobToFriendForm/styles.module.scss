@@ -1,0 +1,21 @@
+/*
+ * Send Job To friend form styles
+ */
+
+.root {
+  padding-top: 1.5rem;
+  .setColor {
+    color: white !important;
+  }
+  .reCaptcha {
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    p{
+      color: red;
+      float: left !important;
+      margin: 0px;
+      font-size: small;
+    }
+  }
+}
